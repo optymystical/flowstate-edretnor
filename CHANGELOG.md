@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.4.0
+- Scenes (4), rendered by the project's battlemap renderer (dev/maps/*.py): Round 1's field (contestant line, the 20–30 ft flight
+  lane, launchers, stands), Round 2's 300 ft conveyor track (yard posts, wave pens with doors, Blackwell's mark), the Clockwork
+  Conservatory (rotunda, five glass Seed Vaults, the four wings; walls and doors; starts dark, with each facet's lights hidden until
+  lit) and the Edretnor crawl map (11×11 tiles, nothing secret drawn). Regions mark the rounds' key areas. Each scene links its journal.
+- Journals (7): Start Here, the festival (Days 1–3), one per round, the crawl, and After the Escape (the audience, the wishes and the
+  ten hooks). Written in Markdown (src/journal/md/), with links to the actors and tables.
+- Macros (4) and their runtime code: **Edretnor Setup** (rolls the Conservatory's variants, generates a new crawl map, stocks the
+  Day 1 market, writes it all to an "Edretnor: This Run" journal), **Market Morning**, **Conservatory: Light a Facet**, and the
+  **Crawl Panel** (the map with fog and labels on the scene, the clock and phases, hourly refresh, circles activating and the Guard's
+  culls, quick and full searches, heavy blockages, the convoy and civilians delivered). The crawl's rules are plain functions in
+  scripts/crawl-rules.mjs.
+- Roll tables carry a `flags.flowstate-edretnor.key` so the macros find them even if renamed.
+
 ## 0.3.0
 - Roll tables (60). The crawl: a surface event, wilderness and search-find table per phase, each drawing its category's table for
   that phase automatically (each holds only the entries the phase allows), plus the loot tables and the Rare table. The festival:

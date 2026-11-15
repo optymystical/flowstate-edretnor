@@ -50,5 +50,5 @@ export function table(key, name, results, { folder = null, sort = 0, description
     };
   });
   return { _id: tableId(key), name, img, description, results: rs, formula: formula ?? `1d${n}`, replacement, displayRoll: true,
-    folder, sort, ownership: { default: 0 }, flags: {} };
+    folder, sort, ownership: { default: 0 }, flags: { [MODULE_ID]: { key } } };
 }

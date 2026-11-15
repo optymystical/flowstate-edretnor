@@ -26,8 +26,22 @@ wizard from now on start this way.</li>
 <h2>Before the first session</h2>
 <ol>
 <li>Have each player build a character in the New Character wizard, and a backup: the crawl is lethal, and a replacement joins as another contestant.</li>
-<li>Run the <strong>Edretnor Setup</strong> macro to roll this run's variables (it arrives in a later build of this module).</li>
+<li>Run the <strong>Edretnor Setup</strong> macro. It rolls the Conservatory's variants, generates a new Edretnor for the crawl and stocks
+the Day 1 market, and writes it all to a new journal, <em>Edretnor: This Run</em>.</li>
 </ol>
+<h2>The macros</h2>
+<table>
+<thead><tr><th>Macro</th><th>When</th></tr></thead>
+<tbody>
+<tr><td><strong>Edretnor Setup</strong></td><td>Once before each run (it replaces the crawl map).</td></tr>
+<tr><td><strong>Edretnor: Market Morning</strong></td><td>The mornings of Days 2 and 3: the Uncommon rack, the jeweler and the apothecary's stock.</td></tr>
+<tr><td><strong>Conservatory: Light a Facet</strong></td><td>Round 3, each time the party lights a facet of the Lumen Core (and the Moon Lily bloom). The scene starts dark.</td></tr>
+<tr><td><strong>Edretnor: Crawl Panel</strong></td><td>The escape: the map, the clock, searches, the convoy. See <em>The Crawl</em> journal, page "Running it in Foundry".</td></tr>
+</tbody>
+</table>
+<h2>The journals</h2>
+<p>One per stretch of the arc: <em>Days 1–3: The Festival</em>, one per round, <em>The Crawl</em>, and <em>After the Escape</em> (the audience,
+the wishes and the ten hooks). Each scene opens its round's journal from its notes. The Omens' abilities and tactics are in their actor biographies.</p>
 `;
 
 export const START_HERE = journal("start-here", "Start Here: The Fall of Edretnor", [

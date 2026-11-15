@@ -3,8 +3,12 @@
  * - The first time a GM opens a world with the module enabled, it offers to import the Adventure (once; the GM can decline).
  * - When the Edretnor Adventure is imported, the world gets the arc's settings (Shards with a 100 starting purse,
  *   Common Grade 3 starting gear).
- * - game.modules.get("flowstate-edretnor").api exposes these steps so a GM (or the setup macro) can run them again.
+ * - game.modules.get("flowstate-edretnor").api exposes these steps, plus the run tools the macros call: prepareRun (the Setup
+ *   macro), marketMorning, the Crawl Panel (crawl-panel.mjs, rules in crawl-rules.mjs) and the Conservatory's facet lights.
  */
+import { registerCrawlSettings, CrawlPanel, newCrawl, getCrawl } from "./crawl-panel.mjs";
+import { prepareRun, marketMorning, lightFacet, lightFacetDialog } from "./setup.mjs";
+
 export const MODULE_ID = "flowstate-edretnor";
 const ADVENTURE_FLAG = "edretnor";
 const PACK_ID = `${MODULE_ID}.edretnor`;
@@ -43,8 +47,10 @@ export async function openImporter() {
 Hooks.once("init", () => {
   // "" = never asked, "imported", or "declined".
   game.settings.register(MODULE_ID, "importState", { scope: "world", config: false, type: String, default: "" });
+  registerCrawlSettings();
   const mod = game.modules.get(MODULE_ID);
-  if (mod) mod.api = { applyWorldSettings, openImporter, WORLD_SETTINGS };
+  if (mod) mod.api = { applyWorldSettings, openImporter, WORLD_SETTINGS, prepareRun, marketMorning, lightFacet, lightFacetDialog,
+    openCrawlPanel: () => CrawlPanel.open(), newCrawl, getCrawl };
 });
 
 // First time a GM opens the world: offer the import.
