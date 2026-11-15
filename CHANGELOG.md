@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.2
+- Conservatory lighting: only the Dawn wing is pitch black now. The Mistworks and the Cold Cellar have dim working light from the
+  start (their puzzles need sight), each Seed Vault has a dim glow so a player can see their own plant, and the rotunda's emergency
+  glow reaches the gear lockers. The facet macro still lights Dawn's sun-lamps and the Core's facets.
+
 ## 0.4.1
 - Fixed: on the three round scenes the walls, doors, lights and regions sat up and left of the art (the scene padding shifted the
   canvas but not their coordinates). Scenes now have no padding.

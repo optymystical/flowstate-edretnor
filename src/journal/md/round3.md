@@ -16,7 +16,8 @@
 - **Difficulties** use the standard table (Easy 5, Moderate 10, Hard 15, Very Hard 25), rolled on d15 by starting characters.
 - **Clues.** Give each player only what their character perceives. Use separate voice channels.
 - **Smashing out.** Allowed but slow. Everything breakable has listed Durability.
-- **In Foundry:** the scene starts dark. Run **Conservatory: light a facet** each time a facet lights: it turns on that wing's lamps and the Core's facet light. The Setup macro rolls every variant below.
+- **In Foundry:** the scene is dark (token vision on). The rotunda, the vaults, the Mistworks and the Cold Cellar have dim working light; the Dawn wing is pitch black and the Night garden has only its moon-lamps. Run **Conservatory: Light a Facet** each time a facet lights: it turns on the Core's facet light, and for Dawn the sun-lamps. Light the players make (Heat's Flame, a Light Wonder, the glow-lamp) isn't automatic: give the token a light in its Token config, or place one.
+- The Setup macro rolls every variant below.
 
 **Total estimate: about 60 minutes,** which lands on the halfway exit bracket. A sharp party working wings in parallel finishes in about 40 minutes and earns the early bracket.
 

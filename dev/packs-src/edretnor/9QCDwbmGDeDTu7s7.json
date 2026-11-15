@@ -3360,7 +3360,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<p><strong>Theme: &quot;Old Roots, New Branches.&quot;</strong> This is a buried Elven conservatory under a glass dome, lit by magitech sun-lamps and run on crystal conduits. It&#39;s the festival&#39;s own idea made physical: old Elven horticulture kept alive by new industrial magic. Living things produce magic and crystal holds it, so the garden powers the machines and the machines keep the garden. Spirit Sense can see both.</p>\n<p><strong>The spine.</strong> The conservatory is dormant. Its heart, the <strong>Lumen Core</strong>, is a crystal column in a planter at the center of a rotunda with a sundial floor, and it has four dark facets: Dawn, Noon, Dusk and Night. To escape, the party runs the garden through one full day.</p>\n<ul>\n<li>Each wing lights one facet.</li>\n<li>The Core lights facets <strong>only in order</strong>. A wing finished early is stored and lights as soon as the facet before it does.</li>\n<li>Groups can work wings in parallel. Split them across voice channels.</li>\n</ul>\n<p><strong>Running notes</strong></p>\n<ul>\n<li><strong>Time.</strong> 2-hour cap, 1-hour expected. Pause the clock for breaks. In-game durations (1-minute and 10-minute actions) run as real timers.</li>\n<li><strong>Party.</strong> 4–5 players. There is one Seed Vault per player.</li>\n<li><strong>Gear.</strong> Characters start stripped of gear. Both gear lockers stand in the rotunda behind glass, so players can see their gear from the start.<ul>\n<li><strong>Locker A</strong> (Foci, Icons/Forms, Affix gems) opens when the <strong>Dawn</strong> facet lights.</li>\n<li><strong>Locker B</strong> (weapons, armor, Shrouds, ammunition) opens when <strong>Dusk</strong> lights, before the fight.</li>\n</ul>\n</li>\n<li><strong>Energy.</strong> Always full, except during the frost purge (Dusk) and the Omen fight (Night). Both are tense scenes where energy runs as it does in combat.</li>\n<li><strong>Difficulties</strong> use the standard table (Easy 5, Moderate 10, Hard 15, Very Hard 25), rolled on d15 by starting characters.</li>\n<li><strong>Clues.</strong> Give each player only what their character perceives. Use separate voice channels.</li>\n<li><strong>Smashing out.</strong> Allowed but slow. Everything breakable has listed Durability.</li>\n<li><strong>In Foundry:</strong> the scene starts dark. Run <strong>Conservatory: light a facet</strong> each time a facet lights: it turns on that wing&#39;s lamps and the Core&#39;s facet light. The Setup macro rolls every variant below.</li>\n</ul>\n<p><strong>Total estimate: about 60 minutes,</strong> which lands on the halfway exit bracket. A sharp party working wings in parallel finishes in about 40 minutes and earns the early bracket.</p>\n"
+            "content": "<p><strong>Theme: &quot;Old Roots, New Branches.&quot;</strong> This is a buried Elven conservatory under a glass dome, lit by magitech sun-lamps and run on crystal conduits. It&#39;s the festival&#39;s own idea made physical: old Elven horticulture kept alive by new industrial magic. Living things produce magic and crystal holds it, so the garden powers the machines and the machines keep the garden. Spirit Sense can see both.</p>\n<p><strong>The spine.</strong> The conservatory is dormant. Its heart, the <strong>Lumen Core</strong>, is a crystal column in a planter at the center of a rotunda with a sundial floor, and it has four dark facets: Dawn, Noon, Dusk and Night. To escape, the party runs the garden through one full day.</p>\n<ul>\n<li>Each wing lights one facet.</li>\n<li>The Core lights facets <strong>only in order</strong>. A wing finished early is stored and lights as soon as the facet before it does.</li>\n<li>Groups can work wings in parallel. Split them across voice channels.</li>\n</ul>\n<p><strong>Running notes</strong></p>\n<ul>\n<li><strong>Time.</strong> 2-hour cap, 1-hour expected. Pause the clock for breaks. In-game durations (1-minute and 10-minute actions) run as real timers.</li>\n<li><strong>Party.</strong> 4–5 players. There is one Seed Vault per player.</li>\n<li><strong>Gear.</strong> Characters start stripped of gear. Both gear lockers stand in the rotunda behind glass, so players can see their gear from the start.<ul>\n<li><strong>Locker A</strong> (Foci, Icons/Forms, Affix gems) opens when the <strong>Dawn</strong> facet lights.</li>\n<li><strong>Locker B</strong> (weapons, armor, Shrouds, ammunition) opens when <strong>Dusk</strong> lights, before the fight.</li>\n</ul>\n</li>\n<li><strong>Energy.</strong> Always full, except during the frost purge (Dusk) and the Omen fight (Night). Both are tense scenes where energy runs as it does in combat.</li>\n<li><strong>Difficulties</strong> use the standard table (Easy 5, Moderate 10, Hard 15, Very Hard 25), rolled on d15 by starting characters.</li>\n<li><strong>Clues.</strong> Give each player only what their character perceives. Use separate voice channels.</li>\n<li><strong>Smashing out.</strong> Allowed but slow. Everything breakable has listed Durability.</li>\n<li><strong>In Foundry:</strong> the scene is dark (token vision on). The rotunda, the vaults, the Mistworks and the Cold Cellar have dim working light; the Dawn wing is pitch black and the Night garden has only its moon-lamps. Run <strong>Conservatory: Light a Facet</strong> each time a facet lights: it turns on the Core&#39;s facet light, and for Dawn the sun-lamps. Light the players make (Heat&#39;s Flame, a Light Wonder, the glow-lamp) isn&#39;t automatic: give the token a light in its Token config, or place one.</li>\n<li>The Setup macro rolls every variant below.</li>\n</ul>\n<p><strong>Total estimate: about 60 minutes,</strong> which lands on the halfway exit bracket. A sharp party working wings in parallel finishes in about 40 minutes and earns the early bracket.</p>\n"
           },
           "ownership": {
             "default": -1
@@ -7031,6 +7031,146 @@
       "lights": [
         {
           "_id": "QSlO6tXuHhV9c1xy",
+          "x": 3395,
+          "y": 2489,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "hidden": false,
+          "config": {
+            "bright": 0,
+            "dim": 10,
+            "color": "#9fe0a8",
+            "alpha": 0.35,
+            "angle": 360,
+            "luminosity": 0.5,
+            "animation": {
+              "type": null,
+              "speed": 3,
+              "intensity": 3
+            }
+          },
+          "flags": {
+            "flowstate-edretnor": {
+              "name": "Seed Vault 1: germination glow",
+              "state": null
+            }
+          }
+        },
+        {
+          "_id": "h4cBMkU2inXvmmhB",
+          "x": 3611,
+          "y": 2705,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "hidden": false,
+          "config": {
+            "bright": 0,
+            "dim": 10,
+            "color": "#9fe0a8",
+            "alpha": 0.35,
+            "angle": 360,
+            "luminosity": 0.5,
+            "animation": {
+              "type": null,
+              "speed": 3,
+              "intensity": 3
+            }
+          },
+          "flags": {
+            "flowstate-edretnor": {
+              "name": "Seed Vault 2: germination glow",
+              "state": null
+            }
+          }
+        },
+        {
+          "_id": "FKRaPgX4WO0QeCcw",
+          "x": 3517,
+          "y": 3417,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "hidden": false,
+          "config": {
+            "bright": 0,
+            "dim": 10,
+            "color": "#9fe0a8",
+            "alpha": 0.35,
+            "angle": 360,
+            "luminosity": 0.5,
+            "animation": {
+              "type": null,
+              "speed": 3,
+              "intensity": 3
+            }
+          },
+          "flags": {
+            "flowstate-edretnor": {
+              "name": "Seed Vault 3: germination glow",
+              "state": null
+            }
+          }
+        },
+        {
+          "_id": "tVmZCkLb3IYhaKKg",
+          "x": 2683,
+          "y": 3417,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "hidden": false,
+          "config": {
+            "bright": 0,
+            "dim": 10,
+            "color": "#9fe0a8",
+            "alpha": 0.35,
+            "angle": 360,
+            "luminosity": 0.5,
+            "animation": {
+              "type": null,
+              "speed": 3,
+              "intensity": 3
+            }
+          },
+          "flags": {
+            "flowstate-edretnor": {
+              "name": "Seed Vault 4: germination glow",
+              "state": null
+            }
+          }
+        },
+        {
+          "_id": "2kHSee4guLxhVpgC",
+          "x": 2683,
+          "y": 2583,
+          "rotation": 0,
+          "walls": true,
+          "vision": false,
+          "hidden": false,
+          "config": {
+            "bright": 0,
+            "dim": 10,
+            "color": "#9fe0a8",
+            "alpha": 0.35,
+            "angle": 360,
+            "luminosity": 0.5,
+            "animation": {
+              "type": null,
+              "speed": 3,
+              "intensity": 3
+            }
+          },
+          "flags": {
+            "flowstate-edretnor": {
+              "name": "Seed Vault 5: germination glow",
+              "state": null
+            }
+          }
+        },
+        {
+          "_id": "TPGJs2FqKqMdz9Vg",
           "x": 4620,
           "y": 2735,
           "rotation": 0,
@@ -7058,7 +7198,7 @@
           }
         },
         {
-          "_id": "h4cBMkU2inXvmmhB",
+          "_id": "rVJvB2RArpaBg6Xz",
           "x": 4880,
           "y": 2735,
           "rotation": 0,
@@ -7086,7 +7226,7 @@
           }
         },
         {
-          "_id": "FKRaPgX4WO0QeCcw",
+          "_id": "22VNR9HebBnWa273",
           "x": 5140,
           "y": 2735,
           "rotation": 0,
@@ -7114,7 +7254,7 @@
           }
         },
         {
-          "_id": "tVmZCkLb3IYhaKKg",
+          "_id": "ys4a5aOq2xXGgtIJ",
           "x": 4620,
           "y": 3265,
           "rotation": 0,
@@ -7142,7 +7282,7 @@
           }
         },
         {
-          "_id": "2kHSee4guLxhVpgC",
+          "_id": "Fwh4JVVEHtMkEYwi",
           "x": 4880,
           "y": 3265,
           "rotation": 0,
@@ -7170,7 +7310,7 @@
           }
         },
         {
-          "_id": "TPGJs2FqKqMdz9Vg",
+          "_id": "EPVnDJrIRyiUaXKG",
           "x": 5140,
           "y": 3265,
           "rotation": 0,
@@ -7198,35 +7338,35 @@
           }
         },
         {
-          "_id": "rVJvB2RArpaBg6Xz",
+          "_id": "sw1aeQ4Ea1lvZvl9",
           "x": 3100,
           "y": 4500,
           "rotation": 0,
           "walls": true,
           "vision": false,
-          "hidden": true,
+          "hidden": false,
           "config": {
-            "bright": 15,
+            "bright": 10,
             "dim": 30,
-            "color": "#cfe8ff",
-            "alpha": 0.35,
+            "color": "#ffe6b8",
+            "alpha": 0.3,
             "angle": 360,
             "luminosity": 0.5,
             "animation": {
-              "type": null,
-              "speed": 3,
-              "intensity": 3
+              "type": "torch",
+              "speed": 2,
+              "intensity": 2
             }
           },
           "flags": {
             "flowstate-edretnor": {
-              "name": "Noon: pumphouse lamps",
-              "state": "noon"
+              "name": "Noon: work lamps",
+              "state": null
             }
           }
         },
         {
-          "_id": "22VNR9HebBnWa273",
+          "_id": "T8ebw5OjWGBE1U4Q",
           "x": 1080,
           "y": 3000,
           "rotation": 0,
@@ -7254,17 +7394,17 @@
           }
         },
         {
-          "_id": "ys4a5aOq2xXGgtIJ",
+          "_id": "QAMCN5aK8L0wEoCN",
           "x": 1500,
           "y": 3000,
           "rotation": 0,
           "walls": true,
           "vision": false,
-          "hidden": true,
+          "hidden": false,
           "config": {
-            "bright": 10,
-            "dim": 25,
-            "color": "#ffd8a0",
+            "bright": 5,
+            "dim": 30,
+            "color": "#bfe4ff",
             "alpha": 0.35,
             "angle": 360,
             "luminosity": 0.5,
@@ -7276,13 +7416,13 @@
           },
           "flags": {
             "flowstate-edretnor": {
-              "name": "Dusk: cellar lamps",
-              "state": "dusk"
+              "name": "Dusk: frost-lamps",
+              "state": null
             }
           }
         },
         {
-          "_id": "Fwh4JVVEHtMkEYwi",
+          "_id": "WOT46ZzCQJCoa3Yq",
           "x": 3100,
           "y": 650,
           "rotation": 0,
@@ -7310,7 +7450,7 @@
           }
         },
         {
-          "_id": "EPVnDJrIRyiUaXKG",
+          "_id": "0rQZQ31Y21Ej1Pe2",
           "x": 3446,
           "y": 1250,
           "rotation": 0,
@@ -7338,7 +7478,7 @@
           }
         },
         {
-          "_id": "sw1aeQ4Ea1lvZvl9",
+          "_id": "2M9RqzQUQWusrA9k",
           "x": 2754,
           "y": 1250,
           "rotation": 0,
@@ -7366,7 +7506,7 @@
           }
         },
         {
-          "_id": "T8ebw5OjWGBE1U4Q",
+          "_id": "ts1HkUj1RpjEnN7e",
           "x": 4250,
           "y": 3900,
           "rotation": 0,
@@ -7394,7 +7534,7 @@
           }
         },
         {
-          "_id": "QAMCN5aK8L0wEoCN",
+          "_id": "e05lSObydEcqVTgI",
           "x": 3100,
           "y": 3000,
           "rotation": 0,
@@ -7402,8 +7542,8 @@
           "vision": false,
           "hidden": false,
           "config": {
-            "bright": 5,
-            "dim": 30,
+            "bright": 10,
+            "dim": 45,
             "color": "#9ab0c8",
             "alpha": 0.3,
             "angle": 360,
@@ -7422,7 +7562,7 @@
           }
         },
         {
-          "_id": "WOT46ZzCQJCoa3Yq",
+          "_id": "N1IwSqbxeDkzAoVK",
           "x": 3140,
           "y": 3000,
           "rotation": 0,
@@ -7450,7 +7590,7 @@
           }
         },
         {
-          "_id": "0rQZQ31Y21Ej1Pe2",
+          "_id": "MAOKZdfGgWCx28UR",
           "x": 3100,
           "y": 3040,
           "rotation": 0,
@@ -7478,7 +7618,7 @@
           }
         },
         {
-          "_id": "2M9RqzQUQWusrA9k",
+          "_id": "9YqdMPinuAH90qDf",
           "x": 3060,
           "y": 3000,
           "rotation": 0,
@@ -7506,7 +7646,7 @@
           }
         },
         {
-          "_id": "ts1HkUj1RpjEnN7e",
+          "_id": "CK76wxXGPiluX3AJ",
           "x": 3100,
           "y": 2960,
           "rotation": 0,
@@ -7534,7 +7674,7 @@
           }
         },
         {
-          "_id": "e05lSObydEcqVTgI",
+          "_id": "bXul23PUdfxC77QW",
           "x": 3100,
           "y": 3000,
           "rotation": 0,

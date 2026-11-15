@@ -70,6 +70,7 @@ for i, deg in enumerate([-60, -30, 45, 135, 225]):
     for p, q in [(sq[0], sq[1]), (sq[1], sq[2]), (sq[2], sq[3])]: m.wall(p, q, 'glass')
     m.wall(inner[1], inner[0], 'glassdoor')
     m.region(f"Seed Vault {i + 1}", "vault", [sq])
+    light(f"Seed Vault {i + 1}: germination glow", vx, vy, 0, 10, "#9fe0a8", 0.35)
 # gear lockers A and B by the south door
 for lab, deg in [("A", 68), ("B", 112)]:
     a = math.radians(deg); lx, ly = CX + 7.2 * math.cos(a), CY + 7.2 * math.sin(a)
@@ -142,7 +143,7 @@ m.barrel(x + 0.6, y + h - 0.6, 0.6)                                         # th
 vroom(x, y, w, h, doors=[('n', 3, 2, 'door')])
 m.region("Noon: Mistworks", "noon", [rect(*NOON)])
 m.region("Flooded sump (8 ft)", "sump", [rect(x + 2.0, y + 1.6, 2, 2)])
-light("Noon: pumphouse lamps", x + 4, y + 4, 15, 30, "#cfe8ff", 0.35, hidden=True, state="noon")
+light("Noon: work lamps", x + 4, y + 4, 10, 30, "#ffe6b8", 0.3, anim="torch", speed=2, intensity=2)
 
 # ---- Dusk: the Cold Cellar (west) ----
 x, y, w, h = DUSK
@@ -162,7 +163,7 @@ vroom(x, y, w, h, doors=[('e', 4, 2, 'door')])
 m.line([(x + w, y + 4), (x + w, y + 6)], (190, 225, 240), 0.3)
 m.region("Dusk: Cold Cellar (frost purge)", "dusk", [rect(*DUSK)])
 light("Dusk: regulator glyph", x + 0.8, y + 5, 5, 10, "#80c8ff", 0.5, anim="pulse")
-light("Dusk: cellar lamps", x + 5, y + 5, 10, 25, "#ffd8a0", 0.35, hidden=True, state="dusk")
+light("Dusk: frost-lamps", x + 5, y + 5, 5, 30, "#bfe4ff", 0.35)
 
 # ---- Night: the Specimen Garden (north) ----
 x, y, w, h = NIGHT
@@ -193,7 +194,7 @@ vroom(40.5, 37.5, 4, 3)
 light("Steward's booth", 42.5, 39, 2, 6, "#ffd28a", 0.4, anim="torch")
 
 # ---- rotunda lights ----
-light("Rotunda: emergency glow", CX, CY, 5, 30, "#9ab0c8", 0.3)
+light("Rotunda: emergency glow", CX, CY, 10, 45, "#9ab0c8", 0.3)
 for k, (nm, col) in enumerate([("dawn", "#ffd27a"), ("noon", "#f4f4ff"), ("dusk", "#ff9a50"), ("night", "#a58cff")]):
     a = [0, math.pi / 2, math.pi, -math.pi / 2][k]
     light(f"Lumen Core: {nm.title()} facet", CX + 0.4 * math.cos(a), CY + 0.4 * math.sin(a), 5, 15, col, 0.5, anim="pulse", hidden=True, state=nm)
