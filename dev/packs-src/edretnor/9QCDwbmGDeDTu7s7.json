@@ -3982,9 +3982,7 @@
       "sort": 100,
       "width": 3600,
       "height": 2600,
-      "padding": 0.1,
-      "backgroundColor": "#1a1612",
-      "thumb": "modules/flowstate-edretnor/assets/scenes/round1-field-thumb.webp",
+      "padding": 0,
       "initial": {
         "x": 1800,
         "y": 1300,
@@ -4123,9 +4121,7 @@
       "sort": 200,
       "width": 7000,
       "height": 1600,
-      "padding": 0.1,
-      "backgroundColor": "#1a1612",
-      "thumb": "modules/flowstate-edretnor/assets/scenes/round2-track-thumb.webp",
+      "padding": 0,
       "initial": {
         "x": 3500,
         "y": 800,
@@ -5039,9 +5035,7 @@
       "sort": 300,
       "width": 6200,
       "height": 5400,
-      "padding": 0.1,
-      "backgroundColor": "#1a1612",
-      "thumb": "modules/flowstate-edretnor/assets/scenes/conservatory-thumb.webp",
+      "padding": 0,
       "initial": {
         "x": 3100,
         "y": 2700,
@@ -8116,8 +8110,6 @@
       "width": 3300,
       "height": 3300,
       "padding": 0,
-      "backgroundColor": "#1a1612",
-      "thumb": "modules/flowstate-edretnor/assets/scenes/edretnor-thumb.webp",
       "initial": {
         "x": 1650,
         "y": 1650,

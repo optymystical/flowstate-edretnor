@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.1
+- Fixed: on the three round scenes the walls, doors, lights and regions sat up and left of the art (the scene padding shifted the
+  canvas but not their coordinates). Scenes now have no padding.
+- The crawl's fog is a little darker (70%).
+
 ## 0.4.0
 - Scenes (4), rendered by the project's battlemap renderer (dev/maps/*.py): Round 1's field (contestant line, the 20–30 ft flight
   lane, launchers, stands), Round 2's 300 ft conveyor track (yard posts, wave pens with doors, Blackwell's mark), the Clockwork

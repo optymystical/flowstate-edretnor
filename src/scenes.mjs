@@ -25,7 +25,7 @@ function scene(key, name, file, { grid, journal = null, darkness = 0, globalLigh
   const levelId = stableId(`level:${key}`);
   return {
     _id: stableId(`scene:${key}`), name, navName: navName ?? name, navigation: false, folder: F.scenes._id, sort,
-    width, height, padding: flags.crawl ? 0 : 0.1, backgroundColor: "#1a1612", thumb: `${ASSETS}/scenes/${file}-thumb.webp`,
+    width, height, padding: 0,   // walls, lights, regions and drawings use image coordinates, so no padding offset backgroundColor: "#1a1612", thumb: `${ASSETS}/scenes/${file}-thumb.webp`,
     initial: { x: width / 2, y: height / 2, scale: null },
     grid: { type: 1, size: grid.size ?? G, distance: grid.distance ?? 5, units: grid.units ?? "ft", color: "#000000", alpha: grid.alpha ?? 0.15 },
     levels: [{ _id: levelId, name: "Ground", sort: 0, background: { src: `${ASSETS}/scenes/${file}.webp` } }],

@@ -49,7 +49,7 @@ async function syncScene(s) {
   const want = new Map();
   for (const [k, t] of Object.entries(s.tiles)) {
     const [x, y] = R.xy(k);
-    if (!t.revealed) want.set(`fog:${k}`, { x: x * TILE, y: y * TILE, shape: { type: "r", width: TILE, height: TILE }, fillType: 1, fillColor: "#0b0908", fillAlpha: 0.62, strokeWidth: 0, locked: true });
+    if (!t.revealed) want.set(`fog:${k}`, { x: x * TILE, y: y * TILE, shape: { type: "r", width: TILE, height: TILE }, fillType: 1, fillColor: "#0b0908", fillAlpha: 0.7, strokeWidth: 0, locked: true });
     else { const text = label(s, k); if (text) want.set(`label:${k}:${text}`, { x: x * TILE, y: y * TILE + TILE - 70, shape: { type: "r", width: TILE, height: 64 }, fillType: 1, fillColor: "#000000", fillAlpha: 0.45, strokeWidth: 0, text, fontSize: 30, textColor: "#f4ead2", locked: true }); }
   }
   if (s.party) { const [x, y] = R.xy(s.party); want.set(`party:${s.party}`, { x: x * TILE + 20, y: y * TILE + 20, shape: { type: "e", width: TILE - 40, height: TILE - 40 }, fillType: 0, strokeWidth: 10, strokeColor: "#ffd25a", strokeAlpha: 0.9, locked: true }); }
