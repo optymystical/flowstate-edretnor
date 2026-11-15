@@ -140,7 +140,2764 @@
       "flags": {}
     }
   ],
-  "actors": [],
+  "actors": [
+    {
+      "_id": "KuahSJR9efDuFiry",
+      "name": "Local Brawler",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/local_brawler.png",
+      "folder": "7dnOhJczlgVUARHi",
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 25,
+          "dex": 0,
+          "con": 5,
+          "pon": 0,
+          "snap": 0,
+          "will": 0,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 10,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "martial-theory": 1,
+          "martial-brawling-methods": 3,
+          "martial-medium-armor": 2
+        },
+        "freeTrees": {},
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Wave 1 (20 yards, turn 3): locals from the open casting call, paid. Common Grade 2 gear.</em></p>\n<h3>Tactics</h3>\n<p>Two Heavy unarmed swings a turn at the protected ally, each followed by its Solitary extra attack. Opens with Jab.</p>\n<h3>Notes</h3>\n<ul><li>Knockback has no effect on the fastened ally.</li><li>Background: a trade (dockhand, chandler, gravedigger); no combat effect.</li></ul>"
+      },
+      "items": [
+        {
+          "_id": "cYvAwcTIJKrhQR9v",
+          "name": "Medium Armor (Hide)",
+          "type": "armor",
+          "img": "icons/equipment/chest/breastplate-collared-leather-brown.webp",
+          "system": {
+            "weight": "medium",
+            "material": "hide",
+            "description": "",
+            "base": "armor.medium.hide",
+            "overrides": [],
+            "grade": 2,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Local Brawler",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/local_brawler.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "Y9yPGHx2XgHtFTRK",
+      "name": "Local Hedge-Mage",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/local_hedge_mage.png",
+      "folder": "7dnOhJczlgVUARHi",
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 0,
+          "con": 0,
+          "pon": 0,
+          "snap": 0,
+          "will": 0,
+          "reach": 0,
+          "grasp": 25,
+          "build": 5
+        },
+        "skillPoints": 10,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "magic-theory": 2,
+          "magic-heat": 2,
+          "magic-protection-arcana": 1,
+          "magic-slashing": 1
+        },
+        "freeTrees": {},
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Wave 1 (20 yards, turn 3): locals from the open casting call, paid. Common Grade 2 gear.</em></p>\n<h3>Tactics</h3>\n<p>Three Flames a turn at the protected ally. Ignition on the first if the ally isn't already burning.</p>"
+      },
+      "items": [
+        {
+          "_id": "OiHPSek8d5tfKBpH",
+          "name": "Rod (Foci)",
+          "type": "foci",
+          "img": "icons/weapons/wands/wand-gem-purple.webp",
+          "system": {
+            "fociType": "rod",
+            "description": "",
+            "base": "foci.rod",
+            "overrides": [],
+            "grade": 2,
+            "attuned": true,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Local Hedge-Mage",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/local_hedge_mage.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "cpMO6YgBXrAGF63U",
+      "name": "Local Devotee",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/local_devotee.png",
+      "folder": "7dnOhJczlgVUARHi",
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true,
+          "alignment": {
+            "kind": "nightmare",
+            "level": 1
+          }
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 0,
+          "con": 0,
+          "pon": 0,
+          "snap": 25,
+          "will": 5,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 10,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "mental-theory": 2,
+          "mental-death-nightmare": 3
+        },
+        "freeTrees": {},
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Wave 1 (20 yards, turn 3): locals from the open casting call, paid. Common Grade 2 gear.</em></p>\n<h3>Tactics</h3>\n<p>Three Withers a turn at the protected ally; Fester the first one that hits.</p>\n<h3>Notes</h3>\n<p>Carries a carved bone prayer token (no Icon, no effect).</p>"
+      },
+      "items": [],
+      "prototypeToken": {
+        "name": "Local Devotee",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/local_devotee.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "VZUFGBpO2qKj3bBf",
+      "name": "Swift Duelist",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/staff_swift_duelist.png",
+      "folder": "7dnOhJczlgVUARHi",
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 35,
+          "con": 10,
+          "pon": 0,
+          "snap": 0,
+          "will": 0,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 15,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "martial-bladed-weapons": 3,
+          "martial-brawling-methods": 3,
+          "martial-light-armor": 3,
+          "martial-theory": 3,
+          "martial-swift-weapons": 3
+        },
+        "freeTrees": {
+          "martial-bladed-weapons": 3,
+          "martial-brawling-methods": 3,
+          "martial-light-armor": 3
+        },
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Wave 2 (40 yards, turn 6): tournament staff. Common Grade 3 gear.</em></p>\n<h3>Tactics</h3>\n<p>Two Heavy sword attacks a turn at the protected ally, each giving a free Fast knife attack at Disadvantage. Blade Flurry whenever a full set lands.</p>\n<h3>Notes</h3>\n<p>Background: arena fighter. Dexterity 38 counts as 30 for Grade 3 gear.</p>"
+      },
+      "items": [
+        {
+          "_id": "OGpHgmAk5IdiToB8",
+          "name": "Heavy Swift (Iron)",
+          "type": "weapon",
+          "img": "icons/weapons/daggers/dagger-black.webp",
+          "system": {
+            "weaponType": "swift",
+            "weight": "heavy",
+            "material": "iron",
+            "magazine": 1,
+            "extraTypes": [],
+            "description": "",
+            "base": "weapon.swift.heavy.iron",
+            "overrides": [],
+            "grade": 3,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "l1KRuXPCbc74Tt5t",
+          "name": "Light Swift (Hardwood)",
+          "type": "weapon",
+          "img": "icons/weapons/daggers/dagger-black.webp",
+          "system": {
+            "weaponType": "swift",
+            "weight": "light",
+            "material": "hardwood",
+            "magazine": 1,
+            "extraTypes": [],
+            "description": "",
+            "base": "weapon.swift.light.hardwood",
+            "overrides": [],
+            "grade": 3,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 100,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "lAS6mHH1bGpldgGh",
+          "name": "Light Armor (Soft Leather)",
+          "type": "armor",
+          "img": "icons/equipment/chest/breastplate-banded-leather-brown.webp",
+          "system": {
+            "weight": "light",
+            "material": "softLeather",
+            "description": "",
+            "base": "armor.light.softLeather",
+            "overrides": [],
+            "grade": 3,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 200,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Swift Duelist",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/staff_swift_duelist.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "2cS9GRbcczJvNmmi",
+      "name": "Charm Mage",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/staff_charm_mage.png",
+      "folder": "7dnOhJczlgVUARHi",
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 0,
+          "con": 0,
+          "pon": 0,
+          "snap": 0,
+          "will": 0,
+          "reach": 35,
+          "grasp": 0,
+          "build": 10
+        },
+        "skillPoints": 15,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "magic-reach-arcana": 3,
+          "magic-cold": 3,
+          "magic-crushing": 2,
+          "magic-theory": 3,
+          "magic-charm": 2,
+          "magic-slashing": 1,
+          "magic-protection-arcana": 2
+        },
+        "freeTrees": {
+          "magic-reach-arcana": 3,
+          "magic-cold": 3,
+          "magic-crushing": 2
+        },
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Wave 2 (40 yards, turn 6): tournament staff. Common Grade 3 gear.</em></p>\n<h3>Tactics</h3>\n<p>Charm on the protected ally (a Willpower check of 9+ resists; on a failure the ally dodges at Disadvantage until the mage's next turn, without knowing it), then Cut, every turn. A Willpower-heavy ally (most Mentals) shrugs Charm off.</p>\n<h3>Notes</h3>\n<p>Background: College apprentice.</p>"
+      },
+      "items": [
+        {
+          "_id": "AZzr8ijF1SZ9NVdy",
+          "name": "Scroll (Foci)",
+          "type": "foci",
+          "img": "icons/weapons/wands/wand-gem-purple.webp",
+          "system": {
+            "fociType": "scroll",
+            "description": "",
+            "base": "foci.scroll",
+            "overrides": [],
+            "grade": 3,
+            "attuned": true,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Charm Mage",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/staff_charm_mage.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "OZCnOeTj2eeLWS6J",
+      "name": "Pyre Adept",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/staff_pyre_adept.png",
+      "folder": "7dnOhJczlgVUARHi",
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true,
+          "alignment": {
+            "kind": "nightmare",
+            "level": 1
+          }
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 0,
+          "con": 0,
+          "pon": 10,
+          "snap": 25,
+          "will": 10,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 15,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "mental-theory": 3,
+          "mental-destruction-nightmare": 3,
+          "mental-death-nightmare": 2
+        },
+        "freeTrees": {},
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Wave 2 (40 yards, turn 6): tournament staff. Common Grade 3 gear.</em></p>\n<h3>Tactics</h3>\n<p>Two Immolates a turn at the protected ally. Keeps its RP for Veil.</p>\n<h3>Notes</h3>\n<p>Background: lamplighter (a trade).</p>"
+      },
+      "items": [
+        {
+          "_id": "bCSjBo7k7mY53yjQ",
+          "name": "Veil (Icon)",
+          "type": "icon",
+          "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+          "system": {
+            "form": "veil",
+            "description": "",
+            "base": "icon.veil",
+            "overrides": [],
+            "grade": 3,
+            "attuned": true,
+            "tenet": "mental-destruction-nightmare:infuse"
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Pyre Adept",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/staff_pyre_adept.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "ME5bpwoh2UsNrJSg",
+      "name": "King's Guard Halberdier",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/kings_guard_halberdier.png",
+      "folder": "7dnOhJczlgVUARHi",
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 45,
+          "dex": 0,
+          "con": 15,
+          "pon": 0,
+          "snap": 0,
+          "will": 0,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 20,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "martial-medium-armor": 5,
+          "martial-defender-weapons": 2,
+          "martial-theory": 3,
+          "martial-reach-weapons": 3
+        },
+        "freeTrees": {
+          "martial-medium-armor": 5,
+          "martial-defender-weapons": 2
+        },
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Wave 3 (60 yards, turn 9): the King's Guard. Uncommon Grade 6 gear. They fight as a unit: one attacks, one shields, one pressures with Supernatural damage.</em></p>\n<h3>Tactics</h3>\n<p>Two halberd strikes a turn at the protected ally. Wall stops party members who try to block him off. Brace when struck.</p>\n<h3>Notes</h3>\n<p>Background: King's Guard training.</p>"
+      },
+      "items": [
+        {
+          "_id": "3pA29Kq5t8tlUDEH",
+          "name": "Heavy Reach (Steel)",
+          "type": "weapon",
+          "img": "icons/weapons/polearms/spear-flared-steel.webp",
+          "system": {
+            "weaponType": "reach",
+            "weight": "heavy",
+            "material": "steel",
+            "magazine": 1,
+            "extraTypes": [],
+            "description": "",
+            "base": "weapon.reach.heavy.steel",
+            "overrides": [],
+            "grade": 6,
+            "equipped": true,
+            "twoHanded": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "zh6IdYr3H7C4lCCT",
+          "name": "Medium Armor (Chitin)",
+          "type": "armor",
+          "img": "icons/equipment/chest/breastplate-collared-leather-brown.webp",
+          "system": {
+            "weight": "medium",
+            "material": "chitin",
+            "description": "",
+            "base": "armor.medium.chitin",
+            "overrides": [],
+            "grade": 6,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 100,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "King's Guard Halberdier",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/kings_guard_halberdier.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "avvXED54SuysLE78",
+      "name": "King's Guard Ward-Mage",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/kings_guard_ward_mage.png",
+      "folder": "7dnOhJczlgVUARHi",
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 0,
+          "con": 0,
+          "pon": 0,
+          "snap": 0,
+          "will": 0,
+          "reach": 0,
+          "grasp": 45,
+          "build": 15
+        },
+        "skillPoints": 20,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "magic-grasp-arcana": 3,
+          "magic-cold": 3,
+          "magic-slashing": 2,
+          "magic-theory": 3,
+          "magic-protection-arcana": 3,
+          "magic-heat": 2,
+          "magic-gravity": 1
+        },
+        "freeTrees": {
+          "magic-grasp-arcana": 3,
+          "magic-cold": 3,
+          "magic-slashing": 2
+        },
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Wave 3 (60 yards, turn 9): the King's Guard. Uncommon Grade 6 gear. They fight as a unit: one attacks, one shields, one pressures with Supernatural damage.</em></p>\n<h3>Tactics</h3>\n<p>Shields the Halberdier and the Gravedeacon (Adjust spreads a Shield to anyone within 10ft of the shielded Guard), then one Flame at the protected ally. The party has to break or burst through the Shields; Arcanomancy and Piercing do this well.</p>"
+      },
+      "items": [
+        {
+          "_id": "q8kju4BAyzx9rtzP",
+          "name": "Shard (Foci)",
+          "type": "foci",
+          "img": "icons/weapons/wands/wand-gem-purple.webp",
+          "system": {
+            "fociType": "shard",
+            "description": "",
+            "base": "foci.shard",
+            "overrides": [],
+            "grade": 6,
+            "attuned": true,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "FyrtGiKNOcUc0Fr4",
+          "name": "Bastion (Shroud)",
+          "type": "shroud",
+          "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+          "system": {
+            "shroudType": "bastion",
+            "description": "",
+            "base": "shroud.bastion",
+            "overrides": [],
+            "grade": 6,
+            "attuned": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 100,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "King's Guard Ward-Mage",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/kings_guard_ward_mage.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "eEItUb31DXCx6lok",
+      "name": "King's Guard Gravedeacon",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/kings_guard_gravedeacon.png",
+      "folder": "7dnOhJczlgVUARHi",
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true,
+          "alignment": {
+            "kind": "nightmare",
+            "level": 2
+          }
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 0,
+          "con": 0,
+          "pon": 0,
+          "snap": 45,
+          "will": 15,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 20,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "mental-below-nightmare": 3,
+          "mental-dark-nightmare": 3,
+          "mental-psion-arts": 2,
+          "mental-theory": 3,
+          "mental-death-nightmare": 4
+        },
+        "freeTrees": {
+          "mental-below-nightmare": 3,
+          "mental-dark-nightmare": 3,
+          "mental-psion-arts": 2
+        },
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Wave 3 (60 yards, turn 9): the King's Guard. Uncommon Grade 6 gear. They fight as a unit: one attacks, one shields, one pressures with Supernatural damage.</em></p>\n<h3>Tactics</h3>\n<p>One Wither with Fester each turn at the protected ally. Saves RP and energy for Veil, and uses Waste on anyone who rushes it.</p>"
+      },
+      "items": [
+        {
+          "_id": "dmgTHiz8GADnSEC0",
+          "name": "Veil (Icon)",
+          "type": "icon",
+          "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+          "system": {
+            "form": "veil",
+            "description": "",
+            "base": "icon.veil",
+            "overrides": [],
+            "grade": 6,
+            "attuned": true,
+            "tenet": ""
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "King's Guard Gravedeacon",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/kings_guard_gravedeacon.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "xL3moQOywLXwNR8J",
+      "name": "Blackwell",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/royal_guard_blackwell.png",
+      "folder": "7dnOhJczlgVUARHi",
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true,
+          "alignment": {
+            "kind": "nightmare",
+            "level": 4
+          }
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 0,
+          "con": 5,
+          "pon": 0,
+          "snap": 100,
+          "will": 30,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 45,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "mental-theory": 5,
+          "mental-death-nightmare": 5,
+          "mental-dark-nightmare": 5,
+          "mental-below-nightmare": 5
+        },
+        "freeTrees": {},
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Royal Guard, rank 4. Stage 2. A peninsula survivor. Arrives the turn after the conveyor crosses 80 yards.</em></p>\n<h3>What he does</h3>\n<ul><li>Realm-slips in behind the protected ally for one round, then leaves.</li><li>Withers from behind the ally (Melee, 1 AP), Enhanced to also remove Max HP, with Fester so it hits again at the ally's next turn.</li><li>Against a 2d7 dodge he hits 85% of the time and crits 67% of the time. Six Withers in one turn come to about 900.</li></ul>\n<h3>Stage 2 (placeholder)</h3>\n<p>His Death Modes are doubly Strengthened. Apply it by hand until Stage 2 exists.</p>\n<h3>What stops him</h3>\n<ul><li>Cold Iron or Silver gear (full Limit against Supernatural). A Grade 5 Cold Iron Heavy Defender shield with Broad+ (about 360 Limit) can Block his whole turn.</li><li>Shielding and Wards (Projected or self), Shrouds and temp HP, layered.</li></ul>\n<h3>If the ally survives</h3>\n<p>\"You're free to go then.\"</p>"
+      },
+      "items": [
+        {
+          "_id": "I83Rs1BMv8CB5gAK",
+          "name": "Zealot (Icon)",
+          "type": "icon",
+          "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+          "system": {
+            "form": "zealot",
+            "description": "",
+            "base": "icon.zealot",
+            "overrides": [],
+            "grade": 11,
+            "attuned": true,
+            "tenet": ""
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Blackwell",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/royal_guard_blackwell.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "dOvHCFwJcyLGs3MY",
+      "name": "Maw Cultist",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/cult_maw_cultist.png",
+      "folder": "m9fIjbgFi9DzGDO4",
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true,
+          "alignment": {
+            "kind": "nightmare",
+            "level": 1
+          }
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 0,
+          "con": 0,
+          "pon": 0,
+          "snap": 25,
+          "will": 5,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 10,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "mental-theory": 2,
+          "mental-death-nightmare": 3,
+          "mental-dark-nightmare": 2
+        },
+        "freeTrees": {},
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Commoner. The bulk of every cell.</em></p>\n<h3>Tactics</h3>\n<p>Three Withers a turn at the nearest enemy, with Fester on the first hit. Flees once its Cell Leader falls.</p>"
+      },
+      "items": [],
+      "prototypeToken": {
+        "name": "Maw Cultist",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/cult_maw_cultist.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "A2DZJQtrTJLTjjYB",
+      "name": "Cell Leader",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/cult_cell_leader.png",
+      "folder": "m9fIjbgFi9DzGDO4",
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true,
+          "alignment": {
+            "kind": "nightmare",
+            "level": 2
+          }
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 0,
+          "con": 0,
+          "pon": 0,
+          "snap": 30,
+          "will": 15,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 15,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "mental-below-nightmare": 3,
+          "mental-psion-arts": 2,
+          "mental-theory": 3,
+          "mental-dark-nightmare": 3,
+          "mental-death-nightmare": 3
+        },
+        "freeTrees": {
+          "mental-below-nightmare": 3,
+          "mental-psion-arts": 2
+        },
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Leads a cell. Background: Maw acolyte.</em></p>\n<h3>Tactics</h3>\n<ul><li>Eclipse the most dangerous PC.</li><li>Eclipse an ally Cultist: Totality then gives every Eclipsed Cultist half stealth against that PC.</li><li>Sink anyone rushing in, with Vice on every failed escape.</li><li>Wither with any AP left.</li></ul>"
+      },
+      "items": [
+        {
+          "_id": "N4KchLH17fKU32RN",
+          "name": "Veil (Icon)",
+          "type": "icon",
+          "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+          "system": {
+            "form": "veil",
+            "description": "",
+            "base": "icon.veil",
+            "overrides": [],
+            "grade": 3,
+            "attuned": true,
+            "tenet": "mental-dark-nightmare:shadowmark"
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Cell Leader",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/cult_cell_leader.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "g7G54apuDTZn45W1",
+      "name": "Preacher",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/cult_preacher.png",
+      "folder": "m9fIjbgFi9DzGDO4",
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true,
+          "alignment": {
+            "kind": "nightmare",
+            "level": 2
+          }
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 0,
+          "con": 0,
+          "pon": 0,
+          "snap": 30,
+          "will": 15,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 15,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "generic-persuasion": 3,
+          "generic-resolve": 2,
+          "mental-theory": 3,
+          "mental-dark-nightmare": 3,
+          "mental-death-nightmare": 3,
+          "mental-below-nightmare": 2
+        },
+        "freeTrees": {
+          "generic-persuasion": 3,
+          "generic-resolve": 2
+        },
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>The Recruiter: a Cell Leader who preaches. Background: Maw priest.</em></p>\n<h3>Tactics</h3>\n<p>Talks first: three exchanges of Persuade or Deceive against his persuasion check, for a crowd of 10–20. Fights only if attacked or losing the crowd, then plays as a Cell Leader.</p>"
+      },
+      "items": [
+        {
+          "_id": "ihXQ0VJkegmO5hr1",
+          "name": "Veil (Icon)",
+          "type": "icon",
+          "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+          "system": {
+            "form": "veil",
+            "description": "",
+            "base": "icon.veil",
+            "overrides": [],
+            "grade": 3,
+            "attuned": true,
+            "tenet": "mental-dark-nightmare:shadowmark"
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Preacher",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/cult_preacher.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "STeJsOcLNW5voQVR",
+      "name": "Ritualist",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/cult_ritualist.png",
+      "folder": "m9fIjbgFi9DzGDO4",
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true,
+          "alignment": {
+            "kind": "nightmare",
+            "level": 2
+          }
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 0,
+          "con": 0,
+          "pon": 0,
+          "snap": 40,
+          "will": 20,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 20,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "mental-psion-arts": 3,
+          "generic-resolve": 3,
+          "generic-discipline": 2,
+          "mental-theory": 4,
+          "mental-below-nightmare": 4,
+          "mental-dark-nightmare": 3,
+          "mental-death-nightmare": 3
+        },
+        "freeTrees": {
+          "mental-psion-arts": 3,
+          "generic-resolve": 3,
+          "generic-discipline": 2
+        },
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Keeps a rite circle. Background: rite-keeper.</em></p>\n<h3>Tactics</h3>\n<p>Sink and Burden the closest threat, Vice every failed escape, Quicksand an escape that would succeed, and Wither whatever is left.</p>\n<h3>The circle</h3>\n<p>While a Ritualist stands in its circle, the runes can't be scrubbed. Breaking the anchor stone still works.</p>"
+      },
+      "items": [
+        {
+          "_id": "hG8JjqmxVMSVvCoH",
+          "name": "Warden (Icon)",
+          "type": "icon",
+          "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+          "system": {
+            "form": "warden",
+            "description": "",
+            "base": "icon.warden",
+            "overrides": [],
+            "grade": 5,
+            "attuned": true,
+            "tenet": "mental-below-nightmare:weight"
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Ritualist",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/cult_ritualist.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "hh8f0cVvWMiD5OBw",
+      "name": "Cell Master",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/cult_cell_master.png",
+      "folder": "m9fIjbgFi9DzGDO4",
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true,
+          "alignment": {
+            "kind": "nightmare",
+            "level": 3
+          }
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 0,
+          "con": 0,
+          "pon": 0,
+          "snap": 50,
+          "will": 25,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 25,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "generic-persuasion": 3,
+          "generic-resolve": 3,
+          "mental-psion-arts": 3,
+          "mental-theory": 5,
+          "mental-dark-nightmare": 5,
+          "mental-below-nightmare": 4,
+          "mental-death-nightmare": 4
+        },
+        "freeTrees": {
+          "generic-persuasion": 3,
+          "generic-resolve": 3,
+          "mental-psion-arts": 3
+        },
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>The central head of the attack. Background: Maw clergy. Holds the Phase 1 central zone with 2 Ritualists, 4 cells and 3 rite-born Gloamhounds.</em></p>\n<h3>Win condition</h3>\n<p>Drop him below his Pain Threshold, or kill him. The central rite collapses and the attack ends: every small circle fizzles and the Omens bound to the rite scatter. The king grants a wish for it, and the party is guaranteed an audience.</p>\n<h3>Tactics</h3>\n<ul><li>Nightfall on his guards so they all attack from half stealth (Totality).</li><li>Hand out Umbral Strike charges.</li><li>Wither the closest PC.</li><li>Once 50 HP above his Pain Threshold, he Sinks his attacker and backs into the circle.</li></ul>"
+      },
+      "items": [
+        {
+          "_id": "bqHVmszifDAPBxRV",
+          "name": "Warden (Icon)",
+          "type": "icon",
+          "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+          "system": {
+            "form": "warden",
+            "description": "",
+            "base": "icon.warden",
+            "overrides": [],
+            "grade": 6,
+            "attuned": true,
+            "tenet": "mental-dark-nightmare:shadowmark"
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Cell Master",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/cult_cell_master.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "BI2DeaQ8oLYGH9yb",
+      "name": "Edretnor Guard",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/edretnor_guard.png",
+      "folder": "CdI026UnAOveUlxv",
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 30,
+          "dex": 0,
+          "con": 15,
+          "pon": 0,
+          "snap": 0,
+          "will": 0,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 15,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "martial-medium-armor": 3,
+          "martial-defender-weapons": 2,
+          "martial-theory": 3,
+          "martial-reach-weapons": 3
+        },
+        "freeTrees": {
+          "martial-medium-armor": 3,
+          "martial-defender-weapons": 2
+        },
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>The city watch. Background: city watch.</em></p>\n<h3>Tactics</h3>\n<p>Holds a line: two spear strikes a turn, Palisade against anyone moving into his reach, Brace when struck.</p>"
+      },
+      "items": [
+        {
+          "_id": "SlwN54E3Sj7vBvnG",
+          "name": "Heavy Reach (Iron)",
+          "type": "weapon",
+          "img": "icons/weapons/polearms/spear-flared-steel.webp",
+          "system": {
+            "weaponType": "reach",
+            "weight": "heavy",
+            "material": "iron",
+            "magazine": 1,
+            "extraTypes": [],
+            "description": "",
+            "base": "weapon.reach.heavy.iron",
+            "overrides": [],
+            "grade": 4,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "4XQzzJDUV2hcyQrT",
+          "name": "Medium Armor (Hide)",
+          "type": "armor",
+          "img": "icons/equipment/chest/breastplate-collared-leather-brown.webp",
+          "system": {
+            "weight": "medium",
+            "material": "hide",
+            "description": "",
+            "base": "armor.medium.hide",
+            "overrides": [],
+            "grade": 4,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 100,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Edretnor Guard",
+        "actorLink": false,
+        "disposition": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/edretnor_guard.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "SjTKzxCaDZ28mPmU",
+      "name": "Townsperson",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/edretnor_townsperson.png",
+      "folder": "CdI026UnAOveUlxv",
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 20,
+          "dex": 5,
+          "con": 5,
+          "pon": 0,
+          "snap": 0,
+          "will": 0,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 10,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "martial-theory": 1,
+          "martial-brawling-methods": 1
+        },
+        "freeTrees": {},
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Mobs, crowds, the frightened.</em></p>\n<h3>Tactics</h3>\n<p>A mob attacks together and scatters once half of it is down.</p>\n<h3>Notes</h3>\n<p>A frightened civilian has a knife instead of a club (2d4, 2 AP).</p>"
+      },
+      "items": [
+        {
+          "_id": "XWwc1vJC5jyETfZi",
+          "name": "Club",
+          "type": "weapon",
+          "img": "icons/weapons/clubs/club-simple-black.webp",
+          "system": {
+            "weaponType": "improvised",
+            "weight": "light",
+            "material": "",
+            "magazine": 1,
+            "extraTypes": [],
+            "description": "",
+            "base": "weapon.improvised.light",
+            "overrides": [],
+            "grade": 1,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Townsperson",
+        "actorLink": false,
+        "disposition": 0,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/edretnor_townsperson.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "Hk1HTtxKJDEG852o",
+      "name": "Bandit",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/edretnor_bandit.png",
+      "folder": "CdI026UnAOveUlxv",
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 30,
+          "con": 15,
+          "pon": 0,
+          "snap": 0,
+          "will": 0,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 15,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "martial-theory": 3,
+          "martial-swift-weapons": 3,
+          "martial-light-armor": 2
+        },
+        "freeTrees": {},
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Opportunists, scavengers, claim-jumpers.</em></p>\n<h3>Tactics</h3>\n<p>Go after the weakest-looking target. Flee once losing.</p>"
+      },
+      "items": [
+        {
+          "_id": "Kqz8yMJV4xCMo8y4",
+          "name": "Heavy Swift (Iron)",
+          "type": "weapon",
+          "img": "icons/weapons/daggers/dagger-black.webp",
+          "system": {
+            "weaponType": "swift",
+            "weight": "heavy",
+            "material": "iron",
+            "magazine": 1,
+            "extraTypes": [],
+            "description": "",
+            "base": "weapon.swift.heavy.iron",
+            "overrides": [],
+            "grade": 3,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "G8E36mZrafY68oau",
+          "name": "Light Swift (Hardwood)",
+          "type": "weapon",
+          "img": "icons/weapons/daggers/dagger-black.webp",
+          "system": {
+            "weaponType": "swift",
+            "weight": "light",
+            "material": "hardwood",
+            "magazine": 1,
+            "extraTypes": [],
+            "description": "",
+            "base": "weapon.swift.light.hardwood",
+            "overrides": [],
+            "grade": 3,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 100,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "GLTifOHNfJka7S8G",
+          "name": "Light Armor (Soft Leather)",
+          "type": "armor",
+          "img": "icons/equipment/chest/breastplate-banded-leather-brown.webp",
+          "system": {
+            "weight": "light",
+            "material": "softLeather",
+            "description": "",
+            "base": "armor.light.softLeather",
+            "overrides": [],
+            "grade": 3,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 200,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Bandit",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/edretnor_bandit.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "ESMNEK0yzeI7Btua",
+      "name": "Old Soldier",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/edretnor_old_soldier.png",
+      "folder": "CdI026UnAOveUlxv",
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 50,
+          "dex": 0,
+          "con": 25,
+          "pon": 0,
+          "snap": 0,
+          "will": 0,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 25,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "martial-theory": 4,
+          "martial-bladed-weapons": 5,
+          "martial-medium-armor": 4,
+          "martial-defender-weapons": 3
+        },
+        "freeTrees": {},
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>A Continental War veteran who refuses to leave the city.</em></p>\n<h3>Joining</h3>\n<p>He joins the convoy on a Persuade against a static Hard 15. Mentioning the peninsula gives Advantage. He then fights alongside the party.</p>\n<h3>Notes</h3>\n<p>Old knees: he moves slowly.</p>"
+      },
+      "items": [
+        {
+          "_id": "QdDNNtrjFjp8GEfG",
+          "name": "Heavy Bladed (Steel)",
+          "type": "weapon",
+          "img": "icons/weapons/swords/greatsword-crossguard-steel.webp",
+          "system": {
+            "weaponType": "bladed",
+            "weight": "heavy",
+            "material": "steel",
+            "magazine": 1,
+            "extraTypes": [],
+            "description": "",
+            "base": "weapon.bladed.heavy.steel",
+            "overrides": [],
+            "grade": 5,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "wxcTAIfEwJIjAJaP",
+          "name": "Old Medium Armor",
+          "type": "armor",
+          "img": "icons/equipment/chest/breastplate-collared-leather-brown.webp",
+          "system": {
+            "weight": "medium",
+            "material": "chitin",
+            "description": "",
+            "base": "armor.medium.chitin",
+            "overrides": [],
+            "grade": 5,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 100,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Old Soldier",
+        "actorLink": false,
+        "disposition": 0,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/edretnor_old_soldier.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "dg77Fc56Gl7V86Tb",
+      "name": "Wounded Contestant",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/edretnor_guard.png",
+      "folder": "CdI026UnAOveUlxv",
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 25,
+          "dex": 5,
+          "con": 15,
+          "pon": 0,
+          "snap": 0,
+          "will": 0,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 15,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "martial-theory": 3,
+          "martial-bladed-weapons": 3,
+          "martial-medium-armor": 3,
+          "generic-endurance": 2
+        },
+        "freeTrees": {},
+        "abc": {},
+        "details": {
+          "sapience": "3"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "secondary"
+        },
+        "supernatural": false,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>A starting character from another team, found in the city at half HP. Use this build, or any starting build.</em></p>\n<h3>Notes</h3>\n<p>A Health potion or a rest brings them to full. They fight alongside the party. A player whose character died can take one over as their replacement.</p>",
+        "hp": {
+          "value": 108,
+          "lost": 0
+        }
+      },
+      "items": [
+        {
+          "_id": "uTLV99NtqUtr6H9s",
+          "name": "Heavy Bladed (Iron)",
+          "type": "weapon",
+          "img": "icons/weapons/swords/greatsword-crossguard-steel.webp",
+          "system": {
+            "weaponType": "bladed",
+            "weight": "heavy",
+            "material": "iron",
+            "magazine": 1,
+            "extraTypes": [],
+            "description": "",
+            "base": "weapon.bladed.heavy.iron",
+            "overrides": [],
+            "grade": 3,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        {
+          "_id": "UpWNtwSXE48348bZ",
+          "name": "Medium Armor (Hide)",
+          "type": "armor",
+          "img": "icons/equipment/chest/breastplate-collared-leather-brown.webp",
+          "system": {
+            "weight": "medium",
+            "material": "hide",
+            "description": "",
+            "base": "armor.medium.hide",
+            "overrides": [],
+            "grade": 3,
+            "equipped": true
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 100,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Wounded Contestant",
+        "actorLink": false,
+        "disposition": 1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/edretnor_guard.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "hwd0fqETr9L3E3eA",
+      "name": "Gloamhound (rite-born)",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/omen_gloamhound_riteborn.png",
+      "folder": "gIN25rU6pTcAc3I2",
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 0,
+          "con": 0,
+          "pon": 0,
+          "snap": 30,
+          "will": 15,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 9,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "mental-theory": 5,
+          "mental-dark-nightmare": 5,
+          "generic-perception": 2,
+          "generic-smell": 3
+        },
+        "freeTrees": {
+          "mental-theory": 5,
+          "mental-dark-nightmare": 5
+        },
+        "abc": {},
+        "details": {
+          "sapience": "2"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "heightened"
+        },
+        "supernatural": true,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Dark Omen, rite-born: summoned by the Maw's rites and fed by the cult. Size 3. Calf-sized black dog; its eyes are its only light.</em></p>\n<h3>Omen</h3>\n<p>Band 2 (about 5:1). Pole-Bound: it Manifests only its own Wonder, its Tenet is always on, and it is its own Icon. Its Patron is its own Wonder, so Enhance and Burst on its Manifests are free. Attacks between it and its opposite pole are Strengthened both ways. When killed it leaves a fragment of its pole.</p>\n<h3>Wonderborn (T3)</h3>\n<ul><li><strong>Recognition:</strong> knows whether a creature serves its pole, opposes it, or neither.</li><li><strong>Propagation:</strong> see its trigger below.</li><li><strong>Follow the Pole:</strong> within 100ft of a Herald of its Wonder or a creature that serves its pole, its Ward's attack rolls have Advantage.</li></ul>\n<h3>Nightmareborn (T3)</h3>\n<ul><li><strong>Dread:</strong> creatures that first see it resist Fear, needing 27.</li><li><strong>Nightmare Depth:</strong> no speed penalty from Alignment.</li><li><strong>Prey on Fear:</strong> Advantage on attacks and Manifests against afraid creatures.</li></ul>\n<h3>Dark (T3)</h3>\n<ul><li><strong>Black Jaws</strong> (2 AP, melee, natural): <strong>3d10 physical</strong>. Roll it by hand.</li><li><strong>Lightless Sight:</strong> sees normally in darkness, its own obscurement included.</li><li><strong>Light Eater:</strong> nonmagical light within 10ft goes out; magical light within 10ft reaches half as far.</li></ul>\n<h3>Propagation</h3>\n<p>A creature dies in darkness within 100ft of it. The Maw burns its dead in black flame so packs climb out of the pyres.</p>\n<h3>Tactics</h3>\n<ul><li>With handlers: Eclipse its handler, load them with Umbral Strike charges, Eclipse the party; the handlers strike from half stealth.</li><li>Alone: shadows and tracks. Its Smell cuts through the city smoke; it can't be surprised; it howls for the pack.</li><li>Cornered: relies on Riposte.</li></ul>\n<h3>In a perception contest</h3>\n<p>It rolls d9 with Advantage (Heightened Smell). In smoke it has no Advantage.</p>"
+      },
+      "items": [
+        {
+          "_id": "8k675iINzbXzgrCe",
+          "name": "Riposte (Icon)",
+          "type": "icon",
+          "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+          "system": {
+            "form": "riposte",
+            "description": "",
+            "base": "icon.riposte",
+            "overrides": [],
+            "grade": 1,
+            "attuned": true,
+            "natural": true,
+            "tenet": "mental-dark-nightmare:shadowmark"
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Gloamhound",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/omen_gloamhound_riteborn.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "gleZos1yETGGKeoL",
+      "name": "Gloamhound (fully grown)",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/omen_gloamhound_grown.png",
+      "folder": "gIN25rU6pTcAc3I2",
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 0,
+          "con": 0,
+          "pon": 0,
+          "snap": 60,
+          "will": 30,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 18,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "mental-theory": 5,
+          "mental-dark-nightmare": 5,
+          "generic-perception": 2,
+          "generic-smell": 3
+        },
+        "freeTrees": {
+          "mental-theory": 5,
+          "mental-dark-nightmare": 5
+        },
+        "abc": {},
+        "details": {
+          "sapience": "2"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "primary",
+          "smell": "heightened"
+        },
+        "supernatural": true,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Dark Omen, fully grown (wild). Size 3. Every bolded value doubles relative to the rite-born hound.</em></p>\n<h3>Omen</h3>\n<p>Band 2 (about 5:1). Pole-Bound: it Manifests only its own Wonder, its Tenet is always on, and it is its own Icon. Its Patron is its own Wonder, so Enhance and Burst on its Manifests are free. Attacks between it and its opposite pole are Strengthened both ways. When killed it leaves a fragment of its pole.</p>\n<h3>Wonderborn (T3)</h3>\n<ul><li><strong>Recognition:</strong> knows whether a creature serves its pole, opposes it, or neither.</li><li><strong>Propagation:</strong> see its trigger below.</li><li><strong>Follow the Pole:</strong> within 100ft of a Herald of its Wonder or a creature that serves its pole, its Ward's attack rolls have Advantage.</li></ul>\n<h3>Nightmareborn (T3)</h3>\n<ul><li><strong>Dread:</strong> resisting needs 54.</li><li><strong>Nightmare Depth</strong> and <strong>Prey on Fear</strong> as the rite-born hound.</li></ul>\n<h3>Dark (T3)</h3>\n<ul><li><strong>Black Jaws</strong> (2 AP, melee, natural): <strong>6d10 physical</strong>. Roll it by hand.</li><li><strong>Lightless Sight</strong> and <strong>Light Eater</strong> as the rite-born hound.</li></ul>\n<h3>Notes</h3>\n<p>In Phase 3 of the crawl, one hound in a Hound pack is fully grown.</p>"
+      },
+      "items": [
+        {
+          "_id": "w3Tl4CkGR7lP8Wk0",
+          "name": "Riposte (Icon)",
+          "type": "icon",
+          "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+          "system": {
+            "form": "riposte",
+            "description": "",
+            "base": "icon.riposte",
+            "overrides": [],
+            "grade": 1,
+            "attuned": true,
+            "natural": true,
+            "tenet": "mental-dark-nightmare:shadowmark"
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Gloamhound",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/omen_gloamhound_grown.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "O4hRSKalxqFPSyO5",
+      "name": "Burgeon",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/omen_burgeon.png",
+      "folder": "gIN25rU6pTcAc3I2",
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true,
+          "alignment": {
+            "kind": "dream",
+            "level": 2
+          }
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 0,
+          "dex": 0,
+          "con": 0,
+          "pon": 50,
+          "snap": 0,
+          "will": 25,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 15,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 4,
+        "trees": {
+          "mental-theory": 5,
+          "mental-growth-dream": 5
+        },
+        "freeTrees": {
+          "mental-theory": 5,
+          "mental-growth-dream": 5
+        },
+        "abc": {},
+        "details": {
+          "sapience": "2"
+        },
+        "senses": {
+          "sight": "none",
+          "hearing": "primary",
+          "smell": "primary"
+        },
+        "supernatural": true,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Growth Omen: the Conservatory specimen (variant 1). Size 4. A bulb-bodied plant crowned with one enormous striped bloom. It has no Sight; it hears through its roots.</em></p>\n<h3>Omen</h3>\n<p>Band 2 (about 5:1). Pole-Bound: it Manifests only its own Wonder, its Tenet is always on, and it is its own Icon. Its Patron is its own Wonder, so Enhance and Burst on its Manifests are free. Attacks between it and its opposite pole are Strengthened both ways. When killed it leaves a fragment of its pole.</p>\n<h3>Wonderborn (T3)</h3>\n<ul><li><strong>Recognition:</strong> knows whether a creature serves its pole, opposes it, or neither.</li><li><strong>Propagation:</strong> see its trigger below.</li><li><strong>Follow the Pole:</strong> within 100ft of a Herald of its Wonder or a creature that serves its pole, its Ward's attack rolls have Advantage.</li></ul>\n<h3>Dreamborn (T3)</h3>\n<ul><li><strong>Allure:</strong> creatures that first see it resist as Fear, needing 60; on a failure their first attack against it each turn has Disadvantage until the end of their next turn. Starting characters can't reach 60.</li><li><strong>Lucid Depth:</strong> no speed penalty from Alignment.</li><li><strong>Bounty:</strong> once per round, a Manifest on a creature that serves its pole hits automatically.</li></ul>\n<h3>Growth (T3)</h3>\n<ul><li><strong>Root Lash</strong> (2 AP, 10ft, natural): <strong>5d8 physical</strong>, Strengthened at Size 4. Roll it by hand.</li><li><strong>Ripen:</strong> it blooms at the end of its 4th turn in combat.</li><li><strong>Seed:</strong> blooming scatters seed within 100ft; each seed that takes root grows a new Burgeon within a day. It then wilts back into its bulb.</li></ul>\n<h3>Turn</h3>\n<ul><li>Enhanced Cultivate on itself (1 AP): 3 stacks on a hit.</li><li>Recover Vigil twice (2 AP), spending a stack on Bark.</li><li>Cultivate on itself again (1 AP).</li><li>Heave the nearest attacker: a Melee Cultivate spending a stack on Uproot (about 270 Force).</li><li>Keep stacks and RP for reaction heaves on anyone working a moon-lamp.</li></ul>\n<h3>Its weakness</h3>\n<p>Every heave also gives the target a Growth stack, which they can spend on Thorn for +10d8. Let players find this out.</p>\n<h3>In the Conservatory</h3>\n<p>If it blooms, the organizers' wardens burn it out: nobody is hurt, the Night wing seals for 10 real minutes, and the Burgeon wilts back to its bulb. Simulated against 5 starting characters: about 71% defeat it before it blooms with everyone attacking, about 20% if three attacks a turn go to the lamps.</p>"
+      },
+      "items": [
+        {
+          "_id": "T13jNBdoB06KlACp",
+          "name": "Vigil (Icon)",
+          "type": "icon",
+          "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+          "system": {
+            "form": "vigil",
+            "description": "",
+            "base": "icon.vigil",
+            "overrides": [],
+            "grade": 1,
+            "attuned": true,
+            "natural": true,
+            "tenet": "mental-growth-dream:sapling"
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Burgeon",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 2,
+        "height": 2,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/omen_burgeon.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    },
+    {
+      "_id": "rkACyFMsejt4dHrJ",
+      "name": "Bloomrot",
+      "type": "npc",
+      "img": "modules/flowstate-edretnor/assets/tokens/omen_bloomrot.png",
+      "folder": "gIN25rU6pTcAc3I2",
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "effects": [],
+      "flags": {
+        "flowstate": {
+          "npcWizard": true,
+          "alignment": {
+            "kind": "dream",
+            "level": 2
+          }
+        }
+      },
+      "system": {
+        "stats": {
+          "str": 12,
+          "dex": 0,
+          "con": 15,
+          "pon": 36,
+          "snap": 0,
+          "will": 12,
+          "reach": 0,
+          "grasp": 0,
+          "build": 0
+        },
+        "skillPoints": 15,
+        "unspentStats": 0,
+        "statCarry": 0,
+        "creation": false,
+        "size": 3,
+        "trees": {
+          "mental-theory": 5,
+          "mental-life-dream": 5
+        },
+        "freeTrees": {
+          "mental-theory": 5,
+          "mental-life-dream": 5
+        },
+        "abc": {},
+        "details": {
+          "sapience": "2"
+        },
+        "senses": {
+          "sight": "primary",
+          "hearing": "none",
+          "smell": "heightened"
+        },
+        "supernatural": true,
+        "magical": false,
+        "currency": {},
+        "biography": "<p><em>Life Omen: the Conservatory specimen (variant 2). Size 3. An animal or corpse that won't die, swollen with fungus and buds.</em></p>\n<h3>Omen</h3>\n<p>Band 2 (about 5:1). Pole-Bound: it Manifests only its own Wonder, its Tenet is always on, and it is its own Icon. Its Patron is its own Wonder, so Enhance and Burst on its Manifests are free. Attacks between it and its opposite pole are Strengthened both ways. When killed it leaves a fragment of its pole.</p>\n<h3>Wonderborn (T3)</h3>\n<ul><li><strong>Recognition:</strong> knows whether a creature serves its pole, opposes it, or neither.</li><li><strong>Propagation:</strong> see its trigger below.</li><li><strong>Follow the Pole:</strong> within 100ft of a Herald of its Wonder or a creature that serves its pole, its Ward's attack rolls have Advantage.</li></ul>\n<h3>Dreamborn (T3)</h3>\n<ul><li><strong>Allure:</strong> resisting needs 45.</li><li><strong>Lucid Depth</strong> and <strong>Bounty</strong> as the Burgeon.</li></ul>\n<h3>Life (T3)</h3>\n<ul><li><strong>Budding Gore</strong> (2 AP, melee, natural): <strong>3d10 physical</strong>. Roll it by hand. On a hit the target is Infected for a day (the system's Infected status); any heat damage burns it out.</li><li><strong>Regrowth:</strong> at the start of each of its turns it regains all health lost since the start of its last turn, except health lost to heat damage or to critical hits.</li><li><strong>Sporing:</strong> at the end of its 4th turn in combat it releases its spores: every creature within 100ft that breathes becomes Infected. It then collapses, dormant, until it regrows over the next day.</li></ul>\n<h3>Propagation</h3>\n<p>A creature dies while Infected, and its body isn't burned within a day.</p>\n<h3>Tactics</h3>\n<ul><li>Turn 1: Flourish on itself, Bloom on itself, two Gores.</li><li>After that: Perennial keeps Flourish going; two Blooms on itself, two Gores. Cap it at two fresh Blooms a turn.</li></ul>\n<h3>How it plays</h3>\n<p>Whatever the party doesn't burn or crit grows back at the start of its turn: drop it below its Pain Threshold in one round, or stack heat and crits. Ignite deals heat at the end of its turn, after Regrowth.</p>\n<h3>In the Conservatory</h3>\n<p>Sporing works like the Burgeon's bloom: the wardens burn it out, the wing seals for 10 real minutes, nobody is hurt. Optional: a moon-lamp smashed on it deals 2d10 heat plus Ignite, but a smashed lamp can't be relit, so re-containment is lost. Simulated: 61% with everyone attacking, 69% with 3 heat attacks a turn, 32% with three attacks on the lamps.</p>"
+      },
+      "items": [
+        {
+          "_id": "0DjvuJipK38a4qP2",
+          "name": "Sanctum (Icon)",
+          "type": "icon",
+          "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+          "system": {
+            "form": "sanctum",
+            "description": "",
+            "base": "icon.sanctum",
+            "overrides": [],
+            "grade": 1,
+            "attuned": true,
+            "natural": true,
+            "tenet": "mental-life-dream:verdant-soul"
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      ],
+      "prototypeToken": {
+        "name": "Bloomrot",
+        "actorLink": false,
+        "disposition": -1,
+        "displayName": 20,
+        "displayBars": 20,
+        "bar1": {
+          "attribute": "hp"
+        },
+        "bar2": {
+          "attribute": "energy"
+        },
+        "width": 1,
+        "height": 1,
+        "texture": {
+          "src": "modules/flowstate-edretnor/assets/tokens/omen_bloomrot.png",
+          "scaleX": 1,
+          "scaleY": 1
+        },
+        "sight": {
+          "enabled": false
+        },
+        "flags": {}
+      }
+    }
+  ],
   "items": [],
   "journal": [
     {

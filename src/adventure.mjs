@@ -2,6 +2,9 @@
 import { stableId, MODULE_ID } from "./common.mjs";
 import { FOLDERS } from "./folders.mjs";
 import { START_HERE } from "./journal/start-here.mjs";
+import { ROUND2 } from "./actors/round2.mjs";
+import { CRAWL } from "./actors/crawl.mjs";
+import { OMENS } from "./actors/omens.mjs";
 
 export function buildAdventure() {
   return {
@@ -12,7 +15,7 @@ export function buildAdventure() {
     description: "<p>The young king's tournament at Edretnor, the festival around it, the cult attack that ends it, and the escape through the burning city. Importing also sets the world to a level-0 start: Shards with a 100 starting purse, and Common Grade 3 starting gear.</p>",
     sort: 0,
     folders: FOLDERS,
-    actors: [],
+    actors: [...ROUND2, ...CRAWL, ...OMENS],
     items: [],
     journal: [START_HERE],
     scenes: [],
