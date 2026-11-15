@@ -1,0 +1,43 @@
+{
+  "id": "flowstate-edretnor",
+  "title": "Flow State: The Fall of Edretnor",
+  "description": "The Flow State starter campaign: the young king's tournament at Edretnor, the festival around it, the cult attack that ends it, the escape through the burning city, and the audience with the king. Ships as one Adventure with its actors, scenes, roll tables, journals and setup macro.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Christopher Caplinger"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "flowstate",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.93.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/edretnor.mjs"
+  ],
+  "packs": [
+    {
+      "name": "edretnor",
+      "label": "The Fall of Edretnor",
+      "path": "packs/edretnor",
+      "type": "Adventure",
+      "system": "flowstate",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://github.com/optymystical/flowstate-edretnor"
+}

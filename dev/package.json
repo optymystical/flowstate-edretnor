@@ -1,0 +1,12 @@
+{
+  "name": "flowstate-edretnor-dev",
+  "private": true,
+  "type": "module",
+  "description": "Build tools for the Edretnor content module (not loaded by Foundry).",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.5"
+  }
+}

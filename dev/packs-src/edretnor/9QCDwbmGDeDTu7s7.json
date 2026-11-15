@@ -1,0 +1,197 @@
+{
+  "_key": "!adventures!9QCDwbmGDeDTu7s7",
+  "_id": "9QCDwbmGDeDTu7s7",
+  "name": "The Fall of Edretnor",
+  "img": null,
+  "caption": "The Flow State starter campaign",
+  "description": "<p>The young king's tournament at Edretnor, the festival around it, the cult attack that ends it, and the escape through the burning city. Importing also sets the world to a level-0 start: Shards with a 100 starting purse, and Common Grade 3 starting gear.</p>",
+  "sort": 0,
+  "folders": [
+    {
+      "_id": "4X0dQBsMLFgvhNOm",
+      "name": "The Fall of Edretnor",
+      "type": "Actor",
+      "folder": null,
+      "sorting": "m",
+      "sort": 0,
+      "color": null,
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "4F004bMxe7Wrn1AG",
+      "name": "The Fall of Edretnor",
+      "type": "JournalEntry",
+      "folder": null,
+      "sorting": "m",
+      "sort": 0,
+      "color": null,
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "7TwQtAZ6EoP5sNCj",
+      "name": "The Fall of Edretnor",
+      "type": "RollTable",
+      "folder": null,
+      "sorting": "m",
+      "sort": 0,
+      "color": null,
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "IxaKEEE24rNMDP1B",
+      "name": "The Fall of Edretnor",
+      "type": "Scene",
+      "folder": null,
+      "sorting": "m",
+      "sort": 0,
+      "color": null,
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "UYiaWAbm8KJ3EGQ0",
+      "name": "The Fall of Edretnor",
+      "type": "Macro",
+      "folder": null,
+      "sorting": "m",
+      "sort": 0,
+      "color": null,
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "7dnOhJczlgVUARHi",
+      "name": "Round 2: The Protection Run",
+      "type": "Actor",
+      "folder": "4X0dQBsMLFgvhNOm",
+      "sorting": "m",
+      "sort": 100,
+      "color": null,
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "m9fIjbgFi9DzGDO4",
+      "name": "The Crawl: the Maw",
+      "type": "Actor",
+      "folder": "4X0dQBsMLFgvhNOm",
+      "sorting": "m",
+      "sort": 200,
+      "color": null,
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "CdI026UnAOveUlxv",
+      "name": "The Crawl: Edretnor",
+      "type": "Actor",
+      "folder": "4X0dQBsMLFgvhNOm",
+      "sorting": "m",
+      "sort": 300,
+      "color": null,
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "gIN25rU6pTcAc3I2",
+      "name": "Omens",
+      "type": "Actor",
+      "folder": "4X0dQBsMLFgvhNOm",
+      "sorting": "m",
+      "sort": 400,
+      "color": null,
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "zug6HpH2Hz9jLPSM",
+      "name": "Festival",
+      "type": "RollTable",
+      "folder": "7TwQtAZ6EoP5sNCj",
+      "sorting": "m",
+      "sort": 100,
+      "color": null,
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "NbxMztWJpmqMoicj",
+      "name": "Round 3: The Conservatory",
+      "type": "RollTable",
+      "folder": "7TwQtAZ6EoP5sNCj",
+      "sorting": "m",
+      "sort": 200,
+      "color": null,
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "6WeuwNpNrHkpIWoj",
+      "name": "The Crawl",
+      "type": "RollTable",
+      "folder": "7TwQtAZ6EoP5sNCj",
+      "sorting": "m",
+      "sort": 300,
+      "color": null,
+      "description": "",
+      "flags": {}
+    }
+  ],
+  "actors": [],
+  "items": [],
+  "journal": [
+    {
+      "_id": "dq4cGwCF9Xdr1CCb",
+      "name": "Start Here: The Fall of Edretnor",
+      "folder": "4F004bMxe7Wrn1AG",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "categories": [],
+      "pages": [
+        {
+          "_id": "2jPTxmy5WuilBYo7",
+          "name": "Overview",
+          "type": "text",
+          "sort": 100000,
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "\n<p><strong>The Fall of Edretnor</strong> is the Flow State starter campaign: a level-0 start for 4–5 brand-new characters. It runs about\n5 sessions: 2–3 for the tournament and its festival, then 2–3 for the escape through the burning city and the audience with the king.</p>\n<p>The characters are nobodies: people from all over the world who happen to be in the same tournament when everything goes wrong.</p>\n<h2>What importing did</h2>\n<ul>\n<li>Created everything in the <em>The Fall of Edretnor</em> folders: actors, scenes, roll tables, journals and macros.</li>\n<li>Set the world to a level-0 start: <strong>Shards</strong> as the currency with a <strong>100-shard starting purse</strong>, and\n<strong>Common Grade 3</strong> starting gear (45 stat points, plus the Background's 15 free points). Characters made in the New Character\nwizard from now on start this way.</li>\n</ul>\n<h2>The run</h2>\n<table>\n<thead><tr><th>Day</th><th>Main event</th><th>Rest of the day</th></tr></thead>\n<tbody>\n<tr><td>1</td><td>Late arrival and registration</td><td>3 festival slots; teams drawn at dusk; the tavern</td></tr>\n<tr><td>2</td><td>Round 1: the Projectile Shoot</td><td>3 festival slots</td></tr>\n<tr><td>3</td><td>Round 2: the Protection Run</td><td>3 festival slots; the play</td></tr>\n<tr><td>4</td><td>Round 3: the Clockwork Conservatory</td><td>The attack begins about 40 minutes in; the escape through Edretnor; the audience with the king</td></tr>\n</tbody>\n</table>\n<h2>Before the first session</h2>\n<ol>\n<li>Have each player build a character in the New Character wizard, and a backup: the crawl is lethal, and a replacement joins as another contestant.</li>\n<li>Run the <strong>Edretnor Setup</strong> macro to roll this run's variables (it arrives in a later build of this module).</li>\n</ol>\n"
+          },
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        }
+      ]
+    }
+  ],
+  "scenes": [],
+  "tables": [],
+  "macros": [],
+  "cards": [],
+  "playlists": [],
+  "combats": [],
+  "flags": {
+    "flowstate-edretnor": {
+      "adventure": "edretnor"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "flowstate",
+    "systemVersion": "0.93.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

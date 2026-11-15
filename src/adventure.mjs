@@ -1,0 +1,26 @@
+// Assembles the Adventure document from the content files.
+import { stableId, MODULE_ID } from "./common.mjs";
+import { FOLDERS } from "./folders.mjs";
+import { START_HERE } from "./journal/start-here.mjs";
+
+export function buildAdventure() {
+  return {
+    _id: stableId("adventure:edretnor"),
+    name: "The Fall of Edretnor",
+    img: null,
+    caption: "The Flow State starter campaign",
+    description: "<p>The young king's tournament at Edretnor, the festival around it, the cult attack that ends it, and the escape through the burning city. Importing also sets the world to a level-0 start: Shards with a 100 starting purse, and Common Grade 3 starting gear.</p>",
+    sort: 0,
+    folders: FOLDERS,
+    actors: [],
+    items: [],
+    journal: [START_HERE],
+    scenes: [],
+    tables: [],
+    macros: [],
+    cards: [],
+    playlists: [],
+    combats: [],
+    flags: { [MODULE_ID]: { adventure: "edretnor" } }
+  };
+}
