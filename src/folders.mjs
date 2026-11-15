@@ -19,4 +19,10 @@ Object.assign(F, {
   tablesConservatory: sub("tables-conservatory", "Round 3: The Conservatory", F.tables, 200),
   tablesCrawl: sub("tables-crawl", "The Crawl", F.tables, 300)
 });
+Object.assign(F, {
+  tablesMarket: sub("tables-market", "The Market", F.tablesFestival, 100),
+  tablesCrawlEvents: sub("tables-crawl-events", "Surface events by category", F.tablesCrawl, 100),
+  tablesCrawlFinds: sub("tables-crawl-finds", "Finds by category", F.tablesCrawl, 200),
+  tablesCrawlLoot: sub("tables-crawl-loot", "Loot", F.tablesCrawl, 300)
+});
 export const FOLDERS = Object.values(F);

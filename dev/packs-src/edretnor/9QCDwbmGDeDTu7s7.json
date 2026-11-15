@@ -138,6 +138,50 @@
       "color": null,
       "description": "",
       "flags": {}
+    },
+    {
+      "_id": "Z8vu7dt7M743x885",
+      "name": "The Market",
+      "type": "RollTable",
+      "folder": "zug6HpH2Hz9jLPSM",
+      "sorting": "m",
+      "sort": 100,
+      "color": null,
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "ZIkveofxfsE5345i",
+      "name": "Surface events by category",
+      "type": "RollTable",
+      "folder": "6WeuwNpNrHkpIWoj",
+      "sorting": "m",
+      "sort": 100,
+      "color": null,
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "EUd9WHQB18019L8e",
+      "name": "Finds by category",
+      "type": "RollTable",
+      "folder": "6WeuwNpNrHkpIWoj",
+      "sorting": "m",
+      "sort": 200,
+      "color": null,
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "swTQGb5m444L8AaA",
+      "name": "Loot",
+      "type": "RollTable",
+      "folder": "6WeuwNpNrHkpIWoj",
+      "sorting": "m",
+      "sort": 300,
+      "color": null,
+      "description": "",
+      "flags": {}
     }
   ],
   "actors": [
@@ -2933,7 +2977,5978 @@
     }
   ],
   "scenes": [],
-  "tables": [],
+  "tables": [
+    {
+      "_id": "xEwgMf0DE6vrZFdj",
+      "name": "Market: the Uncommon rack",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Each morning, draw 4 times. Everything on the rack is Grade 5. Draws without replacement, so repeats can't come up: reset the table (its sheet's reset button) before the next draw.</p>",
+      "results": [
+        {
+          "_id": "jeZ0RHkO2pNe3luO",
+          "type": "text",
+          "name": "Steel weapon",
+          "description": "Light or heavy, any type. Grade 5. 480 / 720 shards.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "sCbquYdD2pSnq0CT",
+          "type": "text",
+          "name": "Bronze weapon",
+          "description": "Light or heavy, any type. Grade 5. 480 / 720 shards.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "eXqTHCE0yEU4NrDf",
+          "type": "text",
+          "name": "Silver Coating light weapon",
+          "description": "Grade 5. 480 shards.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "BXfgPoxEhMxzkSl1",
+          "type": "text",
+          "name": "Cold Iron heavy weapon",
+          "description": "A Heavy Defender shield counts. Grade 5. 720 shards.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "D4sj5X31ZKL0OAnG",
+          "type": "text",
+          "name": "Chitin or Hard Leather armor",
+          "description": "Light or Medium. Grade 5. 480 / 960 shards.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "rUAE43VPFOIggIq1",
+          "type": "text",
+          "name": "Silver armor",
+          "description": "Light or Medium. Grade 5. 480 / 960 shards.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "qCvZRvvEViYlDucf",
+          "type": "text",
+          "name": "Steel or Bronze Heavy armor",
+          "description": "Grade 5. 1,440 shards.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "QT5xFQCw264e7c2M",
+          "type": "text",
+          "name": "Cold Iron Heavy armor",
+          "description": "Grade 5. 1,440 shards.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            8,
+            8
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "tc8itqZepBRzOgLO",
+          "type": "text",
+          "name": "Uncommon Icon",
+          "description": "Prism or Vigil (Dream), Bane or Grudge (Nightmare). Grade 5. 480 shards.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            9,
+            9
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "LZFFhIuiW2gAcANu",
+          "type": "text",
+          "name": "Uncommon affix",
+          "description": "400 shards. Roll which one: @UUID[RollTable.tRnk02qHwxbzNdvq]{Uncommon affix gem}.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 2,
+          "range": [
+            10,
+            11
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "2iV0rbj6j0F7cUJS",
+          "type": "text",
+          "name": "Amberite or Quartz weapon",
+          "description": "Amberite light weapon or Quartz heavy weapon, for breaking magic. Grade 5. 480 / 720 shards.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            12,
+            12
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d12",
+      "replacement": false,
+      "displayRoll": true,
+      "folder": "Z8vu7dt7M743x885",
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Kwp6un58GtHGSWRu",
+      "name": "Common affix gem",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>The jeweler stocks [[1d3]] Common affixes each day, 200 shards each. Also used by the crawl's Jeweler's case.</p>",
+      "results": [
+        {
+          "_id": "AONDgoJQURTOPmOi",
+          "type": "document",
+          "name": "Quartz",
+          "description": "",
+          "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
+          "documentUuid": "Compendium.flowstate.starting-gear.Item.EjcAnYIY2NlrgTbC",
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "H0iunZIDHY9WDRXZ",
+          "type": "document",
+          "name": "Agate",
+          "description": "",
+          "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
+          "documentUuid": "Compendium.flowstate.starting-gear.Item.6QWnYXqOBc40iEJz",
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "xZCI1r09VAZ8CCnS",
+          "type": "document",
+          "name": "Jasper",
+          "description": "",
+          "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
+          "documentUuid": "Compendium.flowstate.starting-gear.Item.az5ruCU6KBYqxrcp",
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "NeL90sUIYLTSW6sd",
+          "type": "document",
+          "name": "Obsidian",
+          "description": "",
+          "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
+          "documentUuid": "Compendium.flowstate.starting-gear.Item.zzHPpM7pJxljWdZL",
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "cZXKAHUYv5QVcVuN",
+          "type": "document",
+          "name": "Hematite",
+          "description": "",
+          "img": "icons/commodities/gems/gem-faceted-diamond-blue.webp",
+          "documentUuid": "Compendium.flowstate.starting-gear.Item.fPrnlchrLDKrufHa",
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d5",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "Z8vu7dt7M743x885",
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tRnk02qHwxbzNdvq",
+      "name": "Uncommon affix gem",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>400 shards at the market. Used by the Uncommon rack, the Jeweler's case and the Rare table.</p>",
+      "results": [
+        {
+          "_id": "OfzMmpFpPMLpT5CI",
+          "type": "text",
+          "name": "Garnet",
+          "description": "",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "ICdeZF9F9miuVdZb",
+          "type": "text",
+          "name": "Topaz",
+          "description": "",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "6MSOnf3lH17oNPcd",
+          "type": "text",
+          "name": "Moonstone",
+          "description": "",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "RAHKSMeTpyCCP2wl",
+          "type": "text",
+          "name": "Tourmaline",
+          "description": "",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "JPmVZcSS625ekA7G",
+          "type": "text",
+          "name": "Zircon",
+          "description": "",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d5",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "Z8vu7dt7M743x885",
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XPoIWIQEZwpkmmBH",
+      "name": "Round 1: projectile twists",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Scout results before Round 1: the first success draws one twist, the second draws two more, the third reveals the Heartstone (its rune reads with a Spot, DC 10). The Fieldstone, the Lantern and the Heartstone aren't on the table. Draws without replacement, so repeats can't come up: reset the table (its sheet's reset button) before the next draw.</p>",
+      "results": [
+        {
+          "_id": "Wy6FSvILbVm3RDGI",
+          "type": "text",
+          "name": "Hailshot",
+          "description": "\"One launch is a fistful of pebbles fired together. Every last one has to break.\" (Area attacks shine.)",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "qmZAeQesujRNlyPc",
+          "type": "text",
+          "name": "Ironheart",
+          "description": "\"There's a slow iron ball that takes a real beating. Bring your heaviest hitter.\"",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "5mFFVJUuXi6OGpCk",
+          "type": "text",
+          "name": "Skyglass",
+          "description": "\"A glass bead no bigger than a thumbnail. Hard to hit at all; two clean hits shatter it.\" (Advantage and rerolls shine.)",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "NhWeOSMDHLLf2q3f",
+          "type": "text",
+          "name": "Wardwing",
+          "description": "\"One of them is alive: a little summoned flier with its own ward, and it dodges the first hit each turn.\" (Bait it with cheap attacks.)",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "C0tqFB3HZd2jEuBs",
+          "type": "text",
+          "name": "Snapshot",
+          "description": "\"One goes up mid-round, when nobody's ready. Only quick reactions catch it.\"",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "XixykNDTqwofQqiC",
+          "type": "text",
+          "name": "Veiled Wisp",
+          "description": "\"One is hidden by an illusion. You'll hear it hum before you see it.\"",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "VyWAfHGpFImkY1OZ",
+          "type": "text",
+          "name": "Geode",
+          "description": "\"A steel shell around a stone core, and only the core counts. Punch through, don't smash.\"",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d7",
+      "replacement": false,
+      "displayRoll": true,
+      "folder": "zug6HpH2Hz9jLPSM",
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DNG8yxxLlzsE0M0B",
+      "name": "Seed Vault plants",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Draw once per player's vault. Draws without replacement, so no two vaults share a plant; reset the table before the next run.</p>",
+      "results": [
+        {
+          "_id": "eZalNewqKqnqBZnM",
+          "type": "text",
+          "name": "Sunpetal Creeper",
+          "description": "<strong>Lacks Sun.</strong> Every leaf turns toward the vault's dead lamp. Faint citrus smell (Smell, Moderate).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "fyWWX1oAzps9Hi39",
+          "type": "text",
+          "name": "Bog Lantern",
+          "description": "<strong>Lacks Rain.</strong> Cracked dry soil, empty pitcher-cups, curled leaves (Sight, automatic).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "VOC56zlHedBRNunT",
+          "type": "text",
+          "name": "Ember Fern",
+          "description": "<strong>Lacks Ember.</strong> Frond tips blackened by frost. The soil near the dead heating coil is the only warm spot (touch).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "tacOWhzRMHgQY9aI",
+          "type": "text",
+          "name": "Frostbell",
+          "description": "<strong>Lacks Frost.</strong> Drooping, beaded with sweat. Sweet-rotten smell from overheating (Smell, Moderate).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "MxJXxW2yCdLFsp3w",
+          "type": "text",
+          "name": "Glass Orchid",
+          "description": "<strong>Lacks Sun.</strong> Translucent petals clouded grey. It grows toward a pinhole of light at the tube (Spot, Moderate).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "Bi5HqrI5CpKvHvrA",
+          "type": "text",
+          "name": "Drowned Reed",
+          "description": "<strong>Lacks Rain.</strong> The tag reads \"Mire,\" half scratched off. Roots crawl out of the pot toward the floor drain (Spot, Moderate).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "EaFGokC50waQVQ0T",
+          "type": "text",
+          "name": "Cinder Moss",
+          "description": "<strong>Lacks Ember.</strong> Grows only on the coil side of the pot. Damp, chilled stone (touch).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "tBC7HMYzlcI7cR2Q",
+          "type": "text",
+          "name": "Winter Mint",
+          "description": "<strong>Lacks Frost.</strong> Leaf edges scorched brown. Strong mint (Smell, Easy).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            8,
+            8
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d8",
+      "replacement": false,
+      "displayRoll": true,
+      "folder": "NbxMztWJpmqMoicj",
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6KETVoDk8tGMRMcA",
+      "name": "Fuse hiding spots",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Dawn wing: which crystal fuse is in which hiding spot.</p>",
+      "results": [
+        {
+          "_id": "eoKSqVBA77kLL5kh",
+          "type": "text",
+          "name": "Trellis Amber, pond Rose, bramble Jade",
+          "description": "The <strong>Amber</strong> fuse is on the trellis, the <strong>Rose</strong> fuse is in the pond, and the <strong>Jade</strong> fuse is in the bramble.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "aUtptHgaN57dCOan",
+          "type": "text",
+          "name": "Trellis Amber, pond Jade, bramble Rose",
+          "description": "The <strong>Amber</strong> fuse is on the trellis, the <strong>Jade</strong> fuse is in the pond, and the <strong>Rose</strong> fuse is in the bramble.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "yGK3e2K4NfaWJ5zX",
+          "type": "text",
+          "name": "Trellis Rose, pond Amber, bramble Jade",
+          "description": "The <strong>Rose</strong> fuse is on the trellis, the <strong>Amber</strong> fuse is in the pond, and the <strong>Jade</strong> fuse is in the bramble.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "Kda36Yo35hsfhV4r",
+          "type": "text",
+          "name": "Trellis Rose, pond Jade, bramble Amber",
+          "description": "The <strong>Rose</strong> fuse is on the trellis, the <strong>Jade</strong> fuse is in the pond, and the <strong>Amber</strong> fuse is in the bramble.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "mGB6w6SRCg8NKXw5",
+          "type": "text",
+          "name": "Trellis Jade, pond Amber, bramble Rose",
+          "description": "The <strong>Jade</strong> fuse is on the trellis, the <strong>Amber</strong> fuse is in the pond, and the <strong>Rose</strong> fuse is in the bramble.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "FCulL3HC1ecKOWhA",
+          "type": "text",
+          "name": "Trellis Jade, pond Rose, bramble Amber",
+          "description": "The <strong>Jade</strong> fuse is on the trellis, the <strong>Rose</strong> fuse is in the pond, and the <strong>Amber</strong> fuse is in the bramble.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d6",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "NbxMztWJpmqMoicj",
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Bf3yzHHwBh8lF4O4",
+      "name": "Socket mapping",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Dawn wing: which socket each fuse belongs in.</p>",
+      "results": [
+        {
+          "_id": "I9isu73ujyjgDbma",
+          "type": "text",
+          "name": "Set A",
+          "description": "Amber → Root, Rose → Bloom, Jade → Leaf.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "XgvrAtCsH6hf8jst",
+          "type": "text",
+          "name": "Set B",
+          "description": "Amber → Seed, Rose → Thorn, Jade → Dew.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "6egG07kPsUlq1xTL",
+          "type": "text",
+          "name": "Set C",
+          "description": "Amber → Leaf, Rose → Root, Jade → Bloom.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d3",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "NbxMztWJpmqMoicj",
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0p0Fs9BuhB9LsLg8",
+      "name": "Valve order",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Noon wing: the order to open the five valves.</p>",
+      "results": [
+        {
+          "_id": "c3hphdywCg0X73Gt",
+          "type": "text",
+          "name": "Order A",
+          "description": "Owl, Heron, Bee, Wren, Moth (highest pressure first).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "dIkCABHCr0JOS2Su",
+          "type": "text",
+          "name": "Order B",
+          "description": "Bee, Moth, Owl, Heron, Wren (highest pressure first).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "9cUIoR0lZe1QCPhh",
+          "type": "text",
+          "name": "Order C",
+          "description": "Heron, Wren, Moth, Owl, Bee (highest pressure first).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d3",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "NbxMztWJpmqMoicj",
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xM2kBOWgGtWIYpkL",
+      "name": "Living seed jar",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Dusk wing: which of the 12 jars holds the living seed. The frosted ledger narrows it to 3 jars, including this one.</p>",
+      "results": [
+        {
+          "_id": "CB211tPPA8Xmmlt6",
+          "type": "text",
+          "name": "Jar 1",
+          "description": "Jar 1 holds the living Moon Lily seed.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "0inq6ICb7SUMRLMO",
+          "type": "text",
+          "name": "Jar 2",
+          "description": "Jar 2 holds the living Moon Lily seed.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "AcrttHpyB0Tha2X2",
+          "type": "text",
+          "name": "Jar 3",
+          "description": "Jar 3 holds the living Moon Lily seed.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "WA9gePQArybeR3B5",
+          "type": "text",
+          "name": "Jar 4",
+          "description": "Jar 4 holds the living Moon Lily seed.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "MklVX1U1oBCcE7oF",
+          "type": "text",
+          "name": "Jar 5",
+          "description": "Jar 5 holds the living Moon Lily seed.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "jCTDytKrwe3Ikr5N",
+          "type": "text",
+          "name": "Jar 6",
+          "description": "Jar 6 holds the living Moon Lily seed.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "lJoUwOLfOMLndhEa",
+          "type": "text",
+          "name": "Jar 7",
+          "description": "Jar 7 holds the living Moon Lily seed.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "TYsiHQFVVBVAPas0",
+          "type": "text",
+          "name": "Jar 8",
+          "description": "Jar 8 holds the living Moon Lily seed.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            8,
+            8
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "KMyFaoxPb5uYWms9",
+          "type": "text",
+          "name": "Jar 9",
+          "description": "Jar 9 holds the living Moon Lily seed.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            9,
+            9
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "F2pnvIjNtTL9NT6E",
+          "type": "text",
+          "name": "Jar 10",
+          "description": "Jar 10 holds the living Moon Lily seed.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            10,
+            10
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "G2VvCwVPk2eqmGoC",
+          "type": "text",
+          "name": "Jar 11",
+          "description": "Jar 11 holds the living Moon Lily seed.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            11,
+            11
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "Rkpdjp8IDNTRKiom",
+          "type": "text",
+          "name": "Jar 12",
+          "description": "Jar 12 holds the living Moon Lily seed.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            12,
+            12
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d12",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "NbxMztWJpmqMoicj",
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "d6uzxw8Yziwk2Xcr",
+      "name": "Omen specimen",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Night wing: the organizers' contained specimen.</p>",
+      "results": [
+        {
+          "_id": "8Do5MrIjt5EkqdFQ",
+          "type": "document",
+          "name": "Burgeon",
+          "description": "Growth Omen. Blooms at the end of its 4th turn.",
+          "img": "modules/flowstate-edretnor/assets/tokens/omen_burgeon.png",
+          "documentUuid": "Actor.O4hRSKalxqFPSyO5",
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "qYaoOcfQS5AuwhXD",
+          "type": "document",
+          "name": "Bloomrot",
+          "description": "Life Omen. Spores at the end of its 4th turn.",
+          "img": "modules/flowstate-edretnor/assets/tokens/omen_bloomrot.png",
+          "documentUuid": "Actor.rkACyFMsejt4dHrJ",
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d2",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "NbxMztWJpmqMoicj",
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cv4FvBDb77Bwiix6",
+      "name": "Bloom condition",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Night Bloom: what the Moon Lily bud needs to open.</p>",
+      "results": [
+        {
+          "_id": "9Brbq2pSGyNRI54x",
+          "type": "text",
+          "name": "Darkness and silence",
+          "description": "",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "FPhVHz38xsJQHqbf",
+          "type": "text",
+          "name": "Darkness and the scent of rain",
+          "description": "The Noon misters on.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "90VlciLMWqO88gCr",
+          "type": "text",
+          "name": "Darkness and warmth",
+          "description": "The Ember heaters on.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d3",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "NbxMztWJpmqMoicj",
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0z9wvE2BQZGxGOYY",
+      "name": "Crawl: surface event (Phase 1)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Roll when the party enters a city tile in Phase 1. The category's table is drawn automatically. Wilderness tiles use @UUID[RollTable.SxOlF5JIA4pSklWc]{Crawl: wilderness tile (Phase 1)}; the Overlook is fixed (a Spot, Moderate 10, reveals which way one fixed tile lies).</p>",
+      "results": [
+        {
+          "_id": "CzCHVqvgBH6Ytc7X",
+          "type": "document",
+          "name": "Event: Cult (Phase 1)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.bqDGDDyrRVdhpBVI",
+          "weight": 30,
+          "range": [
+            1,
+            30
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "OBgh1QBHqHE8zOw9",
+          "type": "document",
+          "name": "Event: Civilians (Phase 1)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.KcZOZGKaGKaJsams",
+          "weight": 35,
+          "range": [
+            31,
+            65
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "4KZhHXeEqcwa6Up5",
+          "type": "document",
+          "name": "Event: Gray area (Phase 1)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.a4FUj22CGVCSaFkh",
+          "weight": 10,
+          "range": [
+            66,
+            75
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "Wk2RB2cmkoqfHBJs",
+          "type": "document",
+          "name": "Event: Hazards (Phase 1)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.DOlKBGQjGYoKZrZh",
+          "weight": 25,
+          "range": [
+            76,
+            100
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "6WeuwNpNrHkpIWoj",
+      "sort": 101,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GffvwXNk0nDJcLhQ",
+      "name": "Crawl: surface event (Phase 2)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Roll when the party enters a city tile in Phase 2. The category's table is drawn automatically. Wilderness tiles use @UUID[RollTable.4RzcyhpenUD9Ec7V]{Crawl: wilderness tile (Phase 2)}; the Overlook is fixed (a Spot, Moderate 10, reveals which way one fixed tile lies).</p>",
+      "results": [
+        {
+          "_id": "FFhSVBfWYwHtIS1Z",
+          "type": "document",
+          "name": "Event: Cult (Phase 2)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.RHdQkyEu6Ioln2I5",
+          "weight": 30,
+          "range": [
+            1,
+            30
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "0eFH0O132hH41rJn",
+          "type": "document",
+          "name": "Event: Civilians (Phase 2)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.59VZpSnvOFeY32yQ",
+          "weight": 15,
+          "range": [
+            31,
+            45
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "r6lKbCGDCK1O9yBI",
+          "type": "document",
+          "name": "Event: Gray area (Phase 2)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.ZHgPN0GSDICrp1Qu",
+          "weight": 12,
+          "range": [
+            46,
+            57
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "PDVyIgIBpJ2ABKFH",
+          "type": "document",
+          "name": "Event: Omens and Heralds (Phase 2)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.ptm3AbfOBuIyFCXV",
+          "weight": 18,
+          "range": [
+            58,
+            75
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "is2EfDxx6DDQuvEY",
+          "type": "document",
+          "name": "Event: Royal Guard (Phase 2)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.xP2ucGnsOgJrqFTr",
+          "weight": 3,
+          "range": [
+            76,
+            78
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "cbdGWn96cTX4NBHP",
+          "type": "document",
+          "name": "Event: Hazards (Phase 2)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.9Hkc253fqOh323KT",
+          "weight": 22,
+          "range": [
+            79,
+            100
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "6WeuwNpNrHkpIWoj",
+      "sort": 102,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OhsJ4qtuPchkDitl",
+      "name": "Crawl: surface event (Phase 3)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Roll when the party enters a city tile in Phase 3. The category's table is drawn automatically. Wilderness tiles use @UUID[RollTable.YUfWM5N4gIqDpRWj]{Crawl: wilderness tile (Phase 3)}; the Overlook is fixed (a Spot, Moderate 10, reveals which way one fixed tile lies).</p>",
+      "results": [
+        {
+          "_id": "fRvFv6kBV9DLAVYE",
+          "type": "document",
+          "name": "Event: Cult (Phase 3)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.c8sGOeeQzh7M07jQ",
+          "weight": 15,
+          "range": [
+            1,
+            15
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "U9n3Eo5We6yn6xNv",
+          "type": "document",
+          "name": "Event: Civilians (Phase 3)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.1jhlqICaOgETZDdi",
+          "weight": 15,
+          "range": [
+            16,
+            30
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "ECmgtnnvPiIOAjFF",
+          "type": "document",
+          "name": "Event: Gray area (Phase 3)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.8Saj8cK2Ja0sZAPO",
+          "weight": 7,
+          "range": [
+            31,
+            37
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "0MBIRpTno4AdmE9F",
+          "type": "document",
+          "name": "Event: Omens and Heralds (Phase 3)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.BNJLCA5i1eikTbbe",
+          "weight": 13,
+          "range": [
+            38,
+            50
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "62n38yrghIUjvF94",
+          "type": "document",
+          "name": "Event: Royal Guard (Phase 3)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.9VGUe8XlMqW8XnfV",
+          "weight": 12,
+          "range": [
+            51,
+            62
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "MCVRVLmPpAi9APrh",
+          "type": "document",
+          "name": "Event: Hazards (Phase 3)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.0jgNRrQFH1DDHJLx",
+          "weight": 18,
+          "range": [
+            63,
+            80
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "oFo61aGGZDCHnk7C",
+          "type": "text",
+          "name": "Empty",
+          "description": "Nothing here.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 20,
+          "range": [
+            81,
+            100
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "6WeuwNpNrHkpIWoj",
+      "sort": 103,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SxOlF5JIA4pSklWc",
+      "name": "Crawl: wilderness tile (Phase 1)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Roll when the party enters a wilderness tile in Phase 1: an event on 01–15.</p>",
+      "results": [
+        {
+          "_id": "TTJLEUoLXfIEpla2",
+          "type": "document",
+          "name": "Event: Wilderness (Phase 1)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.dQgwEbZv9POo15Ac",
+          "weight": 15,
+          "range": [
+            1,
+            15
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "MEry9enajHbJbPZ0",
+          "type": "text",
+          "name": "No event",
+          "description": "The wilderness is quiet.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 85,
+          "range": [
+            16,
+            100
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "6WeuwNpNrHkpIWoj",
+      "sort": 201,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4RzcyhpenUD9Ec7V",
+      "name": "Crawl: wilderness tile (Phase 2)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Roll when the party enters a wilderness tile in Phase 2: an event on 01–25.</p>",
+      "results": [
+        {
+          "_id": "wFLBrh6HLsExeoET",
+          "type": "document",
+          "name": "Event: Wilderness (Phase 2)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.J2lDCVV6I8CvZ4eG",
+          "weight": 25,
+          "range": [
+            1,
+            25
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "cc5ZAHR7zYbN3mn7",
+          "type": "text",
+          "name": "No event",
+          "description": "The wilderness is quiet.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 75,
+          "range": [
+            26,
+            100
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "6WeuwNpNrHkpIWoj",
+      "sort": 202,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "YUfWM5N4gIqDpRWj",
+      "name": "Crawl: wilderness tile (Phase 3)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Roll when the party enters a wilderness tile in Phase 3: an event on 01–25.</p>",
+      "results": [
+        {
+          "_id": "SrldDoFFJCfHhOET",
+          "type": "document",
+          "name": "Event: Wilderness (Phase 3)",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.HohPPg4RFL7WvtxU",
+          "weight": 25,
+          "range": [
+            1,
+            25
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "P4gDqxj0LM32ctyH",
+          "type": "text",
+          "name": "No event",
+          "description": "The wilderness is quiet.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 75,
+          "range": [
+            26,
+            100
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "6WeuwNpNrHkpIWoj",
+      "sort": 203,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "nBFcpNbQ1XCdXdLq",
+      "name": "Crawl: search find (Phase 1)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Roll for each hidden find a search reveals in Phase 1. The category's table is drawn automatically. Small circles aren't rolled: four are placed when the map is generated.</p>",
+      "results": [
+        {
+          "_id": "Yvm310JYtIfL3EaI",
+          "type": "document",
+          "name": "Civilians",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.aCbUSDWtccf1SID5",
+          "weight": 40,
+          "range": [
+            1,
+            40
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "FK3ibec0aH5e9aFK",
+          "type": "document",
+          "name": "Intel",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.IGZDW0Uapr84PG1O",
+          "weight": 25,
+          "range": [
+            41,
+            65
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "DflzoDilKSCFShRq",
+          "type": "document",
+          "name": "Loot",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.HsU7zQBDNifPdDGL",
+          "weight": 25,
+          "range": [
+            66,
+            90
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "4WIHCyzaqNy32zNI",
+          "type": "document",
+          "name": "Danger",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.7AEaXrWgd3yyHddx",
+          "weight": 10,
+          "range": [
+            91,
+            100
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "6WeuwNpNrHkpIWoj",
+      "sort": 301,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "vGLmrv7DNXVmd84E",
+      "name": "Crawl: search find (Phase 2)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Roll for each hidden find a search reveals in Phase 2. The category's table is drawn automatically. Small circles aren't rolled: four are placed when the map is generated.</p>",
+      "results": [
+        {
+          "_id": "aApBlCIedj58MVIR",
+          "type": "document",
+          "name": "Civilians",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.0DPHoC5b5ch48P4l",
+          "weight": 30,
+          "range": [
+            1,
+            30
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "sUdUR0dJFpSDa7FG",
+          "type": "document",
+          "name": "Intel",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.pLiCNkKD1vO5JQeN",
+          "weight": 25,
+          "range": [
+            31,
+            55
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "F5uF65rv5KePyenF",
+          "type": "document",
+          "name": "Loot",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.sfNjTDL3fC4Agrgt",
+          "weight": 25,
+          "range": [
+            56,
+            80
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "BJGe18gfiRHium4l",
+          "type": "document",
+          "name": "Danger",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.B0hhXpB2s3nBvvIn",
+          "weight": 20,
+          "range": [
+            81,
+            100
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "6WeuwNpNrHkpIWoj",
+      "sort": 302,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "I7ofHXzW7lwPuIZx",
+      "name": "Crawl: search find (Phase 3)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Roll for each hidden find a search reveals in Phase 3. The category's table is drawn automatically. Survivors found in Phase 3 are alive only 1 time in 3. Small circles aren't rolled: four are placed when the map is generated.</p>",
+      "results": [
+        {
+          "_id": "0ukuhDcE7pCTL1dq",
+          "type": "document",
+          "name": "Civilians",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.MLlIk7Sse0Mb0vXL",
+          "weight": 20,
+          "range": [
+            1,
+            20
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "72OFgOwqu3OTKVA6",
+          "type": "document",
+          "name": "Intel",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.OQMnXyxzgVO3Xdw1",
+          "weight": 15,
+          "range": [
+            21,
+            35
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "DQdWhHOPzX2fEFRf",
+          "type": "document",
+          "name": "Loot",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.YlRIJPcviLOTqCEm",
+          "weight": 35,
+          "range": [
+            36,
+            70
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "9enVyZ3C79bJBfXL",
+          "type": "document",
+          "name": "Danger",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.vyq0l6KK2VdmqBWP",
+          "weight": 30,
+          "range": [
+            71,
+            100
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d100",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "6WeuwNpNrHkpIWoj",
+      "sort": 303,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bqDGDDyrRVdhpBVI",
+      "name": "Event: Cult (Phase 1)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Cult: the entries Phase 1 allows. </p>",
+      "results": [
+        {
+          "_id": "GtAShBk4OdsYu3Up",
+          "type": "text",
+          "name": "Herding detail",
+          "description": "Half a cell with [[1d2+1]] (2–3) @UUID[Actor.hwd0fqETr9L3E3eA]{rite-born hounds}. <strong>Shadow them:</strong> each PC makes a stealth check against the hounds' perception (d9 with Advantage; no Advantage in smoke). Following for 10 minutes reveals the nearest zone. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "D3UW8VlKUQFkEj5z",
+          "type": "text",
+          "name": "Prisoner march",
+          "description": "A cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 4 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}) guarding [[1d7+5]] (6–12) roped civilians.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "KNLGcBfx4amCdYJZ",
+          "type": "text",
+          "name": "Recruiter",
+          "description": "The @UUID[Actor.g7G54apuDTZn45W1]{Preacher}, half a cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 2 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}) and [[1d11+9]] (10–20) cornered civilians. <strong>Three exchanges:</strong> each one, a PC rolls Persuade or Deceive against the Preacher's d15. A win draws a third of the crowd to the party; a loss sends 1d4 to the cult. Starting a fight scatters the crowd: half flee, half join the convoy.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "NsOXFzvHkBFXnNzr",
+          "type": "text",
+          "name": "Disguised refugees",
+          "description": "1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 3 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists} in festival clothes. <strong>Expose them</strong> with Insight's Read Intent or a Spot against the Leader's Deception (d15). Unexposed, they get a surprise round on the convoy at the next fixed tile.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "oAKsSt5aOYEUk0CJ",
+          "type": "text",
+          "name": "Ambush point",
+          "description": "A cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 4 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}) lying in wait. The party's highest Spot against the Leader's stealth check (d15). The winner gets a surprise round.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d5",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 101,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "RHdQkyEu6Ioln2I5",
+      "name": "Event: Cult (Phase 2)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Cult: the entries Phase 2 allows. </p>",
+      "results": [
+        {
+          "_id": "kRfH8urS4al83DMB",
+          "type": "text",
+          "name": "Herding detail",
+          "description": "Half a cell with [[1d2+1]] (2–3) @UUID[Actor.hwd0fqETr9L3E3eA]{rite-born hounds}. <strong>Shadow them:</strong> each PC makes a stealth check against the hounds' perception (d9 with Advantage; no Advantage in smoke). Following for 10 minutes reveals the nearest zone. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "LjFAMwCGFelypFyi",
+          "type": "text",
+          "name": "Prisoner march",
+          "description": "A cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 4 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}) guarding [[1d7+5]] (6–12) roped civilians.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "rG6RHeL6eMyR8cLH",
+          "type": "text",
+          "name": "Ambush point",
+          "description": "A cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 4 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}) lying in wait. The party's highest Spot against the Leader's stealth check (d15). The winner gets a surprise round.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "NM8VONqo3bEwlcyL",
+          "type": "text",
+          "name": "Looters",
+          "description": "Half a cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 2 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}), distracted. A stealth check (Moderate 10) for everyone gives a surprise round. Afterward, one free Loot find (this phase's Find: Loot table).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "5CoIHhhU0lgP4XfR",
+          "type": "text",
+          "name": "Pyre crew",
+          "description": "A cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 4 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}) at a black-flame pyre. Each round the pyre stands, 1 @UUID[Actor.hwd0fqETr9L3E3eA]{rite-born hound} climbs out, up to 3. <strong>The pyre:</strong> 80 Durability, 10 Limit.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "t78h4kpTZhixJno5",
+          "type": "text",
+          "name": "Hunting party",
+          "description": "A cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 4 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}) with 2 @UUID[Actor.hwd0fqETr9L3E3eA]{rite-born hounds}. To hide, each PC makes a stealth check against the hounds (d9 with Advantage) and the Leader (d15).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "kB0AWqPP2TvbPuPp",
+          "type": "text",
+          "name": "Checkpoint",
+          "description": "A cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 4 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}) at a barricade. <strong>Getting through:</strong> a password (from a Fallen cultist's kit) passes; a bluff is Deceive against the Leader's d15. Otherwise fight, or detour (the tile counts as failed).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d7",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 102,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "c8sGOeeQzh7M07jQ",
+      "name": "Event: Cult (Phase 3)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Cult: the entries Phase 3 allows. </p>",
+      "results": [
+        {
+          "_id": "itPIHlQkYGnBWzGk",
+          "type": "text",
+          "name": "Looters",
+          "description": "Half a cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 2 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}), distracted. A stealth check (Moderate 10) for everyone gives a surprise round. Afterward, one free Loot find (this phase's Find: Loot table).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "UvSqTP7quXBzS6RT",
+          "type": "text",
+          "name": "Hunting party",
+          "description": "A cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 4 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}) with 2 @UUID[Actor.hwd0fqETr9L3E3eA]{rite-born hounds}. To hide, each PC makes a stealth check against the hounds (d9 with Advantage) and the Leader (d15).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "sEXpueI4YDkcPkUU",
+          "type": "text",
+          "name": "Withdrawal column",
+          "description": "2 cells (each 1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 4 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}), [[1d5+3]] (4–8) captives and a cart (2 Loot finds).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "44lOEkqp0iETWtWU",
+          "type": "text",
+          "name": "Last rite",
+          "description": "1 @UUID[Actor.STeJsOcLNW5voQVR]{Ritualist} and 2 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists} finishing a circle. <strong>In 3 rounds</strong> the circle completes and 1 @UUID[Actor.hwd0fqETr9L3E3eA]{rite-born hound} forms; stopping them first prevents it.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d4",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 103,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "KcZOZGKaGKaJsams",
+      "name": "Event: Civilians (Phase 1)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Civilians: the entries Phase 1 allows. </p>",
+      "results": [
+        {
+          "_id": "jZpWFFrNLI7DzLzQ",
+          "type": "text",
+          "name": "Cornered",
+          "description": "Half a cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 2 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}) against [[1d6+2]] (3–8) civilians.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "pmL7YysQtIBqLGGz",
+          "type": "text",
+          "name": "Last stand",
+          "description": "4 @UUID[Actor.BI2DeaQ8oLYGH9yb]{Edretnor Guards} at half HP against a cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 4 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}). The surviving guards join the convoy and fight. <strong>(Hint, toward the barracks)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "eYT2WCIt0DRcdMb8",
+          "type": "text",
+          "name": "Festival troupe",
+          "description": "6 civilians. Their costumes give Advantage on disguise Deceptions for the rest of the crawl.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "KHhBAearbc5SSYfe",
+          "type": "text",
+          "name": "Fellow contestants",
+          "description": "2 @UUID[Actor.dg77Fc56Gl7V86Tb]{wounded contestants}. <strong>[[1d6]]:</strong> 1–3 they join; 4–5 they share one <strong>(Hint)</strong>; 6 they're rivals who take this tile's next find and leave.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "GHc2NJ2hJnBsHWFB",
+          "type": "text",
+          "name": "Noble household",
+          "description": "8 civilians who count as one band higher. Delivered safely, they pay 500 shards or one roll on the @UUID[RollTable.cq0OzkzNEPf8tC8L]{Rare table}.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "Mkz1N3idysLPyqWK",
+          "type": "text",
+          "name": "Mob justice",
+          "description": "[[1d5+5]] (6–10) @UUID[Actor.SjTKzxCaDZ28mPmU]{Townspeople} beating 4 old-faith Fire Walker refugees. <strong>De-escalate</strong> with Persuade or Intimidate (Moderate 10, highest roll); otherwise fight the mob. Either way, the refugees join.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "nFQlDEHmwVbDvzol",
+          "type": "text",
+          "name": "Field infirmary",
+          "description": "[[1d5+1]] (2–6) wounded civilians. <strong>Resting</strong> here for 1 hour counts as a rest. <strong>Each hour, d6:</strong> on a 1–2, half a cell (Phase 1) or a Hunting party (Phases 2–3) arrives.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "qmz4vDIKAVyR3vB5",
+          "type": "text",
+          "name": "Stampede",
+          "description": "[[1d11+14]] (15–25) civilians rushing a gate. <strong>Redirect them:</strong> one PC makes a Persuade, Intimidate or Athletics check (Moderate 10), and the crowd joins. <strong>On a failure:</strong> each PC makes an Athletics check (Moderate) or takes 2d10 physical, and only 5 civilians join.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            8,
+            8
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d8",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 201,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "59VZpSnvOFeY32yQ",
+      "name": "Event: Civilians (Phase 2)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Civilians: the entries Phase 2 allows. </p>",
+      "results": [
+        {
+          "_id": "7RklcZSyDPg5jLav",
+          "type": "text",
+          "name": "Cornered",
+          "description": "Half a cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 2 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}) against [[1d6+2]] (3–8) civilians.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "FF4r8KUrLsKEDDiQ",
+          "type": "text",
+          "name": "Fellow contestants",
+          "description": "2 @UUID[Actor.dg77Fc56Gl7V86Tb]{wounded contestants}. <strong>[[1d6]]:</strong> 1–3 they join; 4–5 they share one <strong>(Hint)</strong>; 6 they're rivals who take this tile's next find and leave.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "iCCpNZhgQvB0RU0K",
+          "type": "text",
+          "name": "Field infirmary",
+          "description": "[[1d5+1]] (2–6) wounded civilians. <strong>Resting</strong> here for 1 hour counts as a rest. <strong>Each hour, d6:</strong> on a 1–2, half a cell (Phase 1) or a Hunting party (Phases 2–3) arrives.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d3",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 202,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1jhlqICaOgETZDdi",
+      "name": "Event: Civilians (Phase 3)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Civilians: the entries Phase 3 allows. </p>",
+      "results": [
+        {
+          "_id": "ZbPVbvayPYrB04LF",
+          "type": "text",
+          "name": "Field infirmary",
+          "description": "[[1d5+1]] (2–6) wounded civilians. <strong>Resting</strong> here for 1 hour counts as a rest. <strong>Each hour, d6:</strong> on a 1–2, half a cell (Phase 1) or a Hunting party (Phases 2–3) arrives.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "KR7LbC6ZXwLjMHgd",
+          "type": "text",
+          "name": "Holdouts",
+          "description": "[[1d7+3]] (4–10) civilians. They come out for a Persuade (Hard 15) or a Ration cache.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "FGSCGoUDteEn0tjv",
+          "type": "text",
+          "name": "Scavengers",
+          "description": "3 @UUID[Actor.Hk1HTtxKJDEG852o]{Bandits}. <strong>[[1d6]]:</strong> 1–2 they trade (one Loot find for shards); 3–4 they ignore the party; 5–6 they turn hostile if the party looks weak.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d3",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 203,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "a4FUj22CGVCSaFkh",
+      "name": "Event: Gray area (Phase 1)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Gray area: the entries Phase 1 allows. </p>",
+      "results": [
+        {
+          "_id": "oeh8hUSp0a4WoTC4",
+          "type": "text",
+          "name": "Rogue Omen",
+          "description": "Half a cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 2 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}) at half HP fighting 1 @UUID[Actor.hwd0fqETr9L3E3eA]{rite-born hound}. Save them and the 3 survivors surrender as civilians.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "6DCW3nAUNFUL6wMe",
+          "type": "text",
+          "name": "Under the rubble",
+          "description": "[[1d3+1]] (2–4) @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists} pinned. <strong>Freeing them:</strong> 10 minutes and an Athletics check (Moderate 10). If the party forgives them they become civilians, and on a 5–6 ([[1d6]]) they give a <strong>(Hint)</strong>.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d2",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 301,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZHgPN0GSDICrp1Qu",
+      "name": "Event: Gray area (Phase 2)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Gray area: the entries Phase 2 allows. </p>",
+      "results": [
+        {
+          "_id": "8pjKNpgECE9O7ze9",
+          "type": "text",
+          "name": "Rogue Omen",
+          "description": "Half a cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 2 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}) at half HP fighting 1 @UUID[Actor.hwd0fqETr9L3E3eA]{rite-born hound}. Save them and the 3 survivors surrender as civilians.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "5rMP7YVv16zY9hkO",
+          "type": "text",
+          "name": "Under the rubble",
+          "description": "[[1d3+1]] (2–4) @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists} pinned. <strong>Freeing them:</strong> 10 minutes and an Athletics check (Moderate 10). If the party forgives them they become civilians, and on a 5–6 ([[1d6]]) they give a <strong>(Hint)</strong>.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "zkrNSqoz66gKJAMY",
+          "type": "text",
+          "name": "Coerced",
+          "description": "A @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} with 4 coerced @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}. <strong>To turn them:</strong> kill the Leader, or Persuade the Cultists (Moderate 10, or Hard 15 while the Leader stands). They defect as civilians. In a fight they flee once any one of them drops.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "7PZyQCnF7zcKmSCV",
+          "type": "text",
+          "name": "Rite gone wrong",
+          "description": "3 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists} trapped inside a circle, taking 2d12 Supernatural each round. Break the anchor stone (40 Durability) and they become civilians.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d4",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 302,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8Saj8cK2Ja0sZAPO",
+      "name": "Event: Gray area (Phase 3)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Gray area: the entries Phase 3 allows. </p>",
+      "results": [
+        {
+          "_id": "WiO3HrmVH4UaLBZV",
+          "type": "text",
+          "name": "Under the rubble",
+          "description": "[[1d3+1]] (2–4) @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists} pinned. <strong>Freeing them:</strong> 10 minutes and an Athletics check (Moderate 10). If the party forgives them they become civilians, and on a 5–6 ([[1d6]]) they give a <strong>(Hint)</strong>.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "niEo0qeMu7I4ADLh",
+          "type": "text",
+          "name": "Abandoned cultists",
+          "description": "4 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists} at half HP and out of energy. Fight them, or take them in as civilians.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d2",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 303,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ptm3AbfOBuIyFCXV",
+      "name": "Event: Omens and Heralds (Phase 2)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Omens and Heralds: the entries Phase 2 allows. </p>",
+      "results": [
+        {
+          "_id": "vjyxBfQvIbZR5OAY",
+          "type": "text",
+          "name": "Hound pack",
+          "description": "[[1d2+2]] (3–4) @UUID[Actor.hwd0fqETr9L3E3eA]{rite-born hounds}. In Phase 3, one of them is @UUID[Actor.gleZos1yETGGKeoL]{fully grown}. Dread first.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "DSb2U5Q16FogxWIA",
+          "type": "text",
+          "name": "Herald ahead",
+          "description": "Turn back (the tile counts as failed), or sneak past using the Herald rules: every PC makes a stealth check against DC 15; smoke, an Abyss pocket or fireworks give Advantage. If anyone fails, everyone resists Fear (needing 60), and at the start of each round in its tile it makes 3 attacks (d40 against dodge) at random party members for 8d12 Supernatural each. Leaving takes the party's whole round.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "MRMENCXwADltYmxo",
+          "type": "text",
+          "name": "Herald's wake",
+          "description": "Nothing left alive. A Spot (Moderate 10) shows where the Herald went, pointing toward an active zone. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d3",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 402,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "BNJLCA5i1eikTbbe",
+      "name": "Event: Omens and Heralds (Phase 3)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Omens and Heralds: the entries Phase 3 allows. </p>",
+      "results": [
+        {
+          "_id": "2APleLqPwotPF8oP",
+          "type": "text",
+          "name": "Hound pack",
+          "description": "[[1d2+2]] (3–4) @UUID[Actor.hwd0fqETr9L3E3eA]{rite-born hounds}. In Phase 3, one of them is @UUID[Actor.gleZos1yETGGKeoL]{fully grown}. Dread first.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "AaVxobDOLCCAtICT",
+          "type": "text",
+          "name": "Herald's wake",
+          "description": "Nothing left alive. A Spot (Moderate 10) shows where the Herald went, pointing toward an active zone. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "Hacn1JyeLByKfER9",
+          "type": "text",
+          "name": "First Death Omens",
+          "description": "A forming Death Omen (an object: 60 Durability, 0 Limit). Destroy it within 2 rounds or it lopes off into the ruins.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d3",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 403,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xP2ucGnsOgJrqFTr",
+      "name": "Event: Royal Guard (Phase 2)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Royal Guard: the entries Phase 2 allows. </p>",
+      "results": [
+        {
+          "_id": "gdx6007U00BHoI3q",
+          "type": "text",
+          "name": "Guard vs. Herald",
+          "description": "Seen from a distance. A Spot (Moderate 10) notes which way the Guard came from. <strong>(Hint, toward the king)</strong> Getting closer brings the Herald's attention onto the party.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d1",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 502,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "9VGUe8XlMqW8XnfV",
+      "name": "Event: Royal Guard (Phase 3)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Royal Guard: the entries Phase 3 allows. </p>",
+      "results": [
+        {
+          "_id": "PumFqLbcQQ8gNABA",
+          "type": "text",
+          "name": "Guard's trail",
+          "description": "Following it reveals the next tile toward the cleanup member (Lancel the Wolf).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "ncvq7y1IRzMCRPRA",
+          "type": "text",
+          "name": "Guard vs. cell",
+          "description": "The cleanup member against 2 cells. He wins in 3 rounds whatever happens; each round a party member helps meaningfully earns 1 favor (3 favor and he owes the party).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "yDAlg64gM1zrSDjY",
+          "type": "text",
+          "name": "Guard with civilians",
+          "description": "The cleanup member escorting [[1d11+9]] (10–20) civilians. Taking over the escort adds them to the party's convoy and earns 1 favor.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d3",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 503,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DOlKBGQjGYoKZrZh",
+      "name": "Event: Hazards (Phase 1)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Hazards: the entries Phase 1 allows. </p>",
+      "results": [
+        {
+          "_id": "Cmbf7DvOdh9AkbDx",
+          "type": "text",
+          "name": "Spreading fire",
+          "description": "Cross at 3d10 heat each (no Ignite), or detour for 10 minutes.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "WzRNeiKyTVV5rmTJ",
+          "type": "text",
+          "name": "Smoke bank",
+          "description": "Stealth checks have Advantage. Smell checks fail, which takes away the hounds' Advantage.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "w1T5dfkDidjZQkB2",
+          "type": "text",
+          "name": "Collapsing building",
+          "description": "Each PC makes an Athletics check (Moderate 10) or takes 3d12 physical.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "gmf89QEi7sqH6YfA",
+          "type": "text",
+          "name": "Sewer breach",
+          "description": "Swim it with an Athletics check (Moderate 10; a failure costs 1/5 of max energy), or detour for 10 minutes. Following the flow points toward the nearest cistern. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "EcNj7hsq9XgcKxpE",
+          "type": "text",
+          "name": "Light blockage",
+          "description": "10 minutes to clear, or 1 hour clearing it quietly.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d5",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 601,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "9Hkc253fqOh323KT",
+      "name": "Event: Hazards (Phase 2)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Hazards: the entries Phase 2 allows. </p>",
+      "results": [
+        {
+          "_id": "b4mYEnhhSlQIo4NX",
+          "type": "text",
+          "name": "Spreading fire",
+          "description": "Cross at 3d10 heat each (no Ignite), or detour for 10 minutes.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "EjHZfPFQyG4vhPhu",
+          "type": "text",
+          "name": "Smoke bank",
+          "description": "Stealth checks have Advantage. Smell checks fail, which takes away the hounds' Advantage.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "JH82PxqOyFbkPen7",
+          "type": "text",
+          "name": "Collapsing building",
+          "description": "Each PC makes an Athletics check (Moderate 10) or takes 3d12 physical.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "RHTmtofvwqGZe77Z",
+          "type": "text",
+          "name": "Abyss pocket",
+          "description": "Heavily obscured. Nonmagical light reaches only half as far.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "s9cunP5tVj4hTlEK",
+          "type": "text",
+          "name": "Sewer breach",
+          "description": "Swim it with an Athletics check (Moderate 10; a failure costs 1/5 of max energy), or detour for 10 minutes. Following the flow points toward the nearest cistern. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "QA7lMzYKGfpAoBsh",
+          "type": "text",
+          "name": "Light blockage",
+          "description": "10 minutes to clear, or 1 hour clearing it quietly.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d6",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 602,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0jgNRrQFH1DDHJLx",
+      "name": "Event: Hazards (Phase 3)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Hazards: the entries Phase 3 allows. </p>",
+      "results": [
+        {
+          "_id": "DUND16or6YpvaENL",
+          "type": "text",
+          "name": "Collapsing building",
+          "description": "Each PC makes an Athletics check (Moderate 10) or takes 3d12 physical.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "6UZ1gjN9H6jdxh1e",
+          "type": "text",
+          "name": "Sewer breach",
+          "description": "Swim it with an Athletics check (Moderate 10; a failure costs 1/5 of max energy), or detour for 10 minutes. Following the flow points toward the nearest cistern. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "yfKj0GtQjhpBMRbQ",
+          "type": "text",
+          "name": "Light blockage",
+          "description": "10 minutes to clear, or 1 hour clearing it quietly.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d3",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 603,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dQgwEbZv9POo15Ac",
+      "name": "Event: Wilderness (Phase 1)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Wilderness: the entries Phase 1 allows. </p>",
+      "results": [
+        {
+          "_id": "B2yuVWGczhWNaKJR",
+          "type": "text",
+          "name": "Refugee column",
+          "description": "[[1d11+9]] (10–20) civilians.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "EJZ5LTS3hvmled2F",
+          "type": "text",
+          "name": "Cult outriders",
+          "description": "Half a cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 2 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "BHVYK5Fy3HMvGKBT",
+          "type": "text",
+          "name": "Empty caravan",
+          "description": "Works like a Fallen cultist's kit (robes, chalk and the day's password). Also a <strong>(Hint, toward a zone)</strong>.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d3",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 701,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "J2lDCVV6I8CvZ4eG",
+      "name": "Event: Wilderness (Phase 2)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Wilderness: the entries Phase 2 allows. </p>",
+      "results": [
+        {
+          "_id": "fTXfjoqOgEoQOxCH",
+          "type": "text",
+          "name": "Refugee column",
+          "description": "[[1d11+9]] (10–20) civilians.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "ywagubHPx8SUac7k",
+          "type": "text",
+          "name": "Cult outriders",
+          "description": "Half a cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 2 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "Kojwjx9IyOy0gATB",
+          "type": "text",
+          "name": "Stray hound",
+          "description": "1 @UUID[Actor.hwd0fqETr9L3E3eA]{rite-born hound}.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "2Dkd15e6tTGpYiLH",
+          "type": "text",
+          "name": "Opportunists",
+          "description": "3 @UUID[Actor.Hk1HTtxKJDEG852o]{Bandits}.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d4",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 702,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HohPPg4RFL7WvtxU",
+      "name": "Event: Wilderness (Phase 3)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Event: Wilderness: the entries Phase 3 allows. </p>",
+      "results": [
+        {
+          "_id": "nf7n3Q460LGaSvnO",
+          "type": "text",
+          "name": "Refugee column",
+          "description": "[[1d11+9]] (10–20) civilians.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "ngDvQqUrJuxiqNmg",
+          "type": "text",
+          "name": "Stray hound",
+          "description": "1 @UUID[Actor.hwd0fqETr9L3E3eA]{rite-born hound}.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "6tZOQE4UF3o8OZW4",
+          "type": "text",
+          "name": "Opportunists",
+          "description": "3 @UUID[Actor.Hk1HTtxKJDEG852o]{Bandits}.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d3",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "ZIkveofxfsE5345i",
+      "sort": 703,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "aCbUSDWtccf1SID5",
+      "name": "Find: Civilians (Phase 1)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Find: Civilians: the entries Phase 1 allows. </p>",
+      "results": [
+        {
+          "_id": "0nBxCTBdnWtqpMtE",
+          "type": "text",
+          "name": "Cellar family",
+          "description": "[[1d5+1]] (2–6) civilians.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "uSwDzSY26osLQmoJ",
+          "type": "text",
+          "name": "Lost child",
+          "description": "1 civilian. The parents are in an adjacent tile, found with a search there.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "KBfkr2GhCS1j0CPi",
+          "type": "text",
+          "name": "Goblin trader",
+          "description": "Escort him to a cistern or the walls and he gives two items of the party's choice from his stock: 1 @UUID[Compendium.flowstate.consumables.Item.wbDU6cAiDVMT8uUc]{Health Potion}, a Goblin import crate (@UUID[RollTable.aWbqHBfc13f9QHRR]{see Loot}), a tool chest, or lanterns and oil.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "7dfEXpQQC6wVB4O9",
+          "type": "text",
+          "name": "Dying guard",
+          "description": "<strong>(Hint, toward the king)</strong> In Phase 3, toward the cleanup member instead.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "us54B4fiK71gx2F7",
+          "type": "text",
+          "name": "Hidden survivors",
+          "description": "[[1d6+2]] (3–8) civilians.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "y87IHRlz5vdYZWAG",
+          "type": "text",
+          "name": "Attic musicians",
+          "description": "[[1d3+1]] (2–4) civilians. Once, their horn can call a Cellar family or Hidden survivors from an adjacent tile to the party.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "pcSfDejSTTfCdbqU",
+          "type": "text",
+          "name": "Glassblower and apprentices",
+          "description": "3 civilians. <strong>(Hint, toward a cistern)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "rxlCxRkMPeGr2x9z",
+          "type": "text",
+          "name": "Wounded contestant",
+          "description": "A @UUID[Actor.dg77Fc56Gl7V86Tb]{wounded contestant}. Fights alongside the party once healed.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            8,
+            8
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "KCEGxxq89iBeUeEP",
+          "type": "text",
+          "name": "Old-faith shrine",
+          "description": "A Guiding Flame priest (Brother Septimar) and [[1d7+3]] (4–10) civilians, who leave only with the priest.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            9,
+            9
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "EUtxw5OFHF0TKt74",
+          "type": "text",
+          "name": "Caravan master",
+          "description": "1 civilian and a cart that carries 6 civilians without them counting toward the band.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            10,
+            10
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "BbFCcxW5NvRMnxsj",
+          "type": "text",
+          "name": "Locked-in clerks",
+          "description": "4 civilians. The next Guild strongbox opens without a check.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            11,
+            11
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "GFY6KHR7iobqEsQs",
+          "type": "text",
+          "name": "Old soldier",
+          "description": "An @UUID[Actor.ESMNEK0yzeI7Btua]{Old Soldier}. Joins on a Persuade (Hard 15); mentioning the peninsula gives Advantage.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            12,
+            12
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "vWTzgClCgBM1IZSU",
+          "type": "text",
+          "name": "Rite survivor",
+          "description": "1 civilian. <strong>(Hint, toward the nearest small circle)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            13,
+            13
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d13",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "EUd9WHQB18019L8e",
+      "sort": 101,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0DPHoC5b5ch48P4l",
+      "name": "Find: Civilians (Phase 2)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Find: Civilians: the entries Phase 2 allows. </p>",
+      "results": [
+        {
+          "_id": "dAi1KF8T81vg1NOu",
+          "type": "text",
+          "name": "Cellar family",
+          "description": "[[1d5+1]] (2–6) civilians.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "KegXrPpMvjJUD1h1",
+          "type": "text",
+          "name": "Lost child",
+          "description": "1 civilian. The parents are in an adjacent tile, found with a search there.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "tqDax7AHqAEDFGi9",
+          "type": "text",
+          "name": "Goblin trader",
+          "description": "Escort him to a cistern or the walls and he gives two items of the party's choice from his stock: 1 @UUID[Compendium.flowstate.consumables.Item.wbDU6cAiDVMT8uUc]{Health Potion}, a Goblin import crate (@UUID[RollTable.aWbqHBfc13f9QHRR]{see Loot}), a tool chest, or lanterns and oil.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "vsw4PFw8eMFNYPOR",
+          "type": "text",
+          "name": "Dying guard",
+          "description": "<strong>(Hint, toward the king)</strong> In Phase 3, toward the cleanup member instead.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "dCCwndRYPW71KUUh",
+          "type": "text",
+          "name": "Hidden survivors",
+          "description": "[[1d6+2]] (3–8) civilians.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "LyY4nMesC6aqrBRW",
+          "type": "text",
+          "name": "Attic musicians",
+          "description": "[[1d3+1]] (2–4) civilians. Once, their horn can call a Cellar family or Hidden survivors from an adjacent tile to the party.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "EdbXS7tHBwVt7M51",
+          "type": "text",
+          "name": "Glassblower and apprentices",
+          "description": "3 civilians. <strong>(Hint, toward a cistern)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "CNFg4TtnyDal45NK",
+          "type": "text",
+          "name": "Wounded contestant",
+          "description": "A @UUID[Actor.dg77Fc56Gl7V86Tb]{wounded contestant}. Fights alongside the party once healed.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            8,
+            8
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "sDFWr3FEmGlBwtMv",
+          "type": "text",
+          "name": "Old-faith shrine",
+          "description": "A Guiding Flame priest (Brother Septimar) and [[1d7+3]] (4–10) civilians, who leave only with the priest.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            9,
+            9
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "2SkOeqrKYhJBDlwJ",
+          "type": "text",
+          "name": "Caravan master",
+          "description": "1 civilian and a cart that carries 6 civilians without them counting toward the band.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            10,
+            10
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "jY6AatVVEKLDoxog",
+          "type": "text",
+          "name": "Locked-in clerks",
+          "description": "4 civilians. The next Guild strongbox opens without a check.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            11,
+            11
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "4oYEUeX5o1uHitqE",
+          "type": "text",
+          "name": "Twins in a well",
+          "description": "2 civilians. Rope gets them out in 10 minutes, or an Athletics check (Moderate 10).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            12,
+            12
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "RtNUDulT5uB1uYhg",
+          "type": "text",
+          "name": "Old soldier",
+          "description": "An @UUID[Actor.ESMNEK0yzeI7Btua]{Old Soldier}. Joins on a Persuade (Hard 15); mentioning the peninsula gives Advantage.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            13,
+            13
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "ssqGEthfJfEF6l7R",
+          "type": "text",
+          "name": "Rite survivor",
+          "description": "1 civilian. <strong>(Hint, toward the nearest small circle)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            14,
+            14
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d14",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "EUd9WHQB18019L8e",
+      "sort": 102,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "MLlIk7Sse0Mb0vXL",
+      "name": "Find: Civilians (Phase 3)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Find: Civilians: the entries Phase 3 allows. </p>",
+      "results": [
+        {
+          "_id": "nfoIzcpIJ7pHFYZ5",
+          "type": "text",
+          "name": "Cellar family",
+          "description": "[[1d5+1]] (2–6) civilians.<br><em>Phase 3: they're alive only on a 1 ([[1d3]]).</em>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "zmcWPqcC4Bd79Wy3",
+          "type": "text",
+          "name": "Dying guard",
+          "description": "<strong>(Hint, toward the king)</strong> In Phase 3, toward the cleanup member instead.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "0XRJdzuzASmD92gU",
+          "type": "text",
+          "name": "Hidden survivors",
+          "description": "[[1d6+2]] (3–8) civilians.<br><em>Phase 3: they're alive only on a 1 ([[1d3]]).</em>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "bPQoL8PD1tD5YAtG",
+          "type": "text",
+          "name": "Old-faith shrine",
+          "description": "A Guiding Flame priest (Brother Septimar) and [[1d7+3]] (4–10) civilians, who leave only with the priest.<br><em>Phase 3: they're alive only on a 1 ([[1d3]]).</em>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "kcCDgZwrfin2K6nH",
+          "type": "text",
+          "name": "Twins in a well",
+          "description": "2 civilians. Rope gets them out in 10 minutes, or an Athletics check (Moderate 10).<br><em>Phase 3: they're alive only on a 1 ([[1d3]]).</em>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "vkITHQimruy8HuLO",
+          "type": "text",
+          "name": "Old soldier",
+          "description": "An @UUID[Actor.ESMNEK0yzeI7Btua]{Old Soldier}. Joins on a Persuade (Hard 15); mentioning the peninsula gives Advantage.<br><em>Phase 3: they're alive only on a 1 ([[1d3]]).</em>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d6",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "EUd9WHQB18019L8e",
+      "sort": 103,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IGZDW0Uapr84PG1O",
+      "name": "Find: Intel (Phase 1)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Find: Intel: the entries Phase 1 allows. </p>",
+      "results": [
+        {
+          "_id": "zBjUF87Gatsvya4C",
+          "type": "text",
+          "name": "Runner",
+          "description": "A @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultist} who bolts. <strong>Catching him:</strong> an Athletics check (Moderate 10) or dropping him to his PT of 49. <strong>(Hint, toward the nearest zone or circle)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "Gwv5pAIri2C0Li9G",
+          "type": "text",
+          "name": "Deserter",
+          "description": "A @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultist} who knows where the Cell Master is. <strong>(Hint)</strong> Becomes a civilian.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "sJDTcrDC5uqQVU7M",
+          "type": "text",
+          "name": "Body with orders",
+          "description": "Names one zone or circle tile. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "ik7um4mnO2FlM73j",
+          "type": "text",
+          "name": "Notice board",
+          "description": "<strong>(Hint, toward the town square and Town Hall)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "2X4AqK04vWCc9s5H",
+          "type": "text",
+          "name": "Guard post map",
+          "description": "Marks 2 cisterns, one of them the king's. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "NaWjJN28Fin5HTa1",
+          "type": "text",
+          "name": "Waterworks office",
+          "description": "Shows where all four cisterns are. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "wcaLbgw96uXGgYa0",
+          "type": "text",
+          "name": "Cult ledger",
+          "description": "Names the circle that activates next. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "SXVobAXXrdu2qt83",
+          "type": "text",
+          "name": "Guard chalk marks",
+          "description": "Point toward the barracks. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            8,
+            8
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "YVtcXRqZVPcyESKu",
+          "type": "text",
+          "name": "Procession poster",
+          "description": "A false lead toward where the king's double was last seen.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            9,
+            9
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "oeTYckiT11LRcGVA",
+          "type": "text",
+          "name": "Rune-cut bodies",
+          "description": "A Spirit Sense or rune-lore check (Moderate 10) halves the time to scrub a circle, to 10 minutes.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            10,
+            10
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "8s8Apj6o9rtsdBEm",
+          "type": "text",
+          "name": "Teleport scorch",
+          "description": "<strong>(Hint, toward the king)</strong> Rare.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            11,
+            11
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "lGUxpF8vwPbEMvdM",
+          "type": "text",
+          "name": "Sympathizer's letter",
+          "description": "Evidence that an Elven official (Councilor Elarion Vael) helped the Maw. A long-term hook.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            12,
+            12
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d12",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "EUd9WHQB18019L8e",
+      "sort": 201,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "pLiCNkKD1vO5JQeN",
+      "name": "Find: Intel (Phase 2)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Find: Intel: the entries Phase 2 allows. </p>",
+      "results": [
+        {
+          "_id": "wWcb4v3MK8sFKmhi",
+          "type": "text",
+          "name": "Runner",
+          "description": "A @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultist} who bolts. <strong>Catching him:</strong> an Athletics check (Moderate 10) or dropping him to his PT of 49. <strong>(Hint, toward the nearest zone or circle)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "tCrBFw44LR9qylMq",
+          "type": "text",
+          "name": "Deserter",
+          "description": "A @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultist} who knows where the Cell Master is. <strong>(Hint)</strong> Becomes a civilian.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "q5mGGuKfPLqzS8Vf",
+          "type": "text",
+          "name": "Body with orders",
+          "description": "Names one zone or circle tile. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "oRJNbp35ivWlWDAB",
+          "type": "text",
+          "name": "Guard post map",
+          "description": "Marks 2 cisterns, one of them the king's. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "e9l9fE2NikHpohf7",
+          "type": "text",
+          "name": "Waterworks office",
+          "description": "Shows where all four cisterns are. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "PqBcjBKwZEm0aYyk",
+          "type": "text",
+          "name": "Cult ledger",
+          "description": "Names the circle that activates next. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "5vgJuOKCEItywReX",
+          "type": "text",
+          "name": "Guard chalk marks",
+          "description": "Point toward the barracks. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "WWGC6vpmVdtnpFoF",
+          "type": "text",
+          "name": "Echoing chant",
+          "description": "A Hearing check (Moderate 10) gives the direction of the nearest zone. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            8,
+            8
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "pRqivl3tWweTp3No",
+          "type": "text",
+          "name": "Rune-cut bodies",
+          "description": "A Spirit Sense or rune-lore check (Moderate 10) halves the time to scrub a circle, to 10 minutes.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            9,
+            9
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "69NtRpviAFgyHZhn",
+          "type": "text",
+          "name": "Teleport scorch",
+          "description": "<strong>(Hint, toward the king)</strong> Rare.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            10,
+            10
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "jhqviWnX4mZL47Yq",
+          "type": "text",
+          "name": "Sympathizer's letter",
+          "description": "Evidence that an Elven official (Councilor Elarion Vael) helped the Maw. A long-term hook.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            11,
+            11
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d11",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "EUd9WHQB18019L8e",
+      "sort": 202,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OQMnXyxzgVO3Xdw1",
+      "name": "Find: Intel (Phase 3)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Find: Intel: the entries Phase 3 allows. </p>",
+      "results": [
+        {
+          "_id": "M3e0koguZxwhvXf4",
+          "type": "text",
+          "name": "Guard post map",
+          "description": "Marks 2 cisterns, one of them the king's. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "xx3TNf7ubYBAAEYA",
+          "type": "text",
+          "name": "Waterworks office",
+          "description": "Shows where all four cisterns are. <strong>(Hint)</strong>",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "5AMwl6LHidq6gKTG",
+          "type": "text",
+          "name": "Sympathizer's letter",
+          "description": "Evidence that an Elven official (Councilor Elarion Vael) helped the Maw. A long-term hook.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d3",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "EUd9WHQB18019L8e",
+      "sort": 203,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HsU7zQBDNifPdDGL",
+      "name": "Find: Loot (Phase 1)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Find: Loot: the entries Phase 1 allows. Results with their own table are drawn automatically.</p>",
+      "results": [
+        {
+          "_id": "NIlO6JT8TEjPm5sH",
+          "type": "document",
+          "name": "Festival stalls",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.xF8V00fmTIldvBxb",
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "DaFCkNiaxIqpUSQE",
+          "type": "document",
+          "name": "Guard post armory",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.OlfFEzoovKhgUNpp",
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "NMx9uxcbqjSqycz1",
+          "type": "text",
+          "name": "Guild strongbox",
+          "description": "Pick (Hard 15) or break it (40 Durability, 8 Limit). Holds [[3d10*10]] shards and one roll on the @UUID[RollTable.cq0OzkzNEPf8tC8L]{Rare table}.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "yG7YPmgKlw98SL0H",
+          "type": "document",
+          "name": "Healer's satchel",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.aChXFux4Gt9Huo9f",
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "p2pfxdHS602mxIXh",
+          "type": "text",
+          "name": "Jeweler's case",
+          "description": "[[1d2]] affix gems. Roll @UUID[RollTable.Uw6GfMYQ8F6RbxKI]{Jeweler's case} for each.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "pxAeLtLlk2z5AusP",
+          "type": "document",
+          "name": "Temple reliquary",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.jbJQTRLo2OreSFpK",
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "yk2a9a2tEnALrWcH",
+          "type": "document",
+          "name": "Mage's study",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.V1STes7RGYO78cHK",
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "MvwvLFMAYiHcasrU",
+          "type": "document",
+          "name": "Goblin import crate",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.aWbqHBfc13f9QHRR",
+          "weight": 1,
+          "range": [
+            8,
+            8
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "DtSx5XGfpvUvhCOO",
+          "type": "text",
+          "name": "Fallen cultist's kit",
+          "description": "Robes, chalk and the day's password. Advantage on disguises, and passes a Checkpoint.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            9,
+            9
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "trivTFllnhiLy9NL",
+          "type": "text",
+          "name": "Festival fireworks",
+          "description": "Single use, thrown into an adjacent tile: its hostiles turn toward the noise, and the party enters with a surprise round.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            10,
+            10
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "ZJ52ZbZb8sWesPtG",
+          "type": "text",
+          "name": "Ration cache",
+          "description": "Rations for 10 people. Opens the Holdouts without a check.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            11,
+            11
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "qjjhAyUxQchZxEJb",
+          "type": "text",
+          "name": "Shard purse",
+          "description": "[[2d10*5]] shards (bread costs 5).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            12,
+            12
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "LPFt3BDNTETXaiRe",
+          "type": "text",
+          "name": "Tool chest",
+          "description": "Advantage on Athletics checks, and blockages clear 10 minutes faster.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            13,
+            13
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "qDrp9sYIKU5aM8rS",
+          "type": "text",
+          "name": "Lanterns and oil",
+          "description": "Pushes back an Abyss pocket.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            14,
+            14
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "KjrkiGRai0EA956D",
+          "type": "document",
+          "name": "Apothecary shelf",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.ehYzI5UyCQOc1ebt",
+          "weight": 1,
+          "range": [
+            15,
+            15
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d15",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "EUd9WHQB18019L8e",
+      "sort": 301,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sfNjTDL3fC4Agrgt",
+      "name": "Find: Loot (Phase 2)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Find: Loot: the entries Phase 2 allows. Results with their own table are drawn automatically.</p>",
+      "results": [
+        {
+          "_id": "3lAlAiWZPJZaSoMR",
+          "type": "document",
+          "name": "Festival stalls",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.xF8V00fmTIldvBxb",
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "h9dmW5pYNoneN0W7",
+          "type": "document",
+          "name": "Guard post armory",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.OlfFEzoovKhgUNpp",
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "ZbF47YieFT4dJFKe",
+          "type": "text",
+          "name": "Guild strongbox",
+          "description": "Pick (Hard 15) or break it (40 Durability, 8 Limit). Holds [[3d10*10]] shards and one roll on the @UUID[RollTable.cq0OzkzNEPf8tC8L]{Rare table}.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "dpxF5HCrNL6DXvae",
+          "type": "document",
+          "name": "Healer's satchel",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.aChXFux4Gt9Huo9f",
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "mnTM6t24xsan6N3W",
+          "type": "text",
+          "name": "Jeweler's case",
+          "description": "[[1d2]] affix gems. Roll @UUID[RollTable.Uw6GfMYQ8F6RbxKI]{Jeweler's case} for each.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "1pYdhfmC89JAYby5",
+          "type": "document",
+          "name": "Temple reliquary",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.jbJQTRLo2OreSFpK",
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "6LP0y8En6J4q6iQf",
+          "type": "document",
+          "name": "Mage's study",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.V1STes7RGYO78cHK",
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "3LpJD6ISKVQWkg6Y",
+          "type": "document",
+          "name": "Goblin import crate",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.aWbqHBfc13f9QHRR",
+          "weight": 1,
+          "range": [
+            8,
+            8
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "HoH7KidZ1zydOjcF",
+          "type": "text",
+          "name": "Fallen cultist's kit",
+          "description": "Robes, chalk and the day's password. Advantage on disguises, and passes a Checkpoint.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            9,
+            9
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "fmkQAT1fWg3Qotb5",
+          "type": "text",
+          "name": "Omen remains",
+          "description": "A Dark fragment, a rare material.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            10,
+            10
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "9kZKMuGxOLdJtBGE",
+          "type": "text",
+          "name": "Festival fireworks",
+          "description": "Single use, thrown into an adjacent tile: its hostiles turn toward the noise, and the party enters with a surprise round.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            11,
+            11
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "ZoHMqKeG0gmbEGHF",
+          "type": "text",
+          "name": "Ration cache",
+          "description": "Rations for 10 people. Opens the Holdouts without a check.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            12,
+            12
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "Cl3LcRkd71Uf2gA2",
+          "type": "text",
+          "name": "Shard purse",
+          "description": "[[2d10*5]] shards (bread costs 5).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            13,
+            13
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "L4lb8hSsq0j31FQG",
+          "type": "text",
+          "name": "Tool chest",
+          "description": "Advantage on Athletics checks, and blockages clear 10 minutes faster.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            14,
+            14
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "S2tzka5Jt1pv32zu",
+          "type": "text",
+          "name": "Lanterns and oil",
+          "description": "Pushes back an Abyss pocket.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            15,
+            15
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "9E6cLF8zFwzHoCla",
+          "type": "document",
+          "name": "Apothecary shelf",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.ehYzI5UyCQOc1ebt",
+          "weight": 1,
+          "range": [
+            16,
+            16
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d16",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "EUd9WHQB18019L8e",
+      "sort": 302,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "YlRIJPcviLOTqCEm",
+      "name": "Find: Loot (Phase 3)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Find: Loot: the entries Phase 3 allows. Results with their own table are drawn automatically.</p>",
+      "results": [
+        {
+          "_id": "p68HlEepKKzB7Mqz",
+          "type": "document",
+          "name": "Guard post armory",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.OlfFEzoovKhgUNpp",
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "jPNWllYm3BJTCU7g",
+          "type": "text",
+          "name": "Guild strongbox",
+          "description": "Pick (Hard 15) or break it (40 Durability, 8 Limit). Holds [[3d10*10]] shards and one roll on the @UUID[RollTable.cq0OzkzNEPf8tC8L]{Rare table}.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "PGxQOFvfDOgmjMjl",
+          "type": "document",
+          "name": "Healer's satchel",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.aChXFux4Gt9Huo9f",
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "BtNo4kHVypEQI3KA",
+          "type": "document",
+          "name": "Temple reliquary",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.jbJQTRLo2OreSFpK",
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "HPrqCYdr3K9WfCev",
+          "type": "text",
+          "name": "Fallen cultist's kit",
+          "description": "Robes, chalk and the day's password. Advantage on disguises, and passes a Checkpoint.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "QCEaFmDNdKoh1DTV",
+          "type": "text",
+          "name": "Omen remains",
+          "description": "A Dark fragment, a rare material.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "HartBRFlg18jqa2u",
+          "type": "text",
+          "name": "Ration cache",
+          "description": "Rations for 10 people. Opens the Holdouts without a check.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "DxqdW9Om9ZT5WX3O",
+          "type": "text",
+          "name": "Shard purse",
+          "description": "[[2d10*5]] shards (bread costs 5).",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            8,
+            8
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "Ix8n9tmHN7ITTDSx",
+          "type": "text",
+          "name": "Tool chest",
+          "description": "Advantage on Athletics checks, and blockages clear 10 minutes faster.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            9,
+            9
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "7fSBceLAFEyMnkBT",
+          "type": "text",
+          "name": "Lanterns and oil",
+          "description": "Pushes back an Abyss pocket.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            10,
+            10
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d10",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "EUd9WHQB18019L8e",
+      "sort": 303,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7AEaXrWgd3yyHddx",
+      "name": "Find: Danger (Phase 1)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Find: Danger: the entries Phase 1 allows. </p>",
+      "results": [
+        {
+          "_id": "5C6SoRB83hES29gZ",
+          "type": "text",
+          "name": "Hidden cell",
+          "description": "A cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 4 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}). The party's highest Spot against the Leader's stealth (d15); the winner gets a surprise round.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "xTqdoLLFBzcLGCcy",
+          "type": "text",
+          "name": "Unstable floor",
+          "description": "The searcher makes an Athletics check (Moderate 10) or falls into a cellar for 2d10 physical, and 10 minutes to climb out.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "iotBEKkZeaCmFOU7",
+          "type": "text",
+          "name": "Smoke-filled cellar",
+          "description": "Each searcher makes an Athletics check (Moderate 10) or loses 1/5 of max energy.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "w7p4RkfAhCW5gwhl",
+          "type": "text",
+          "name": "Glyphed door",
+          "description": "<strong>Noticing it:</strong> a Spot (Hard 15). <strong>Disarming:</strong> a rune-lore check (Moderate 10). <strong>If it triggers:</strong> 3d10 Supernatural to whoever opened it.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "3K5jWFGRbkYmWpaF",
+          "type": "text",
+          "name": "Frightened civilian",
+          "description": "A @UUID[Actor.SjTKzxCaDZ28mPmU]{Townsperson} with a knife. A Persuade (Moderate 10) calms them, and they're 1 civilian.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d5",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "EUd9WHQB18019L8e",
+      "sort": 401,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "B0hhXpB2s3nBvvIn",
+      "name": "Find: Danger (Phase 2)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Find: Danger: the entries Phase 2 allows. </p>",
+      "results": [
+        {
+          "_id": "hE9ztoCnDEGyqpa4",
+          "type": "text",
+          "name": "Whelping ground",
+          "description": "A half-formed @UUID[Actor.hwd0fqETr9L3E3eA]{rite-born hound}. Destroy it now, or it's a full hound here next hour.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "3rAempeDJPqWMsup",
+          "type": "text",
+          "name": "Hidden cell",
+          "description": "A cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 4 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}). The party's highest Spot against the Leader's stealth (d15); the winner gets a surprise round.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "SFVG6gXSSnCpH8L2",
+          "type": "text",
+          "name": "Unstable floor",
+          "description": "The searcher makes an Athletics check (Moderate 10) or falls into a cellar for 2d10 physical, and 10 minutes to climb out.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "jG8nbGazCLoTHpRl",
+          "type": "text",
+          "name": "Smoke-filled cellar",
+          "description": "Each searcher makes an Athletics check (Moderate 10) or loses 1/5 of max energy.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "Xzk8rbqnHgDr3scB",
+          "type": "text",
+          "name": "Glyphed door",
+          "description": "<strong>Noticing it:</strong> a Spot (Hard 15). <strong>Disarming:</strong> a rune-lore check (Moderate 10). <strong>If it triggers:</strong> 3d10 Supernatural to whoever opened it.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "ayNp5U3wSdcdIGgC",
+          "type": "text",
+          "name": "Lurking hound",
+          "description": "1 @UUID[Actor.hwd0fqETr9L3E3eA]{rite-born hound}, with Dread.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "bZNSHaTUrKM3gxXA",
+          "type": "text",
+          "name": "Frightened civilian",
+          "description": "A @UUID[Actor.SjTKzxCaDZ28mPmU]{Townsperson} with a knife. A Persuade (Moderate 10) calms them, and they're 1 civilian.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "njWFKZ6xFbHUlpXX",
+          "type": "text",
+          "name": "Collapsing upper floor",
+          "description": "Everyone inside makes an Athletics check (Moderate 10) or takes 3d10 physical.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            8,
+            8
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "0OJmC9fywHBeiWGZ",
+          "type": "text",
+          "name": "Sentry with horn",
+          "description": "A @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultist}. To silence him: win a Spot against his stealth (d10), then drop him below his PT of 49 that round. Otherwise the next tile's event is a Hunting party.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            9,
+            9
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "Iwyu79xeXBdAlpTi",
+          "type": "text",
+          "name": "Dormant circle",
+          "description": "Resist Fear (needing 30), or take 2d12 Supernatural.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            10,
+            10
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d10",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "EUd9WHQB18019L8e",
+      "sort": 402,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "vyq0l6KK2VdmqBWP",
+      "name": "Find: Danger (Phase 3)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Find: Danger: the entries Phase 3 allows. </p>",
+      "results": [
+        {
+          "_id": "on7D6TCsMVICn2CN",
+          "type": "text",
+          "name": "Whelping ground",
+          "description": "A half-formed @UUID[Actor.hwd0fqETr9L3E3eA]{rite-born hound}. Destroy it now, or it's a full hound here next hour.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "xexgH46Yt1uA2oTF",
+          "type": "text",
+          "name": "Hidden cell",
+          "description": "A cell (1 @UUID[Actor.A2DZJQtrTJLTjjYB]{Cell Leader} and 4 @UUID[Actor.dOvHCFwJcyLGs3MY]{Maw Cultists}). The party's highest Spot against the Leader's stealth (d15); the winner gets a surprise round.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "1LklQd33H1HXLs7x",
+          "type": "text",
+          "name": "Unstable floor",
+          "description": "The searcher makes an Athletics check (Moderate 10) or falls into a cellar for 2d10 physical, and 10 minutes to climb out.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "l2DLH2DzjMD0d3zR",
+          "type": "text",
+          "name": "Lurking hound",
+          "description": "1 @UUID[Actor.hwd0fqETr9L3E3eA]{rite-born hound}, with Dread.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "0NQVPO363SANZYJv",
+          "type": "text",
+          "name": "Collapsing upper floor",
+          "description": "Everyone inside makes an Athletics check (Moderate 10) or takes 3d10 physical.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "i72ffynu9HfToTao",
+          "type": "text",
+          "name": "Dormant circle",
+          "description": "Resist Fear (needing 30), or take 2d12 Supernatural.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "HRD8Fc7CduuCxp4W",
+          "type": "text",
+          "name": "Claim-jumpers",
+          "description": "3 hostile @UUID[Actor.Hk1HTtxKJDEG852o]{Bandits}.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d7",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "EUd9WHQB18019L8e",
+      "sort": 403,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xF8V00fmTIldvBxb",
+      "name": "Loot: Festival stalls",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "results": [
+        {
+          "_id": "8tNVrSUgyPgjGgUu",
+          "type": "text",
+          "name": "Rations",
+          "description": "Enough for the Holdouts.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "4OkyfgIp7eMCi0tT",
+          "type": "text",
+          "name": "Rope and grapnel",
+          "description": "",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "3eUmBpYb6Fv1kY5N",
+          "type": "text",
+          "name": "Lantern",
+          "description": "",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "0LieewUhnECn9lP5",
+          "type": "text",
+          "name": "Shards",
+          "description": "[[2d10]] shards.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "LaLrdebXoggg96JF",
+          "type": "text",
+          "name": "Festival mask",
+          "description": "Advantage on one disguise.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "yCDtRmY7AaRbohf4",
+          "type": "document",
+          "name": "Lesser Energy Potion",
+          "description": "",
+          "img": "icons/consumables/potions/potion-tube-corked-blue.webp",
+          "documentUuid": "Compendium.flowstate.consumables.Item.Ig9OSD49U25tl2p6",
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d6",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "swTQGb5m444L8AaA",
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OlfFEzoovKhgUNpp",
+      "name": "Loot: Guard post armory",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "results": [
+        {
+          "_id": "DKkfdHhmEFeMyaAN",
+          "type": "text",
+          "name": "Common weapon",
+          "description": "Grade 5, of a type the party chooses.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 2,
+          "range": [
+            1,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "LbB25GlbB6EilA8V",
+          "type": "text",
+          "name": "Common armor",
+          "description": "Grade 5.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "9BS9G7kdC3ztVPwc",
+          "type": "text",
+          "name": "Defender shield",
+          "description": "Grade 5.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "hDzYybAvLYVC2RHo",
+          "type": "text",
+          "name": "Ammunition",
+          "description": "20 ammunition.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "MPWzcbYYVcgtDWlp",
+          "type": "text",
+          "name": "Roll twice",
+          "description": "Draw twice more on @UUID[RollTable.OlfFEzoovKhgUNpp]{this table}.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d6",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "swTQGb5m444L8AaA",
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "aChXFux4Gt9Huo9f",
+      "name": "Loot: Healer's satchel",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>1 potion. Drag it from the chat card onto a character sheet.</p>",
+      "results": [
+        {
+          "_id": "HGhCUEjACdYRKeVs",
+          "type": "document",
+          "name": "Lesser Health Potion",
+          "description": "",
+          "img": "icons/consumables/potions/potion-tube-corked-red.webp",
+          "documentUuid": "Compendium.flowstate.consumables.Item.Swn8RE7lV17Uo7DH",
+          "weight": 3,
+          "range": [
+            1,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "jKZFcCYZINP1BAM9",
+          "type": "document",
+          "name": "Health Potion",
+          "description": "",
+          "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+          "documentUuid": "Compendium.flowstate.consumables.Item.wbDU6cAiDVMT8uUc",
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "2hi822i4G39EIG1X",
+          "type": "document",
+          "name": "Lesser Energy Potion",
+          "description": "",
+          "img": "icons/consumables/potions/potion-tube-corked-blue.webp",
+          "documentUuid": "Compendium.flowstate.consumables.Item.Ig9OSD49U25tl2p6",
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "mITBbfGuulBXvVsv",
+          "type": "document",
+          "name": "Energy Potion",
+          "description": "",
+          "img": "icons/consumables/potions/bottle-round-corked-blue.webp",
+          "documentUuid": "Compendium.flowstate.consumables.Item.HKqSsQO4phLodGvO",
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d6",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "swTQGb5m444L8AaA",
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ehYzI5UyCQOc1ebt",
+      "name": "Loot: Apothecary shelf",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "results": [
+        {
+          "_id": "7dUhgOiphrW0M69p",
+          "type": "document",
+          "name": "Health Potion",
+          "description": "",
+          "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+          "documentUuid": "Compendium.flowstate.consumables.Item.wbDU6cAiDVMT8uUc",
+          "weight": 2,
+          "range": [
+            1,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "VZWYmhc6CHSC54bp",
+          "type": "document",
+          "name": "Energy Potion",
+          "description": "",
+          "img": "icons/consumables/potions/bottle-round-corked-blue.webp",
+          "documentUuid": "Compendium.flowstate.consumables.Item.HKqSsQO4phLodGvO",
+          "weight": 2,
+          "range": [
+            3,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "BgmIRFsKU38UJQjO",
+          "type": "text",
+          "name": "Two Lesser potions",
+          "description": "One @UUID[Compendium.flowstate.consumables.Item.Swn8RE7lV17Uo7DH]{Lesser Health Potion} and one @UUID[Compendium.flowstate.consumables.Item.Ig9OSD49U25tl2p6]{Lesser Energy Potion}.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "QzsU2lDCqCs8izMW",
+          "type": "text",
+          "name": "A Greater potion",
+          "description": "[[1d2]]: 1 a @UUID[Compendium.flowstate.consumables.Item.rxFMJfAarDLGiIeR]{Greater Health Potion}, 2 a @UUID[Compendium.flowstate.consumables.Item.633WWXQwQp1bay21]{Greater Energy Potion}.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d6",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "swTQGb5m444L8AaA",
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Uw6GfMYQ8F6RbxKI",
+      "name": "Loot: Jeweler's case",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>Draw once per gem in the case (1–2).</p>",
+      "results": [
+        {
+          "_id": "qjQKRRnfgLg5ClET",
+          "type": "document",
+          "name": "Common affix gem",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.Kwp6un58GtHGSWRu",
+          "weight": 4,
+          "range": [
+            1,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "vCglJ5EiCW3noYwt",
+          "type": "document",
+          "name": "Uncommon affix gem",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.tRnk02qHwxbzNdvq",
+          "weight": 2,
+          "range": [
+            5,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d6",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "swTQGb5m444L8AaA",
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jbJQTRLo2OreSFpK",
+      "name": "Loot: Temple reliquary",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "<p>A Common Icon, Grade 5: set its Grade to 5 once it's on the sheet.</p>",
+      "results": [
+        {
+          "_id": "trOwIqCvO1ByxiBo",
+          "type": "document",
+          "name": "Aegis (Icon)",
+          "description": "",
+          "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+          "documentUuid": "Compendium.flowstate.starting-gear.Item.Y31CaBlWuDGBO09t",
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "luLwBzuWK74l7mXB",
+          "type": "document",
+          "name": "Sanctum (Icon)",
+          "description": "",
+          "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+          "documentUuid": "Compendium.flowstate.starting-gear.Item.QkAQYHiv9GhEXe4L",
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "g0k6hUpClUwZPFND",
+          "type": "document",
+          "name": "Veil (Icon)",
+          "description": "",
+          "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+          "documentUuid": "Compendium.flowstate.starting-gear.Item.IM9a0k6QbNdYSHGm",
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "pCLoTv6bZtapCF8d",
+          "type": "document",
+          "name": "Warden (Icon)",
+          "description": "",
+          "img": "icons/magic/holy/yin-yang-balance-symbol.webp",
+          "documentUuid": "Compendium.flowstate.starting-gear.Item.y6jVdFNTxgXRs05i",
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d4",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "swTQGb5m444L8AaA",
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "V1STes7RGYO78cHK",
+      "name": "Loot: Mage's study",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "results": [
+        {
+          "_id": "dhHQaveD4vZ68yeC",
+          "type": "text",
+          "name": "A Foci",
+          "description": "Any type, Grade 5.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 3,
+          "range": [
+            1,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "AF3JBWXSsqCShR2T",
+          "type": "text",
+          "name": "A Shroud",
+          "description": "Any type, Grade 5.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 3,
+          "range": [
+            4,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d6",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "swTQGb5m444L8AaA",
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "aWbqHBfc13f9QHRR",
+      "name": "Loot: Goblin import crate",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "results": [
+        {
+          "_id": "UPUBPXlyHYfP4R1Q",
+          "type": "text",
+          "name": "Ranged weapon and ammunition",
+          "description": "A Common ranged weapon (a Goblin firearm if the weapon list has one) and 20 ammunition.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d1",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "swTQGb5m444L8AaA",
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cq0OzkzNEPf8tC8L",
+      "name": "Loot: Rare table",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "results": [
+        {
+          "_id": "S93fMYoJNnILTU4i",
+          "type": "text",
+          "name": "Uncommon-material weapon",
+          "description": "Grade 5.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            1,
+            1
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "Et8XunqqcVrLzuG5",
+          "type": "text",
+          "name": "Uncommon-material armor",
+          "description": "Grade 5.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            2,
+            2
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "NfMf8ZCaHjxsizX6",
+          "type": "text",
+          "name": "Uncommon Icon",
+          "description": "Prism or Vigil.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            3,
+            3
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "G83AneM9Gtv0kVxJ",
+          "type": "document",
+          "name": "Uncommon affix gem",
+          "description": "",
+          "img": "icons/svg/d20-grey.svg",
+          "documentUuid": "RollTable.tRnk02qHwxbzNdvq",
+          "weight": 1,
+          "range": [
+            4,
+            4
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "3qGloCIo06PAenJT",
+          "type": "text",
+          "name": "Foci or Shroud with an Uncommon affix",
+          "description": "Any type. The affix: @UUID[RollTable.tRnk02qHwxbzNdvq]{Uncommon affix gem}.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            5,
+            5
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "IAYVoEHniHo9fO0s",
+          "type": "text",
+          "name": "Two Greater potions",
+          "description": "One @UUID[Compendium.flowstate.consumables.Item.rxFMJfAarDLGiIeR]{Greater Health Potion} and one @UUID[Compendium.flowstate.consumables.Item.633WWXQwQp1bay21]{Greater Energy Potion}.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            6,
+            6
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "L159BdWzulz7uSz6",
+          "type": "text",
+          "name": "Rare affix gem",
+          "description": "Emerald, Ruby or Black Opal.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            7,
+            7
+          ],
+          "drawn": false,
+          "flags": {}
+        },
+        {
+          "_id": "1tFjJYvEKiHmN7BQ",
+          "type": "text",
+          "name": "Uncommon gear",
+          "description": "Of the party's choice.",
+          "img": "icons/svg/d20-black.svg",
+          "documentUuid": null,
+          "weight": 1,
+          "range": [
+            8,
+            8
+          ],
+          "drawn": false,
+          "flags": {}
+        }
+      ],
+      "formula": "1d8",
+      "replacement": true,
+      "displayRoll": true,
+      "folder": "swTQGb5m444L8AaA",
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
   "macros": [],
   "cards": [],
   "playlists": [],

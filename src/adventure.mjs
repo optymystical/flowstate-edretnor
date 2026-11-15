@@ -5,6 +5,9 @@ import { START_HERE } from "./journal/start-here.mjs";
 import { ROUND2 } from "./actors/round2.mjs";
 import { CRAWL } from "./actors/crawl.mjs";
 import { OMENS } from "./actors/omens.mjs";
+import { FESTIVAL } from "./tables/festival.mjs";
+import { CONSERVATORY } from "./tables/conservatory.mjs";
+import { CRAWL_TABLES } from "./tables/crawl.mjs";
 
 export function buildAdventure() {
   return {
@@ -19,7 +22,7 @@ export function buildAdventure() {
     items: [],
     journal: [START_HERE],
     scenes: [],
-    tables: [],
+    tables: [...FESTIVAL, ...CONSERVATORY, ...CRAWL_TABLES],
     macros: [],
     cards: [],
     playlists: [],
