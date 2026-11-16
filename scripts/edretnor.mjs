@@ -8,7 +8,7 @@
  */
 import { registerCrawlSettings, CrawlPanel, newCrawl, getCrawl } from "./crawl-panel.mjs";
 import { prepareRun, marketMorning, lightFacet, lightFacetDialog } from "./setup.mjs";
-import { registerRound1Settings, Round1Panel, launch, clearLaunch } from "./round1.mjs";
+import { registerRound1Settings, registerRound1Hooks, Round1Panel, launch, clearLaunch, landShots, revealWisp } from "./round1.mjs";
 
 export const MODULE_ID = "flowstate-edretnor";
 const ADVENTURE_FLAG = "edretnor";
@@ -50,10 +50,11 @@ Hooks.once("init", () => {
   game.settings.register(MODULE_ID, "importState", { scope: "world", config: false, type: String, default: "" });
   registerCrawlSettings();
   registerRound1Settings();
+  registerRound1Hooks();
   const mod = game.modules.get(MODULE_ID);
   if (mod) mod.api = { applyWorldSettings, openImporter, WORLD_SETTINGS, prepareRun, marketMorning, lightFacet, lightFacetDialog,
     openCrawlPanel: () => CrawlPanel.open(), newCrawl, getCrawl,
-    openRound1Panel: () => Round1Panel.open(), launch, clearLaunch };
+    openRound1Panel: () => Round1Panel.open(), launch, clearLaunch, landShots, revealWisp };
 });
 
 // First time a GM opens the world: offer the import.

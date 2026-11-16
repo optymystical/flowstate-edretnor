@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.1
+- Round 1's gimmicks are automated (scripts/round1.mjs, which adjusts the projectile's HP change after the system posts the hit's damage):
+  Wardwing's Flit and Ward 15 per turn, the Geode's shell (Limit 20 Physical / 7 other), the Heartstone's rune (rerolled each turn,
+  wrong category ×0.25) and its 3 rounds, and Snapshot (gone at the end of its turn; the active character's damage doesn't count).
+  The panel gains **Shots land** (3d10 per breaker shot still up, off the Lantern) and **Reveal** (the Veiled Wisp).
+- Wardwing, Snapshot, the Geode and the Heartstone have linked tokens (their state lives on the actor; launching resets them).
+
 ## 0.5.0
 - Round 1's projectiles (11 actors in *Round 1: Projectiles*): the ten launches plus the Lantern's breaker shot, each with the
   system's fixed dodge set to its value and its exact health, and a token in the pinned style (a neutral stone ring, since projectiles

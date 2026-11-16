@@ -594,7 +594,7 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Launch 5: a small summoned flier (living, and a Spell).</em></p>\n<h3>How it works</h3>\n<p>Fixed dodge <strong>5</strong>, <strong>25</strong> health. Fixed dodge: an attack hits on a total at or above the value and crits at double (a d15 can't crit a value of 8 or more). Nothing modifies the value. One turn in the air unless noted.</p>\n<h3>Gimmick</h3>\n<ul><li><strong>Ward 15</strong>, reset at the start of each party member's turn: track it by hand (it soaks the first 15 damage that turn).</li><li><strong>Flit</strong> (reaction): cancels the first hit each party member's turn. Bait it with cheap or extra attacks (Fast, Solitary), stack reactions into one turn, Pierce.</li><li>It counts as <strong>living</strong> for this round (Death's Wither, Slashing's +4), and as a <strong>Spell</strong>: dispelling it works (Arcanomancy, Light's Dispersion).</li></ul>",
+        "biography": "<p><em>Launch 5: a small summoned flier (living, and a Spell).</em></p>\n<h3>How it works</h3>\n<p>Fixed dodge <strong>5</strong>, <strong>25</strong> health. Fixed dodge: an attack hits on a total at or above the value and crits at double (a d15 can't crit a value of 8 or more). Nothing modifies the value. One turn in the air unless noted.</p>\n<h3>Gimmick</h3>\n<ul><li><strong>Flit</strong> (reaction): cancels the first hit each turn. <strong>Ward 15</strong>: soaks the next 15 damage that turn. Both reset each turn and are automatic (the module adjusts its HP and whispers you). Bait it with cheap or extra attacks (Fast, Solitary), stack reactions into one turn, Pierce.</li><li>It counts as <strong>living</strong> for this round (Death's Wither, Slashing's +4), and as a <strong>Spell</strong>: dispelling it works (Arcanomancy, Light's Dispersion).</li></ul>",
         "hp": {
           "value": 25,
           "lost": 2
@@ -603,7 +603,7 @@
       "items": [],
       "prototypeToken": {
         "name": "Wardwing",
-        "actorLink": false,
+        "actorLink": true,
         "disposition": -1,
         "displayName": 30,
         "displayBars": 30,
@@ -680,7 +680,7 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Launch 6: launched mid-round.</em></p>\n<h3>How it works</h3>\n<p>Fixed dodge <strong>6</strong>, <strong>35</strong> health. Fixed dodge: an attack hits on a total at or above the value and crits at double (a d15 can't crit a value of 8 or more). Nothing modifies the value. One turn in the air unless noted.</p>\n<h3>Gimmick</h3>\n<p>Only reactions can hit it (React, Burst, Shield Toss with RP, Lie in Wait). Launch it during someone's turn.</p>",
+        "biography": "<p><em>Launch 6: launched mid-round.</em></p>\n<h3>How it works</h3>\n<p>Fixed dodge <strong>6</strong>, <strong>35</strong> health. Fixed dodge: an attack hits on a total at or above the value and crits at double (a d15 can't crit a value of 8 or more). Nothing modifies the value. One turn in the air unless noted.</p>\n<h3>Gimmick</h3>\n<p>Only reactions can hit it (React, Burst, Shield Toss with RP, Lie in Wait). Launch it mid-turn: it's gone when that turn ends, and damage from the character whose turn it is doesn't count (automatic).</p>",
         "hp": {
           "value": 35,
           "lost": 1
@@ -689,7 +689,7 @@
       "items": [],
       "prototypeToken": {
         "name": "Snapshot",
-        "actorLink": false,
+        "actorLink": true,
         "disposition": -1,
         "displayName": 30,
         "displayBars": 30,
@@ -1024,7 +1024,7 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Launch 9: a stone core inside a steel shell.</em></p>\n<h3>How it works</h3>\n<p>Fixed dodge <strong>6</strong>, <strong>40</strong> health. Fixed dodge: an attack hits on a total at or above the value and crits at double (a d15 can't crit a value of 8 or more). Nothing modifies the value. One turn in the air unless noted.</p>\n<h3>Gimmick</h3>\n<p>Only the core counts: its 40 health is this token. The <strong>shell</strong> has 100 health and a Limit of 20 against Physical and about 7 against anything else; track it by hand. Non-Physical damage, Pierce or Bash punching through beats breaking the shell first.</p>",
+        "biography": "<p><em>Launch 9: a stone core inside a steel shell.</em></p>\n<h3>How it works</h3>\n<p>Fixed dodge <strong>6</strong>, <strong>40</strong> health. Fixed dodge: an attack hits on a total at or above the value and crits at double (a d15 can't crit a value of 8 or more). Nothing modifies the value. One turn in the air unless noted.</p>\n<h3>Gimmick</h3>\n<p>Only the core counts: its 40 health is this token. The <strong>shell</strong> has 100 health and a Limit of 20 against Physical and 7 against anything else: each hit, it soaks up to its Limit until it breaks, and the rest reaches the core (automatic; Pierce isn't counted, so adjust by hand). Non-Physical damage, Pierce or Bash punching through beats breaking the shell first.</p>",
         "hp": {
           "value": 40,
           "lost": 2
@@ -1033,7 +1033,7 @@
       "items": [],
       "prototypeToken": {
         "name": "Geode (core)",
-        "actorLink": false,
+        "actorLink": true,
         "disposition": -1,
         "displayName": 30,
         "displayBars": 30,
@@ -1110,7 +1110,7 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Launch 10: stays up 3 turns.</em></p>\n<h3>How it works</h3>\n<p>Fixed dodge <strong>3</strong>, <strong>350</strong> health. Fixed dodge: an attack hits on a total at or above the value and crits at double (a d15 can't crit a value of 8 or more). Nothing modifies the value. One turn in the air unless noted.</p>\n<h3>Gimmick</h3>\n<p>Each turn a rune shows which damage category works (Physical, Elemental or Magical); a Spot (DC 10) reads it. Matching hits deal full damage; others are doubly Weakened (×0.25, adjust by hand). All Magic damage counts as Magical. 350 health is the baseline; 375 for a stronger table.</p>",
+        "biography": "<p><em>Launch 10: stays up 3 turns.</em></p>\n<h3>How it works</h3>\n<p>Fixed dodge <strong>3</strong>, <strong>350</strong> health. Fixed dodge: an attack hits on a total at or above the value and crits at double (a d15 can't crit a value of 8 or more). Nothing modifies the value. One turn in the air unless noted.</p>\n<h3>Gimmick</h3>\n<p>Each turn a rune shows which damage category works (Physical, Elemental or Magical); a Spot (DC 10) reads it. Matching hits deal full damage; others are doubly Weakened (×0.25). Both the rune and the ×0.25 are automatic: the rune rerolls each turn and is whispered to you. Physical damage is Physical; heat, cold, acid and radiation are Elemental; arcane, supernatural and any spell are Magical. 350 health is the baseline; 375 for a stronger table.</p>",
         "hp": {
           "value": 350,
           "lost": 1
@@ -1119,7 +1119,7 @@
       "items": [],
       "prototypeToken": {
         "name": "Heartstone",
-        "actorLink": false,
+        "actorLink": true,
         "disposition": -1,
         "displayName": 30,
         "displayBars": 30,
@@ -4201,7 +4201,7 @@
           },
           "text": {
             "format": 1,
-            "content": "<p>Open the <strong>Round 1: Launch Panel</strong> macro (GM) with the <em>Round 1: The Projectile Shoot</em> scene in view, and start combat with the party.</p>\n<ol>\n<li><strong>Top of a round: launch.</strong> Click <strong>Launch</strong> on the next projectile. It appears in the flight lane (Hailshot places all 10 pebbles; the Veiled Wisp goes in hidden; for the Festival Lantern, add the 6 breaker shots with <strong>+ Breaker shot</strong> as they fire).</li>\n<li><strong>The party attacks it</strong> the normal way: target the token and attack. Every projectile has a <strong>fixed dodge</strong>, so the system answers at once: a hit on a total at or above the value, a crit at double, damage applied to its health.</li>\n<li><strong>Record it.</strong> Click <strong>Got it</strong> or <strong>Missed</strong>. That clears the lane and updates the score (whispered to you). For the Lantern, &quot;got it&quot; means it survived.</li>\n<li><strong>The next round is the off-turn</strong> (recover energy, fetch thrown weapons, reposition); then launch the next one.</li>\n</ol>\n<p>What stays by hand, and is written in each projectile&#39;s biography: Wardwing&#39;s Ward 15 and Flit, Snapshot taking reactions only, revealing the Veiled Wisp to whoever spots it, the breaker shots&#39; 3d10 on the Lantern, the Geode&#39;s shell, and the Heartstone&#39;s rune (×0.25 for the wrong category) and 3 turns aloft.</p>\n"
+            "content": "<p>Open the <strong>Round 1: Launch Panel</strong> macro (GM) with the <em>Round 1: The Projectile Shoot</em> scene in view, and start combat with the party.</p>\n<ol>\n<li><strong>Top of a round: launch.</strong> Click <strong>Launch</strong> on the next projectile. It appears in the flight lane (Hailshot places all 10 pebbles; the Veiled Wisp goes in hidden; for the Festival Lantern, add the 6 breaker shots with <strong>+ Breaker shot</strong> as they fire).</li>\n<li><strong>The party attacks it</strong> the normal way: target the token and attack. Every projectile has a <strong>fixed dodge</strong>, so the system answers at once: a hit on a total at or above the value, a crit at double, damage applied to its health.</li>\n<li><strong>Record it.</strong> Click <strong>Got it</strong> or <strong>Missed</strong>. That clears the lane and updates the score (whispered to you). For the Lantern, &quot;got it&quot; means it survived.</li>\n<li><strong>The next round is the off-turn</strong> (recover energy, fetch thrown weapons, reposition); then launch the next one.</li>\n</ol>\n<p><strong>The gimmicks run themselves</strong> (each adjustment is whispered to you):</p>\n<ul>\n<li><strong>Wardwing:</strong> Flit cancels the first hit each turn, then Ward 15 soaks the next 15 damage that turn.</li>\n<li><strong>Snapshot:</strong> launch it mid-turn. Damage from the character whose turn it is doesn&#39;t count, and it falls when that turn ends.</li>\n<li><strong>Geode:</strong> the shell (100) soaks up to 20 of each Physical hit and 7 of anything else; the rest reaches the core.</li>\n<li><strong>Heartstone:</strong> its rune is rolled at launch and rerolled every turn (players read it with a Spot, DC 10); damage of the wrong category is cut to a quarter. You&#39;re told when it has been up 3 rounds.</li>\n<li><strong>Festival Lantern:</strong> <strong>Shots land</strong> rolls 3d10 for each breaker shot still in the air and takes it off the lantern.</li>\n<li><strong>Veiled Wisp:</strong> <strong>Reveal</strong> shows it once someone spots it.</li>\n</ul>\n<p>Still yours: Pierce against the Geode&#39;s shell, and whether a given attack on Snapshot was a reaction when it comes from someone other than the active character (it counts).</p>\n"
           },
           "ownership": {
             "default": -1

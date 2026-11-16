@@ -17,7 +17,15 @@ Open the **Round 1: Launch Panel** macro (GM) with the *Round 1: The Projectile 
 3. **Record it.** Click **Got it** or **Missed**. That clears the lane and updates the score (whispered to you). For the Lantern, "got it" means it survived.
 4. **The next round is the off-turn** (recover energy, fetch thrown weapons, reposition); then launch the next one.
 
-What stays by hand, and is written in each projectile's biography: Wardwing's Ward 15 and Flit, Snapshot taking reactions only, revealing the Veiled Wisp to whoever spots it, the breaker shots' 3d10 on the Lantern, the Geode's shell, and the Heartstone's rune (×0.25 for the wrong category) and 3 turns aloft.
+**The gimmicks run themselves** (each adjustment is whispered to you):
+- **Wardwing:** Flit cancels the first hit each turn, then Ward 15 soaks the next 15 damage that turn.
+- **Snapshot:** launch it mid-turn. Damage from the character whose turn it is doesn't count, and it falls when that turn ends.
+- **Geode:** the shell (100) soaks up to 20 of each Physical hit and 7 of anything else; the rest reaches the core.
+- **Heartstone:** its rune is rolled at launch and rerolled every turn (players read it with a Spot, DC 10); damage of the wrong category is cut to a quarter. You're told when it has been up 3 rounds.
+- **Festival Lantern:** **Shots land** rolls 3d10 for each breaker shot still in the air and takes it off the lantern.
+- **Veiled Wisp:** **Reveal** shows it once someone spots it.
+
+Still yours: Pierce against the Geode's shell, and whether a given attack on Snapshot was a reaction when it comes from someone other than the active character (it counts).
 
 ## The ten launches
 | # | Projectile | Value | Health | Gimmick |
