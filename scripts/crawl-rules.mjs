@@ -51,8 +51,8 @@ export function generate(rng = Math.random) {
 
 export const phase = s => phaseAt(s.minutes);
 export const activeZones = s => Object.entries(s.tiles).filter(([, t]) => t.zone === "central" || t.zone === "active").map(([k]) => k);
-/** Tiles the hourly refresh may hide again: random tiles, not fixed ones, zones or heavy blockages. */
-const refreshable = t => t.kind === "city" || t.kind === "wild" ? !t.barracks && !t.zone && !t.heavy : false;
+/** Tiles the hourly refresh may hide again: random tiles and the square, not fixed ones, zones or heavy blockages. */
+const refreshable = t => ["city", "wild", "square"].includes(t.kind) ? !t.barracks && !t.zone && !t.heavy : false;
 
 /**
  * Advances the clock and applies everything that happens on the hour and at phase changes.
@@ -124,10 +124,10 @@ export function describe(s, k) {
   if (t.zone === "culled") return "<strong>A culled gathering zone.</strong> The Royal Guard was here: scorched stone, bodies, a dead circle.";
   if (t.kind === "square") return p === 1
     ? "<strong>The town square.</strong> Mostly intact, with guards and civilians. They don't know where the king is, but guess he's in one of the four cisterns under the city."
-    : "<strong>The town square.</strong> Overrun since Phase 1: treat it as a city tile (draw a surface event).";
+    : "<strong>The town square.</strong> Overrun since Phase 1.";
   if (t.kind === "hall") return p === 1
     ? "<strong>Town Hall.</strong> Officials and guards holding out. Like the square, they guess the king is in one of the four cisterns."
-    : "<strong>Town Hall.</strong> Abandoned. Treat it as a city tile (draw a surface event).";
+    : "<strong>Town Hall.</strong> Abandoned since Phase 1: describe it to the players as you see fit (no event is drawn).";
   if (t.kind === "cistern") return {
     king: "<strong>The king's cistern.</strong> The king and the Royal Guard. Civilians delivered here count toward the second wish; the king recalls the party at the end of Phase 2.",
     empty: "<strong>A cistern, empty.</strong> Dry stone and echoes.",
@@ -141,6 +141,6 @@ export function describe(s, k) {
   if (t.kind === "overlook") return "<strong>The Overlook.</strong> A Spot (Moderate 10) reveals which way one fixed tile lies.";
   return null;
 }
-/** True if entering the tile draws a surface event (random tiles, and the square and hall after Phase 1). */
+/** True if entering the tile draws a surface event: random tiles, and the town square in every phase (Town Hall never). */
 export const drawsEvent = (s, k) => { const t = s.tiles[k]; if (t.heavy || t.zone) return false;
-  if (t.kind === "city") return !t.barracks; if (t.kind === "wild") return true; if (t.kind === "square" || t.kind === "hall") return phase(s) > 1; return false; };
+  if (t.kind === "city") return !t.barracks; if (t.kind === "wild" || t.kind === "square") return true; return false; };

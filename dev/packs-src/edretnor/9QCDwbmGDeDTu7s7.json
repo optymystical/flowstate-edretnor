@@ -216,6 +216,7 @@
           }
         },
         "flowstate-edretnor": {
+          "key": "projectile-fieldstone",
           "projectile": "fieldstone"
         }
       },
@@ -302,6 +303,7 @@
           }
         },
         "flowstate-edretnor": {
+          "key": "projectile-hailshot",
           "projectile": "hailshot"
         }
       },
@@ -388,6 +390,7 @@
           }
         },
         "flowstate-edretnor": {
+          "key": "projectile-ironheart",
           "projectile": "ironheart"
         }
       },
@@ -474,6 +477,7 @@
           }
         },
         "flowstate-edretnor": {
+          "key": "projectile-skyglass",
           "projectile": "skyglass"
         }
       },
@@ -560,6 +564,7 @@
           }
         },
         "flowstate-edretnor": {
+          "key": "projectile-wardwing",
           "projectile": "wardwing"
         }
       },
@@ -646,6 +651,7 @@
           }
         },
         "flowstate-edretnor": {
+          "key": "projectile-snapshot",
           "projectile": "snapshot"
         }
       },
@@ -732,6 +738,7 @@
           }
         },
         "flowstate-edretnor": {
+          "key": "projectile-veiledwisp",
           "projectile": "veiledwisp"
         }
       },
@@ -818,6 +825,7 @@
           }
         },
         "flowstate-edretnor": {
+          "key": "projectile-lantern",
           "projectile": "lantern"
         }
       },
@@ -904,6 +912,7 @@
           }
         },
         "flowstate-edretnor": {
+          "key": "projectile-breakershot",
           "projectile": "breakershot"
         }
       },
@@ -990,6 +999,7 @@
           }
         },
         "flowstate-edretnor": {
+          "key": "projectile-geode",
           "projectile": "geode"
         }
       },
@@ -1076,6 +1086,7 @@
           }
         },
         "flowstate-edretnor": {
+          "key": "projectile-heartstone",
           "projectile": "heartstone"
         }
       },
@@ -1156,6 +1167,9 @@
       "flags": {
         "flowstate": {
           "npcWizard": true
+        },
+        "flowstate-edretnor": {
+          "key": "r2-local-brawler"
         }
       },
       "system": {
@@ -1258,6 +1272,9 @@
       "flags": {
         "flowstate": {
           "npcWizard": true
+        },
+        "flowstate-edretnor": {
+          "key": "r2-local-hedge-mage"
         }
       },
       "system": {
@@ -1365,6 +1382,9 @@
             "kind": "nightmare",
             "level": 1
           }
+        },
+        "flowstate-edretnor": {
+          "key": "r2-local-devotee"
         }
       },
       "system": {
@@ -1443,6 +1463,9 @@
       "flags": {
         "flowstate": {
           "npcWizard": true
+        },
+        "flowstate-edretnor": {
+          "key": "r2-swift-duelist"
         }
       },
       "system": {
@@ -1601,6 +1624,9 @@
       "flags": {
         "flowstate": {
           "npcWizard": true
+        },
+        "flowstate-edretnor": {
+          "key": "r2-charm-mage"
         }
       },
       "system": {
@@ -1715,6 +1741,9 @@
             "kind": "nightmare",
             "level": 1
           }
+        },
+        "flowstate-edretnor": {
+          "key": "r2-pyre-adept"
         }
       },
       "system": {
@@ -1817,6 +1846,9 @@
       "flags": {
         "flowstate": {
           "npcWizard": true
+        },
+        "flowstate-edretnor": {
+          "key": "r2-kg-halberdier"
         }
       },
       "system": {
@@ -1949,6 +1981,9 @@
       "flags": {
         "flowstate": {
           "npcWizard": true
+        },
+        "flowstate-edretnor": {
+          "key": "r2-kg-ward-mage"
         }
       },
       "system": {
@@ -2084,6 +2119,9 @@
             "kind": "nightmare",
             "level": 2
           }
+        },
+        "flowstate-edretnor": {
+          "key": "r2-kg-gravedeacon"
         }
       },
       "system": {
@@ -2196,6 +2234,9 @@
             "kind": "nightmare",
             "level": 4
           }
+        },
+        "flowstate-edretnor": {
+          "key": "r2-blackwell"
         }
       },
       "system": {
@@ -2303,6 +2344,9 @@
             "kind": "nightmare",
             "level": 1
           }
+        },
+        "flowstate-edretnor": {
+          "key": "cult-maw-cultist"
         }
       },
       "system": {
@@ -2386,6 +2430,9 @@
             "kind": "nightmare",
             "level": 2
           }
+        },
+        "flowstate-edretnor": {
+          "key": "cult-cell-leader"
         }
       },
       "system": {
@@ -2497,6 +2544,9 @@
             "kind": "nightmare",
             "level": 2
           }
+        },
+        "flowstate-edretnor": {
+          "key": "cult-preacher"
         }
       },
       "system": {
@@ -2609,6 +2659,9 @@
             "kind": "nightmare",
             "level": 2
           }
+        },
+        "flowstate-edretnor": {
+          "key": "cult-ritualist"
         }
       },
       "system": {
@@ -2723,6 +2776,9 @@
             "kind": "nightmare",
             "level": 3
           }
+        },
+        "flowstate-edretnor": {
+          "key": "cult-cell-master"
         }
       },
       "system": {
@@ -2833,6 +2889,9 @@
       "flags": {
         "flowstate": {
           "npcWizard": true
+        },
+        "flowstate-edretnor": {
+          "key": "city-guard"
         }
       },
       "system": {
@@ -2964,6 +3023,9 @@
       "flags": {
         "flowstate": {
           "npcWizard": true
+        },
+        "flowstate-edretnor": {
+          "key": "city-townsperson"
         }
       },
       "system": {
@@ -3068,6 +3130,9 @@
       "flags": {
         "flowstate": {
           "npcWizard": true
+        },
+        "flowstate-edretnor": {
+          "key": "city-bandit"
         }
       },
       "system": {
@@ -3220,6 +3285,9 @@
       "flags": {
         "flowstate": {
           "npcWizard": true
+        },
+        "flowstate-edretnor": {
+          "key": "city-old-soldier"
         }
       },
       "system": {
@@ -3348,6 +3416,9 @@
       "flags": {
         "flowstate": {
           "npcWizard": true
+        },
+        "flowstate-edretnor": {
+          "key": "city-wounded-contestant"
         }
       },
       "system": {
@@ -3480,6 +3551,9 @@
       "flags": {
         "flowstate": {
           "npcWizard": true
+        },
+        "flowstate-edretnor": {
+          "key": "omen-gloamhound-riteborn"
         }
       },
       "system": {
@@ -3587,6 +3661,9 @@
       "flags": {
         "flowstate": {
           "npcWizard": true
+        },
+        "flowstate-edretnor": {
+          "key": "omen-gloamhound-grown"
         }
       },
       "system": {
@@ -3698,6 +3775,9 @@
             "kind": "dream",
             "level": 2
           }
+        },
+        "flowstate-edretnor": {
+          "key": "omen-burgeon"
         }
       },
       "system": {
@@ -3807,6 +3887,9 @@
             "kind": "dream",
             "level": 2
           }
+        },
+        "flowstate-edretnor": {
+          "key": "omen-bloomrot"
         }
       },
       "system": {
@@ -3923,7 +4006,7 @@
           },
           "text": {
             "format": 1,
-            "content": "\n<p><strong>The Fall of Edretnor</strong> is the Flow State starter campaign: a level-0 start for 4–5 brand-new characters. It runs about\n5 sessions: 2–3 for the tournament and its festival, then 2–3 for the escape through the burning city and the audience with the king.</p>\n<p>The characters are nobodies: people from all over the world who happen to be in the same tournament when everything goes wrong.</p>\n<h2>What importing did</h2>\n<ul>\n<li>Created everything in the <em>The Fall of Edretnor</em> folders: actors, scenes, roll tables, journals and macros.</li>\n<li>Set the world to a level-0 start: <strong>Shards</strong> as the currency with a <strong>100-shard starting purse</strong>, and\n<strong>Common Grade 3</strong> starting gear (45 stat points, plus the Background's 15 free points). Characters made in the New Character\nwizard from now on start this way.</li>\n</ul>\n<h2>The run</h2>\n<table>\n<thead><tr><th>Day</th><th>Main event</th><th>Rest of the day</th></tr></thead>\n<tbody>\n<tr><td>1</td><td>Late arrival and registration</td><td>3 festival slots; teams drawn at dusk; the tavern</td></tr>\n<tr><td>2</td><td>Round 1: the Projectile Shoot</td><td>3 festival slots</td></tr>\n<tr><td>3</td><td>Round 2: the Protection Run</td><td>3 festival slots; the play</td></tr>\n<tr><td>4</td><td>Round 3: the Clockwork Conservatory</td><td>The attack begins about 40 minutes in; the escape through Edretnor; the audience with the king</td></tr>\n</tbody>\n</table>\n<h2>Before the first session</h2>\n<ol>\n<li>Have each player build a character in the New Character wizard, and a backup: the crawl is lethal, and a replacement joins as another contestant.</li>\n<li>Run the <strong>Edretnor Setup</strong> macro. It rolls the Conservatory's variants, generates a new Edretnor for the crawl and stocks\nthe Day 1 market, and writes it all to a new journal, <em>Edretnor: This Run</em>.</li>\n</ol>\n<h2>The macros</h2>\n<table>\n<thead><tr><th>Macro</th><th>When</th></tr></thead>\n<tbody>\n<tr><td><strong>Edretnor Setup</strong></td><td>Once before each run (it replaces the crawl map).</td></tr>\n<tr><td><strong>Round 1: Launch Panel</strong></td><td>Round 1: launches each projectile into the flight lane and keeps the score.</td></tr>\n<tr><td><strong>Edretnor: Market Morning</strong></td><td>The mornings of Days 2 and 3: the Uncommon rack, the jeweler and the apothecary's stock.</td></tr>\n<tr><td><strong>Conservatory: Light a Facet</strong></td><td>Round 3, each time the party lights a facet of the Lumen Core (and the Moon Lily bloom). The scene starts dark.</td></tr>\n<tr><td><strong>Edretnor: Crawl Panel</strong></td><td>The escape: the map, the clock, searches, the convoy. See <em>The Crawl</em> journal, page \"Running it in Foundry\".</td></tr>\n</tbody>\n</table>\n<h2>The journals</h2>\n<p>One per stretch of the arc: <em>Days 1–3: The Festival</em>, one per round, <em>The Crawl</em>, and <em>After the Escape</em> (the audience,\nthe wishes and the ten hooks). Each scene opens its round's journal from its notes. The Omens' abilities and tactics are in their actor biographies.</p>\n"
+            "content": "\n<p><strong>The Fall of Edretnor</strong> is the Flow State starter campaign: a level-0 start for 4–5 brand-new characters. It runs about\n5 sessions: 2–3 for the tournament and its festival, then 2–3 for the escape through the burning city and the audience with the king.</p>\n<p>The characters are nobodies: people from all over the world who happen to be in the same tournament when everything goes wrong.</p>\n<h2>What importing did</h2>\n<ul>\n<li>Created everything in the <em>The Fall of Edretnor</em> folders: actors, scenes, roll tables, journals and macros.</li>\n<li>Set the world to a level-0 start: <strong>Shards</strong> as the currency with a <strong>100-shard starting purse</strong>, and\n<strong>Common Grade 3</strong> starting gear (45 stat points, plus the Background's 15 free points). Characters made in the New Character\nwizard from now on start this way.</li>\n</ul>\n<h2>The run</h2>\n<table>\n<thead><tr><th>Day</th><th>Main event</th><th>Rest of the day</th></tr></thead>\n<tbody>\n<tr><td>1</td><td>Late arrival and registration</td><td>3 festival slots; teams drawn at dusk; the tavern</td></tr>\n<tr><td>2</td><td>Round 1: the Projectile Shoot</td><td>3 festival slots</td></tr>\n<tr><td>3</td><td>Round 2: the Protection Run</td><td>3 festival slots; the play</td></tr>\n<tr><td>4</td><td>Round 3: the Clockwork Conservatory</td><td>The attack begins about 40 minutes in; the escape through Edretnor; the audience with the king</td></tr>\n</tbody>\n</table>\n<h2>Before the first session</h2>\n<ol>\n<li>Have each player build a character in the New Character wizard, and a backup: the crawl is lethal, and a replacement joins as another contestant.</li>\n<li>Run the <strong>Edretnor Setup</strong> macro. It rolls the Conservatory's variants, generates a new Edretnor for the crawl and stocks\nthe Day 1 market, and writes it all to a new journal, <em>Edretnor: This Run</em>.</li>\n</ol>\n<h2>The macros</h2>\n<table>\n<thead><tr><th>Macro</th><th>When</th></tr></thead>\n<tbody>\n<tr><td><strong>Edretnor Setup</strong></td><td>Once before each run (it replaces the crawl map).</td></tr>\n<tr><td><strong>Round 1: Launch Panel</strong></td><td>Round 1: launches each projectile into the flight lane and keeps the score.</td></tr>\n<tr><td><strong>Round 2: Conveyor Panel</strong></td><td>Round 2: moves the protected ally 20 ft a round, brings out the waves on schedule, records the yards.</td></tr>\n<tr><td><strong>Edretnor: Market Morning</strong></td><td>The mornings of Days 2 and 3: the Uncommon rack, the jeweler and the apothecary's stock.</td></tr>\n<tr><td><strong>Conservatory: Light a Facet</strong></td><td>Round 3, each time the party lights a facet of the Lumen Core (and the Moon Lily bloom). The scene starts dark.</td></tr>\n<tr><td><strong>Edretnor: Crawl Panel</strong></td><td>The escape: the map, the clock, searches, the convoy. See <em>The Crawl</em> journal, page \"Running it in Foundry\".</td></tr>\n</tbody>\n</table>\n<h2>The journals</h2>\n<p>One per stretch of the arc: <em>Days 1–3: The Festival</em>, one per round, <em>The Crawl</em>, and <em>After the Escape</em> (the audience,\nthe wishes and the ten hooks). Each scene opens its round's journal from its notes. The Omens' abilities and tactics are in their actor biographies.</p>\n"
           },
           "ownership": {
             "default": -1
@@ -4276,10 +4359,28 @@
           "flags": {}
         },
         {
+          "_id": "75WgqeiTLyboOvOb",
+          "name": "Running it in Foundry",
+          "type": "text",
+          "sort": 200000,
+          "title": {
+            "show": true,
+            "level": 1
+          },
+          "text": {
+            "format": 1,
+            "content": "<p>Open the <strong>Round 2: Conveyor Panel</strong> macro (GM) on the <em>Round 2: The Protection Run</em> scene.</p>\n<ol>\n<li><strong>Fasten the ally:</strong> select the protected ally&#39;s token and click <strong>Fasten to the conveyor</strong>. It&#39;s placed at the 0-yard post. From now on only the conveyor moves it (Force can&#39;t; <strong>Unfasten</strong> if you need to move it yourself).</li>\n<li><strong>Start combat</strong> on this scene with the party. At the start of every round the conveyor carries the ally to 20 ft × the round, so 20 yards at round 3, 80 at round 12 and the end at round 15.</li>\n<li><strong>The waves come out on their own:</strong> Wave 1 on round 3, Wave 2 on round 6, Wave 3 on round 9 and Blackwell on round 13. Each wave&#39;s pen doors open, its tokens are added to the combat (roll their initiative), and you&#39;re whispered. <strong>Send now</strong> brings a wave out early.</li>\n<li><strong>When the run ends</strong> (the end of the track, or the ally drops), click <strong>Record the result</strong>: the yards reached and the damage taken, compared with the rivals.</li>\n</ol>\n<p><strong>Reset the run</strong> removes the wave tokens and closes the pens for another go.</p>\n"
+          },
+          "ownership": {
+            "default": -1
+          },
+          "flags": {}
+        },
+        {
           "_id": "TpdGaRYZhs7gCP4g",
           "name": "The waves",
           "type": "text",
-          "sort": 200000,
+          "sort": 300000,
           "title": {
             "show": true,
             "level": 1
@@ -4297,7 +4398,7 @@
           "_id": "chdd8ETYldDxOwx5",
           "name": "What to expect",
           "type": "text",
-          "sort": 300000,
+          "sort": 400000,
           "title": {
             "show": true,
             "level": 1
@@ -6000,7 +6101,9 @@
       "tiles": [],
       "sounds": [],
       "flags": {
-        "flowstate-edretnor": {}
+        "flowstate-edretnor": {
+          "round2": true
+        }
       }
     },
     {
@@ -15513,6 +15616,20 @@
       "command": "const api = game.modules.get(\"flowstate-edretnor\")?.api;\nif (!api) ui.notifications.error(\"Enable the Flow State: The Fall of Edretnor module first.\");\nelse await api.openRound1Panel();",
       "folder": "UYiaWAbm8KJ3EGQ0",
       "sort": 150,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "9ct7oPMozzRaUHNn",
+      "name": "Round 2: Conveyor Panel",
+      "type": "script",
+      "scope": "global",
+      "img": "icons/environment/settlement/fence-wooden-gate.webp",
+      "command": "const api = game.modules.get(\"flowstate-edretnor\")?.api;\nif (!api) ui.notifications.error(\"Enable the Flow State: The Fall of Edretnor module first.\");\nelse await api.openRound2Panel();",
+      "folder": "UYiaWAbm8KJ3EGQ0",
+      "sort": 160,
       "ownership": {
         "default": 0
       },

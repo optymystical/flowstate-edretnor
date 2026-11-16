@@ -14,7 +14,7 @@ function projectile({ key, name, value, hp, size, disposition = -1, token = 0.5,
     disposition, trees: {}, bio: bio(role, { "How it works": `Fixed dodge <strong>${value}</strong>, <strong>${hp}</strong> health. ${RULE}`, ...notes }) });
   a.system.hp = { value: hp, lost };
   a.flags.flowstate.fixedDodge = { on: true, value };
-  a.flags[MODULE_ID] = { projectile: key };
+  a.flags[MODULE_ID] = { ...a.flags[MODULE_ID], projectile: key };
   const sq = Math.max(token, a.prototypeToken.width);
   Object.assign(a.prototypeToken, { width: sq, height: sq, displayBars: 30, displayName: 30, actorLink: linked });
   return a;

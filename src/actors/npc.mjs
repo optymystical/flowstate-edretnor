@@ -2,6 +2,7 @@
 // Statblocks are written the way the design docs give them (stats WITH the Stat Bonus); this subtracts the bonus, since the
 // system stores stats before it. Items are written by identity (type, weight, material, Form...) and link themselves to the
 // system catalog as they load; when a local copy of the system is found, its catalog fills in the names and icons at build time.
+import { MODULE_ID } from "../common.mjs";
 import { stableId, token } from "../common.mjs";
 import { catalog } from "./catalog.mjs";
 
@@ -59,7 +60,7 @@ export function npc(o) {
     biography: o.bio ?? ""
   };
   if (o.hp != null) system.hp = { value: o.hp, lost: 0 };
-  const flags = { flowstate: { npcWizard: true, ...(o.alignment ? { alignment: o.alignment } : {}) } };
+  const flags = { flowstate: { npcWizard: true, ...(o.alignment ? { alignment: o.alignment } : {}) }, [MODULE_ID]: { key: o.key } };
   return {
     _id: stableId(`actor:${o.key}`), name: o.name, type: "npc", img, folder: o.folder, sort: o.sort ?? 0,
     ownership: { default: 0 }, effects: [], flags, system,

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.6.0
+- **Round 2: Conveyor Panel** macro (scripts/round2.mjs): fasten the protected ally, and at the start of every round the conveyor carries
+  them to 20 ft × the round; the waves come out of their pens on rounds 3, 6 and 9 and Blackwell on 13 (pen doors open, tokens join the
+  combat); Force can't move the ally while fastened; records the yards and damage taken against the rivals. Round 2 journal: a
+  "Running it in Foundry" page.
+- The crawl: the town square draws a surface event in every phase (with its Phase 1 description) and refreshes like any tile;
+  Town Hall after Phase 1 draws nothing and is yours to describe.
+- Every NPC carries `flags.flowstate-edretnor.key` so the panels find their actors.
+
 ## 0.5.1
 - Round 1's gimmicks are automated (scripts/round1.mjs, which adjusts the projectile's HP change after the system posts the hit's damage):
   Wardwing's Flit and Ward 15 per turn, the Geode's shell (Limit 20 Physical / 7 other), the Heartstone's rune (rerolled each turn,
