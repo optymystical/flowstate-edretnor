@@ -14,6 +14,7 @@ Object.assign(F, {
   actorsRound2: sub("actors-round2", "Round 2: The Protection Run", F.actors, 100),
   actorsCult: sub("actors-cult", "The Crawl: the Maw", F.actors, 200),
   actorsCity: sub("actors-city", "The Crawl: Edretnor", F.actors, 300),
+  actorsRound1: sub("actors-round1", "Round 1: Projectiles", F.actors, 50),
   actorsOmens: sub("actors-omens", "Omens", F.actors, 400),
   tablesFestival: sub("tables-festival", "Festival", F.tables, 100),
   tablesConservatory: sub("tables-conservatory", "Round 3: The Conservatory", F.tables, 200),

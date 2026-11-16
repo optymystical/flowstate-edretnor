@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.5.0
+- Round 1's projectiles (11 actors in *Round 1: Projectiles*): the ten launches plus the Lantern's breaker shot, each with the
+  system's fixed dodge set to its value and its exact health, and a token in the pinned style (a neutral stone ring, since projectiles
+  have no Archetype). Their biographies carry what stays by hand (Wardwing's Ward and Flit, the Geode's shell, the Heartstone's rune).
+- **Round 1: Launch Panel** macro: launches each projectile into the flight lane (all 10 Hailshot pebbles, the Veiled Wisp hidden,
+  breaker shots one at a time), records got it or missed, clears the lane and keeps the score against the rivals.
+- Round 1 journal: a "Running it in Foundry" page.
+- Needs Flow State 0.99.0 (fixed dodge).
+
 ## 0.4.2
 - Conservatory lighting: only the Dawn wing is pitch black now. The Mistworks and the Cold Cellar have dim working light from the
   start (their puzzles need sight), each Seed Vault has a dim glow so a player can see their own plant, and the rotunda's emergency

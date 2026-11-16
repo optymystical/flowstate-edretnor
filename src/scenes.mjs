@@ -48,7 +48,7 @@ function scene(key, name, file, { grid, journal = null, darkness = 0, globalLigh
 
 const J = key => stableId(`journal:${key}`);
 export const SCENES = [
-  scene("round1", "Round 1: The Projectile Shoot", "round1-field", { grid: { size: 100 }, journal: J("round1"), sort: 100 }),
+  scene("round1", "Round 1: The Projectile Shoot", "round1-field", { grid: { size: 100 }, journal: J("round1"), sort: 100, flags: { round1: true } }),
   scene("round2", "Round 2: The Protection Run", "round2-track", { grid: { size: 100 }, journal: J("round2"), sort: 200 }),
   scene("conservatory", "Round 3: The Clockwork Conservatory", "conservatory", { grid: { size: 100 }, journal: J("round3"), sort: 300,
     darkness: 0.9, globalLight: false, tokenVision: true, flags: { conservatory: true } }),

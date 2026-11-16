@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs><radialGradient id="f" cx="50%" cy="42%" r="60%"><stop offset="0" stop-color="#1e2629"/><stop offset="1" stop-color="#0e0c0a"/></radialGradient>
+<linearGradient id="r" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f8fb0"/><stop offset="1" stop-color="#1b4659"/></linearGradient></defs>
+<circle cx="256" cy="256" r="250" fill="url(#r)"/><circle cx="256" cy="256" r="250" fill="none" stroke="#120e0b" stroke-width="6"/>
+<circle cx="256" cy="256" r="214" fill="url(#f)" stroke="#120e0b" stroke-width="6"/>
+<circle cx="256" cy="256" r="200" fill="none" stroke="#3f8fb0" stroke-opacity=".35" stroke-width="2" stroke-dasharray="4 8"/>
+<g stroke="#120e0b" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><g transform="rotate(30 256 300)"><rect x="244" y="200" width="24" height="230" rx="10" fill="#8a6a44"/>
+<rect x="236" y="196" width="40" height="22" rx="6" fill="#c9a45c"/></g>
+<path d="M226,196 Q216,150 250,112 Q248,146 266,152 Q262,124 286,98 Q316,150 300,196 Q286,226 256,226 Q232,224 226,196 Z" fill="#d9662a"/>
+<path d="M246,196 Q244,170 262,150 Q266,172 280,176 Q288,200 270,214 Q254,220 246,196 Z" fill="#f2b84a" stroke-width="5"/></g><path d="M243.0,438 l9,9 l-9,9 l-9,-9z" fill="#c9a45c" stroke="#1a1410" stroke-width="2"/><path d="M269.0,438 l9,9 l-9,9 l-9,-9z" fill="#c9a45c" stroke="#1a1410" stroke-width="2"/></svg>

@@ -8,6 +8,7 @@ const macro = (key, name, call, img, sort) => ({ _id: stableId(`macro:${key}`), 
 
 export const MACROS = [
   macro("setup", "Edretnor Setup", "prepareRun()", "icons/sundries/documents/document-sealed-red-yellow.webp", 100),
+  macro("round1", "Round 1: Launch Panel", "openRound1Panel()", "icons/weapons/thrown/bolas-stone.webp", 150),
   macro("market", "Edretnor: Market Morning", "marketMorning()", "icons/commodities/currency/coins-assorted-mix-copper.webp", 200),
   macro("facet", "Conservatory: Light a Facet", "lightFacetDialog()", "icons/magic/light/explosion-star-glow-yellow.webp", 300),
   macro("crawl", "Edretnor: Crawl Panel", "openCrawlPanel()", "icons/tools/navigation/map-chart-tan.webp", 400)

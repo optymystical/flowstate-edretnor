@@ -9,6 +9,16 @@ Ten launches, one at a time; the party as a whole must destroy each one. On one 
 - **Summons count as living,** so Death's Wither and Slashing's +4 work on Wardwing.
 - **The field:** projectiles fly through the lane 20–30 ft out from the contestant line (marked on the scene), so Area attacks and Blast weapons can reach them.
 
+## Running it in Foundry
+Open the **Round 1: Launch Panel** macro (GM) with the *Round 1: The Projectile Shoot* scene in view, and start combat with the party.
+
+1. **Top of a round: launch.** Click **Launch** on the next projectile. It appears in the flight lane (Hailshot places all 10 pebbles; the Veiled Wisp goes in hidden; for the Festival Lantern, add the 6 breaker shots with **+ Breaker shot** as they fire).
+2. **The party attacks it** the normal way: target the token and attack. Every projectile has a **fixed dodge**, so the system answers at once: a hit on a total at or above the value, a crit at double, damage applied to its health.
+3. **Record it.** Click **Got it** or **Missed**. That clears the lane and updates the score (whispered to you). For the Lantern, "got it" means it survived.
+4. **The next round is the off-turn** (recover energy, fetch thrown weapons, reposition); then launch the next one.
+
+What stays by hand, and is written in each projectile's biography: Wardwing's Ward 15 and Flit, Snapshot taking reactions only, revealing the Veiled Wisp to whoever spots it, the breaker shots' 3d10 on the Lantern, the Geode's shell, and the Heartstone's rune (×0.25 for the wrong category) and 3 turns aloft.
+
 ## The ten launches
 | # | Projectile | Value | Health | Gimmick |
 |---|---|---|---|---|
@@ -23,7 +33,7 @@ Ten launches, one at a time; the party as a whole must destroy each one. On one 
 | 9 | **Geode** (stone core in a steel shell) | 6 | Core 40; shell 100 | The shell's Limit is 20 vs Physical and ~7 vs anything else, and only the core counts. Punching through with non-Physical damage, Pierce or Bash beats breaking the shell first. |
 | 10 | **Heartstone** (3 turns) | 3 | 350–375 | Each turn a rune shows which damage category works (Physical, Elemental or Magical); a Spot check at DC 10 reads it. Matching hits deal full damage; others are doubly Weakened (×0.25). All Magic damage counts as Magical. |
 
-The order is yours; the Lantern is public, and the Scout results reveal the twists (roll them on **Round 1: projectile twists**).
+The order is yours; the Lantern is public, and the Scout results reveal the twists (roll them on **Round 1: projectile twists**). The projectiles are actors in *Round 1: Projectiles*.
 
 ## Expected results
 Tuned for a party of four starting characters (45/15, d15 attacks, Power 3, about 8 attacks a turn).

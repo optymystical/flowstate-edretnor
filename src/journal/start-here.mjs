@@ -34,6 +34,7 @@ the Day 1 market, and writes it all to a new journal, <em>Edretnor: This Run</em
 <thead><tr><th>Macro</th><th>When</th></tr></thead>
 <tbody>
 <tr><td><strong>Edretnor Setup</strong></td><td>Once before each run (it replaces the crawl map).</td></tr>
+<tr><td><strong>Round 1: Launch Panel</strong></td><td>Round 1: launches each projectile into the flight lane and keeps the score.</td></tr>
 <tr><td><strong>Edretnor: Market Morning</strong></td><td>The mornings of Days 2 and 3: the Uncommon rack, the jeweler and the apothecary's stock.</td></tr>
 <tr><td><strong>Conservatory: Light a Facet</strong></td><td>Round 3, each time the party lights a facet of the Lumen Core (and the Moon Lily bloom). The scene starts dark.</td></tr>
 <tr><td><strong>Edretnor: Crawl Panel</strong></td><td>The escape: the map, the clock, searches, the convoy. See <em>The Crawl</em> journal, page "Running it in Foundry".</td></tr>

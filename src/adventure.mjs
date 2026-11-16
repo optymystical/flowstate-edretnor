@@ -5,6 +5,7 @@ import { buildJournals } from "./journal/journals.mjs";
 import { ROUND2 } from "./actors/round2.mjs";
 import { CRAWL } from "./actors/crawl.mjs";
 import { OMENS } from "./actors/omens.mjs";
+import { PROJECTILES } from "./actors/projectiles.mjs";
 import { FESTIVAL } from "./tables/festival.mjs";
 import { CONSERVATORY } from "./tables/conservatory.mjs";
 import { CRAWL_TABLES } from "./tables/crawl.mjs";
@@ -12,7 +13,7 @@ import { SCENES } from "./scenes.mjs";
 import { MACROS } from "./macros.mjs";
 
 export function buildAdventure() {
-  const actors = [...ROUND2, ...CRAWL, ...OMENS];
+  const actors = [...PROJECTILES, ...ROUND2, ...CRAWL, ...OMENS];
   const tables = [...FESTIVAL, ...CONSERVATORY, ...CRAWL_TABLES];
   return {
     _id: stableId("adventure:edretnor"),

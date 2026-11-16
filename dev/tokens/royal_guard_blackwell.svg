@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs><radialGradient id="f" cx="50%" cy="42%" r="60%"><stop offset="0" stop-color="#241f2b"/><stop offset="1" stop-color="#0e0c0a"/></radialGradient>
+<linearGradient id="r" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a5cb8"/><stop offset="1" stop-color="#3f2560"/></linearGradient></defs>
+<circle cx="256" cy="256" r="250" fill="url(#r)"/><circle cx="256" cy="256" r="250" fill="none" stroke="#120e0b" stroke-width="6"/>
+<circle cx="256" cy="256" r="214" fill="url(#f)" stroke="#120e0b" stroke-width="6"/>
+<circle cx="256" cy="256" r="200" fill="none" stroke="#8a5cb8" stroke-opacity=".35" stroke-width="2" stroke-dasharray="4 8"/>
+<g stroke="#120e0b" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><path d="M222,118 L230,96 L243,110 L256,90 L269,110 L282,96 L290,118 Z" fill="#c9a45c" stroke-width="5"/><g transform="translate(256 282) scale(0.84) translate(-256 -256)"><g transform="rotate(28 256 270)"><rect x="248" y="140" width="16" height="290" rx="6" fill="#3a2a1e"/>
+<path d="M256,146 Q180,120 120,170 Q186,150 250,176 Z" fill="#cfc4ae"/></g>
+<path d="M232,392 Q238,330 250,290" fill="none" stroke="#4f7a3a" stroke-width="9"/>
+<path d="M250,292 Q196,286 168,244 Q214,246 246,272 Z" fill="#e9dcc0"/>
+<path d="M250,292 Q300,270 318,226 Q276,236 254,270 Z" fill="#e9dcc0"/>
+<path d="M250,292 Q232,236 252,196 Q272,240 262,286 Z" fill="#e9dcc0"/>
+<path d="M248,282 l-14,-26 M256,280 l2,-28 M262,282 l16,-22" stroke="#3f2560" stroke-width="4"/>
+<circle cx="234" cy="254" r="5" fill="#3f2560" stroke="none"/><circle cx="258" cy="250" r="5" fill="#3f2560" stroke="none"/><circle cx="279" cy="258" r="5" fill="#3f2560" stroke="none"/></g></g><path d="M204.0,438 l9,9 l-9,9 l-9,-9z" fill="#c9a45c" stroke="#1a1410" stroke-width="2"/><path d="M230.0,438 l9,9 l-9,9 l-9,-9z" fill="#c9a45c" stroke="#1a1410" stroke-width="2"/><path d="M256.0,438 l9,9 l-9,9 l-9,-9z" fill="#c9a45c" stroke="#1a1410" stroke-width="2"/><path d="M282.0,438 l9,9 l-9,9 l-9,-9z" fill="#c9a45c" stroke="#1a1410" stroke-width="2"/><path d="M308.0,438 l9,9 l-9,9 l-9,-9z" fill="#c9a45c" stroke="#1a1410" stroke-width="2"/></svg>
