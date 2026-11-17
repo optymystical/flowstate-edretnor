@@ -59,7 +59,12 @@ export function npc(o) {
     currency: {},
     biography: o.bio ?? ""
   };
-  if (o.hp != null) system.hp = { value: o.hp, lost: 0 };
+  // Store current HP and Energy at full: an Adventure import fills missing values with 0, which leaves the token dead and prone
+  // (the system's own "start at full" only runs for a new actor with no value at all). Max HP = (Con + Will + Build, with the
+  // Stat Bonus) x Size x 3; Energy = 5 x skill points (the system's rules.mjs). o.hp overrides the current HP (a wounded NPC).
+  const eff = s => stats[s] + bonus;
+  system.hp = { value: o.hp ?? (eff("con") + eff("will") + eff("build")) * size * 3, lost: 0 };
+  system.energy = { value: 5 * o.sp };
   const flags = { flowstate: { npcWizard: true, ...(o.alignment ? { alignment: o.alignment } : {}) }, [MODULE_ID]: { key: o.key } };
   return {
     _id: stableId(`actor:${o.key}`), name: o.name, type: "npc", img, folder: o.folder, sort: o.sort ?? 0,

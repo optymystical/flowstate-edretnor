@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.1
+- Fixed: every NPC arrived at 0 HP (dead and prone). The actors now store their current HP and Energy at full; an Adventure import
+  fills missing values with 0, so the system's own "start at full" never ran for them.
+
 ## 0.6.0
 - **Round 2: Conveyor Panel** macro (scripts/round2.mjs): fasten the protected ally, and at the start of every round the conveyor carries
   them to 20 ft × the round; the waves come out of their pens on rounds 3, 6 and 9 and Blackwell on 13 (pen doors open, tokens join the

@@ -255,6 +255,9 @@
         "hp": {
           "value": 80,
           "lost": 4
+        },
+        "energy": {
+          "value": 0
         }
       },
       "items": [],
@@ -342,6 +345,9 @@
         "hp": {
           "value": 12,
           "lost": 0
+        },
+        "energy": {
+          "value": 0
         }
       },
       "items": [],
@@ -429,6 +435,9 @@
         "hp": {
           "value": 200,
           "lost": 4
+        },
+        "energy": {
+          "value": 0
         }
       },
       "items": [],
@@ -516,6 +525,9 @@
         "hp": {
           "value": 25,
           "lost": 2
+        },
+        "energy": {
+          "value": 0
         }
       },
       "items": [],
@@ -603,6 +615,9 @@
         "hp": {
           "value": 25,
           "lost": 2
+        },
+        "energy": {
+          "value": 0
         }
       },
       "items": [],
@@ -690,6 +705,9 @@
         "hp": {
           "value": 35,
           "lost": 1
+        },
+        "energy": {
+          "value": 0
         }
       },
       "items": [],
@@ -777,6 +795,9 @@
         "hp": {
           "value": 60,
           "lost": 0
+        },
+        "energy": {
+          "value": 0
         }
       },
       "items": [],
@@ -864,6 +885,9 @@
         "hp": {
           "value": 45,
           "lost": 3
+        },
+        "energy": {
+          "value": 0
         }
       },
       "items": [],
@@ -951,6 +975,9 @@
         "hp": {
           "value": 5,
           "lost": 1
+        },
+        "energy": {
+          "value": 0
         }
       },
       "items": [],
@@ -1038,6 +1065,9 @@
         "hp": {
           "value": 40,
           "lost": 2
+        },
+        "energy": {
+          "value": 0
         }
       },
       "items": [],
@@ -1125,6 +1155,9 @@
         "hp": {
           "value": 350,
           "lost": 1
+        },
+        "energy": {
+          "value": 0
         }
       },
       "items": [],
@@ -1207,7 +1240,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Wave 1 (20 yards, turn 3): locals from the open casting call, paid. Common Grade 2 gear.</em></p>\n<h3>Tactics</h3>\n<p>Two Heavy unarmed swings a turn at the protected ally, each followed by its Solitary extra attack. Opens with Jab.</p>\n<h3>Notes</h3>\n<ul><li>Knockback has no effect on the fastened ally.</li><li>Background: a trade (dockhand, chandler, gravedigger); no combat effect.</li></ul>"
+        "biography": "<p><em>Wave 1 (20 yards, turn 3): locals from the open casting call, paid. Common Grade 2 gear.</em></p>\n<h3>Tactics</h3>\n<p>Two Heavy unarmed swings a turn at the protected ally, each followed by its Solitary extra attack. Opens with Jab.</p>\n<h3>Notes</h3>\n<ul><li>Knockback has no effect on the fastened ally.</li><li>Background: a trade (dockhand, chandler, gravedigger); no combat effect.</li></ul>",
+        "hp": {
+          "value": 99,
+          "lost": 0
+        },
+        "energy": {
+          "value": 50
+        }
       },
       "items": [
         {
@@ -1313,7 +1353,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Wave 1 (20 yards, turn 3): locals from the open casting call, paid. Common Grade 2 gear.</em></p>\n<h3>Tactics</h3>\n<p>Three Flames a turn at the protected ally. Ignition on the first if the ally isn't already burning.</p>"
+        "biography": "<p><em>Wave 1 (20 yards, turn 3): locals from the open casting call, paid. Common Grade 2 gear.</em></p>\n<h3>Tactics</h3>\n<p>Three Flames a turn at the protected ally. Ignition on the first if the ally isn't already burning.</p>",
+        "hp": {
+          "value": 99,
+          "lost": 0
+        },
+        "energy": {
+          "value": 50
+        }
       },
       "items": [
         {
@@ -1421,7 +1468,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Wave 1 (20 yards, turn 3): locals from the open casting call, paid. Common Grade 2 gear.</em></p>\n<h3>Tactics</h3>\n<p>Three Withers a turn at the protected ally; Fester the first one that hits.</p>\n<h3>Notes</h3>\n<p>Carries a carved bone prayer token (no Icon, no effect).</p>"
+        "biography": "<p><em>Wave 1 (20 yards, turn 3): locals from the open casting call, paid. Common Grade 2 gear.</em></p>\n<h3>Tactics</h3>\n<p>Three Withers a turn at the protected ally; Fester the first one that hits.</p>\n<h3>Notes</h3>\n<p>Carries a carved bone prayer token (no Icon, no effect).</p>",
+        "hp": {
+          "value": 99,
+          "lost": 0
+        },
+        "energy": {
+          "value": 50
+        }
       },
       "items": [],
       "prototypeToken": {
@@ -1509,7 +1563,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Wave 2 (40 yards, turn 6): tournament staff. Common Grade 3 gear.</em></p>\n<h3>Tactics</h3>\n<p>Two Heavy sword attacks a turn at the protected ally, each giving a free Fast knife attack at Disadvantage. Blade Flurry whenever a full set lands.</p>\n<h3>Notes</h3>\n<p>Background: arena fighter. Dexterity 38 counts as 30 for Grade 3 gear.</p>"
+        "biography": "<p><em>Wave 2 (40 yards, turn 6): tournament staff. Common Grade 3 gear.</em></p>\n<h3>Tactics</h3>\n<p>Two Heavy sword attacks a turn at the protected ally, each giving a free Fast knife attack at Disadvantage. Blade Flurry whenever a full set lands.</p>\n<h3>Notes</h3>\n<p>Background: arena fighter. Dexterity 38 counts as 30 for Grade 3 gear.</p>",
+        "hp": {
+          "value": 171,
+          "lost": 0
+        },
+        "energy": {
+          "value": 75
+        }
       },
       "items": [
         {
@@ -1672,7 +1733,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Wave 2 (40 yards, turn 6): tournament staff. Common Grade 3 gear.</em></p>\n<h3>Tactics</h3>\n<p>Charm on the protected ally (a Willpower check of 9+ resists; on a failure the ally dodges at Disadvantage until the mage's next turn, without knowing it), then Cut, every turn. A Willpower-heavy ally (most Mentals) shrugs Charm off.</p>\n<h3>Notes</h3>\n<p>Background: College apprentice.</p>"
+        "biography": "<p><em>Wave 2 (40 yards, turn 6): tournament staff. Common Grade 3 gear.</em></p>\n<h3>Tactics</h3>\n<p>Charm on the protected ally (a Willpower check of 9+ resists; on a failure the ally dodges at Disadvantage until the mage's next turn, without knowing it), then Cut, every turn. A Willpower-heavy ally (most Mentals) shrugs Charm off.</p>\n<h3>Notes</h3>\n<p>Background: College apprentice.</p>",
+        "hp": {
+          "value": 171,
+          "lost": 0
+        },
+        "energy": {
+          "value": 75
+        }
       },
       "items": [
         {
@@ -1781,7 +1849,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Wave 2 (40 yards, turn 6): tournament staff. Common Grade 3 gear.</em></p>\n<h3>Tactics</h3>\n<p>Two Immolates a turn at the protected ally. Keeps its RP for Veil.</p>\n<h3>Notes</h3>\n<p>Background: lamplighter (a trade).</p>"
+        "biography": "<p><em>Wave 2 (40 yards, turn 6): tournament staff. Common Grade 3 gear.</em></p>\n<h3>Tactics</h3>\n<p>Two Immolates a turn at the protected ally. Keeps its RP for Veil.</p>\n<h3>Notes</h3>\n<p>Background: lamplighter (a trade).</p>",
+        "hp": {
+          "value": 171,
+          "lost": 0
+        },
+        "energy": {
+          "value": 75
+        }
       },
       "items": [
         {
@@ -1890,7 +1965,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Wave 3 (60 yards, turn 9): the King's Guard. Uncommon Grade 6 gear. They fight as a unit: one attacks, one shields, one pressures with Supernatural damage.</em></p>\n<h3>Tactics</h3>\n<p>Two halberd strikes a turn at the protected ally. Wall stops party members who try to block him off. Brace when struck.</p>\n<h3>Notes</h3>\n<p>Background: King's Guard training.</p>"
+        "biography": "<p><em>Wave 3 (60 yards, turn 9): the King's Guard. Uncommon Grade 6 gear. They fight as a unit: one attacks, one shields, one pressures with Supernatural damage.</em></p>\n<h3>Tactics</h3>\n<p>Two halberd strikes a turn at the protected ally. Wall stops party members who try to block him off. Brace when struck.</p>\n<h3>Notes</h3>\n<p>Background: King's Guard training.</p>",
+        "hp": {
+          "value": 243,
+          "lost": 0
+        },
+        "energy": {
+          "value": 100
+        }
       },
       "items": [
         {
@@ -2029,7 +2111,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Wave 3 (60 yards, turn 9): the King's Guard. Uncommon Grade 6 gear. They fight as a unit: one attacks, one shields, one pressures with Supernatural damage.</em></p>\n<h3>Tactics</h3>\n<p>Shields the Halberdier and the Gravedeacon (Adjust spreads a Shield to anyone within 10ft of the shielded Guard), then one Flame at the protected ally. The party has to break or burst through the Shields; Arcanomancy and Piercing do this well.</p>"
+        "biography": "<p><em>Wave 3 (60 yards, turn 9): the King's Guard. Uncommon Grade 6 gear. They fight as a unit: one attacks, one shields, one pressures with Supernatural damage.</em></p>\n<h3>Tactics</h3>\n<p>Shields the Halberdier and the Gravedeacon (Adjust spreads a Shield to anyone within 10ft of the shielded Guard), then one Flame at the protected ally. The party has to break or burst through the Shields; Arcanomancy and Piercing do this well.</p>",
+        "hp": {
+          "value": 243,
+          "lost": 0
+        },
+        "energy": {
+          "value": 100
+        }
       },
       "items": [
         {
@@ -2165,7 +2254,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Wave 3 (60 yards, turn 9): the King's Guard. Uncommon Grade 6 gear. They fight as a unit: one attacks, one shields, one pressures with Supernatural damage.</em></p>\n<h3>Tactics</h3>\n<p>One Wither with Fester each turn at the protected ally. Saves RP and energy for Veil, and uses Waste on anyone who rushes it.</p>"
+        "biography": "<p><em>Wave 3 (60 yards, turn 9): the King's Guard. Uncommon Grade 6 gear. They fight as a unit: one attacks, one shields, one pressures with Supernatural damage.</em></p>\n<h3>Tactics</h3>\n<p>One Wither with Fester each turn at the protected ally. Saves RP and energy for Veil, and uses Waste on anyone who rushes it.</p>",
+        "hp": {
+          "value": 243,
+          "lost": 0
+        },
+        "energy": {
+          "value": 100
+        }
       },
       "items": [
         {
@@ -2275,7 +2371,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Royal Guard, rank 4. Stage 2. A peninsula survivor. Arrives the turn after the conveyor crosses 80 yards.</em></p>\n<h3>What he does</h3>\n<ul><li>Realm-slips in behind the protected ally for one round, then leaves.</li><li>Withers from behind the ally (Melee, 1 AP), Enhanced to also remove Max HP, with Fester so it hits again at the ally's next turn.</li><li>Against a 2d7 dodge he hits 85% of the time and crits 67% of the time. Six Withers in one turn come to about 900.</li></ul>\n<h3>Stage 2 (placeholder)</h3>\n<p>His Death Modes are doubly Strengthened. Apply it by hand until Stage 2 exists.</p>\n<h3>What stops him</h3>\n<ul><li>Cold Iron or Silver gear (full Limit against Supernatural). A Grade 5 Cold Iron Heavy Defender shield with Broad+ (about 360 Limit) can Block his whole turn.</li><li>Shielding and Wards (Projected or self), Shrouds and temp HP, layered.</li></ul>\n<h3>If the ally survives</h3>\n<p>\"You're free to go then.\"</p>"
+        "biography": "<p><em>Royal Guard, rank 4. Stage 2. A peninsula survivor. Arrives the turn after the conveyor crosses 80 yards.</em></p>\n<h3>What he does</h3>\n<ul><li>Realm-slips in behind the protected ally for one round, then leaves.</li><li>Withers from behind the ally (Melee, 1 AP), Enhanced to also remove Max HP, with Fester so it hits again at the ally's next turn.</li><li>Against a 2d7 dodge he hits 85% of the time and crits 67% of the time. Six Withers in one turn come to about 900.</li></ul>\n<h3>Stage 2 (placeholder)</h3>\n<p>His Death Modes are doubly Strengthened. Apply it by hand until Stage 2 exists.</p>\n<h3>What stops him</h3>\n<ul><li>Cold Iron or Silver gear (full Limit against Supernatural). A Grade 5 Cold Iron Heavy Defender shield with Broad+ (about 360 Limit) can Block his whole turn.</li><li>Shielding and Wards (Projected or self), Shrouds and temp HP, layered.</li></ul>\n<h3>If the ally survives</h3>\n<p>\"You're free to go then.\"</p>",
+        "hp": {
+          "value": 558,
+          "lost": 0
+        },
+        "energy": {
+          "value": 225
+        }
       },
       "items": [
         {
@@ -2384,7 +2487,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Commoner. The bulk of every cell.</em></p>\n<h3>Tactics</h3>\n<p>Three Withers a turn at the nearest enemy, with Fester on the first hit. Flees once its Cell Leader falls.</p>"
+        "biography": "<p><em>Commoner. The bulk of every cell.</em></p>\n<h3>Tactics</h3>\n<p>Three Withers a turn at the nearest enemy, with Fester on the first hit. Flees once its Cell Leader falls.</p>",
+        "hp": {
+          "value": 99,
+          "lost": 0
+        },
+        "energy": {
+          "value": 50
+        }
       },
       "items": [],
       "prototypeToken": {
@@ -2475,7 +2585,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Leads a cell. Background: Maw acolyte.</em></p>\n<h3>Tactics</h3>\n<ul><li>Eclipse the most dangerous PC.</li><li>Eclipse an ally Cultist: Totality then gives every Eclipsed Cultist half stealth against that PC.</li><li>Sink anyone rushing in, with Vice on every failed escape.</li><li>Wither with any AP left.</li></ul>"
+        "biography": "<p><em>Leads a cell. Background: Maw acolyte.</em></p>\n<h3>Tactics</h3>\n<ul><li>Eclipse the most dangerous PC.</li><li>Eclipse an ally Cultist: Totality then gives every Eclipsed Cultist half stealth against that PC.</li><li>Sink anyone rushing in, with Vice on every failed escape.</li><li>Wither with any AP left.</li></ul>",
+        "hp": {
+          "value": 216,
+          "lost": 0
+        },
+        "energy": {
+          "value": 75
+        }
       },
       "items": [
         {
@@ -2590,7 +2707,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>The Recruiter: a Cell Leader who preaches. Background: Maw priest.</em></p>\n<h3>Tactics</h3>\n<p>Talks first: three exchanges of Persuade or Deceive against his persuasion check, for a crowd of 10–20. Fights only if attacked or losing the crowd, then plays as a Cell Leader.</p>"
+        "biography": "<p><em>The Recruiter: a Cell Leader who preaches. Background: Maw priest.</em></p>\n<h3>Tactics</h3>\n<p>Talks first: three exchanges of Persuade or Deceive against his persuasion check, for a crowd of 10–20. Fights only if attacked or losing the crowd, then plays as a Cell Leader.</p>",
+        "hp": {
+          "value": 216,
+          "lost": 0
+        },
+        "energy": {
+          "value": 75
+        }
       },
       "items": [
         {
@@ -2707,7 +2831,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Keeps a rite circle. Background: rite-keeper.</em></p>\n<h3>Tactics</h3>\n<p>Sink and Burden the closest threat, Vice every failed escape, Quicksand an escape that would succeed, and Wither whatever is left.</p>\n<h3>The circle</h3>\n<p>While a Ritualist stands in its circle, the runes can't be scrubbed. Breaking the anchor stone still works.</p>"
+        "biography": "<p><em>Keeps a rite circle. Background: rite-keeper.</em></p>\n<h3>Tactics</h3>\n<p>Sink and Burden the closest threat, Vice every failed escape, Quicksand an escape that would succeed, and Wither whatever is left.</p>\n<h3>The circle</h3>\n<p>While a Ritualist stands in its circle, the runes can't be scrubbed. Breaking the anchor stone still works.</p>",
+        "hp": {
+          "value": 288,
+          "lost": 0
+        },
+        "energy": {
+          "value": 100
+        }
       },
       "items": [
         {
@@ -2824,7 +2955,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>The central head of the attack. Background: Maw clergy. Holds the Phase 1 central zone with 2 Ritualists, 4 cells and 3 rite-born Gloamhounds.</em></p>\n<h3>Win condition</h3>\n<p>Drop him below his Pain Threshold, or kill him. The central rite collapses and the attack ends: every small circle fizzles and the Omens bound to the rite scatter. The king grants a wish for it, and the party is guaranteed an audience.</p>\n<h3>Tactics</h3>\n<ul><li>Nightfall on his guards so they all attack from half stealth (Totality).</li><li>Hand out Umbral Strike charges.</li><li>Wither the closest PC.</li><li>Once 50 HP above his Pain Threshold, he Sinks his attacker and backs into the circle.</li></ul>"
+        "biography": "<p><em>The central head of the attack. Background: Maw clergy. Holds the Phase 1 central zone with 2 Ritualists, 4 cells and 3 rite-born Gloamhounds.</em></p>\n<h3>Win condition</h3>\n<p>Drop him below his Pain Threshold, or kill him. The central rite collapses and the attack ends: every small circle fizzles and the Omens bound to the rite scatter. The king grants a wish for it, and the party is guaranteed an audience.</p>\n<h3>Tactics</h3>\n<ul><li>Nightfall on his guards so they all attack from half stealth (Totality).</li><li>Hand out Umbral Strike charges.</li><li>Wither the closest PC.</li><li>Once 50 HP above his Pain Threshold, he Sinks his attacker and backs into the circle.</li></ul>",
+        "hp": {
+          "value": 360,
+          "lost": 0
+        },
+        "energy": {
+          "value": 125
+        }
       },
       "items": [
         {
@@ -2933,7 +3071,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>The city watch. Background: city watch.</em></p>\n<h3>Tactics</h3>\n<p>Holds a line: two spear strikes a turn, Palisade against anyone moving into his reach, Brace when struck.</p>"
+        "biography": "<p><em>The city watch. Background: city watch.</em></p>\n<h3>Tactics</h3>\n<p>Holds a line: two spear strikes a turn, Palisade against anyone moving into his reach, Brace when struck.</p>",
+        "hp": {
+          "value": 216,
+          "lost": 0
+        },
+        "energy": {
+          "value": 75
+        }
       },
       "items": [
         {
@@ -3062,7 +3207,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Mobs, crowds, the frightened.</em></p>\n<h3>Tactics</h3>\n<p>A mob attacks together and scatters once half of it is down.</p>\n<h3>Notes</h3>\n<p>A frightened civilian has a knife instead of a club (2d4, 2 AP).</p>"
+        "biography": "<p><em>Mobs, crowds, the frightened.</em></p>\n<h3>Tactics</h3>\n<p>A mob attacks together and scatters once half of it is down.</p>\n<h3>Notes</h3>\n<p>A frightened civilian has a knife instead of a club (2d4, 2 AP).</p>",
+        "hp": {
+          "value": 99,
+          "lost": 0
+        },
+        "energy": {
+          "value": 50
+        }
       },
       "items": [
         {
@@ -3170,7 +3322,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Opportunists, scavengers, claim-jumpers.</em></p>\n<h3>Tactics</h3>\n<p>Go after the weakest-looking target. Flee once losing.</p>"
+        "biography": "<p><em>Opportunists, scavengers, claim-jumpers.</em></p>\n<h3>Tactics</h3>\n<p>Go after the weakest-looking target. Flee once losing.</p>",
+        "hp": {
+          "value": 216,
+          "lost": 0
+        },
+        "energy": {
+          "value": 75
+        }
       },
       "items": [
         {
@@ -3326,7 +3485,14 @@
         "supernatural": false,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>A Continental War veteran who refuses to leave the city.</em></p>\n<h3>Joining</h3>\n<p>He joins the convoy on a Persuade against a static Hard 15. Mentioning the peninsula gives Advantage. He then fights alongside the party.</p>\n<h3>Notes</h3>\n<p>Old knees: he moves slowly.</p>"
+        "biography": "<p><em>A Continental War veteran who refuses to leave the city.</em></p>\n<h3>Joining</h3>\n<p>He joins the convoy on a Persuade against a static Hard 15. Mentioning the peninsula gives Advantage. He then fights alongside the party.</p>\n<h3>Notes</h3>\n<p>Old knees: he moves slowly.</p>",
+        "hp": {
+          "value": 360,
+          "lost": 0
+        },
+        "energy": {
+          "value": 125
+        }
       },
       "items": [
         {
@@ -3461,6 +3627,9 @@
         "hp": {
           "value": 108,
           "lost": 0
+        },
+        "energy": {
+          "value": 75
         }
       },
       "items": [
@@ -3595,7 +3764,14 @@
         "supernatural": true,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Dark Omen, rite-born: summoned by the Maw's rites and fed by the cult. Size 3. Calf-sized black dog; its eyes are its only light.</em></p>\n<h3>Omen</h3>\n<p>Band 2 (about 5:1). Pole-Bound: it Manifests only its own Wonder, its Tenet is always on, and it is its own Icon. Its Patron is its own Wonder, so Enhance and Burst on its Manifests are free. Attacks between it and its opposite pole are Strengthened both ways. When killed it leaves a fragment of its pole.</p>\n<h3>Wonderborn (T3)</h3>\n<ul><li><strong>Recognition:</strong> knows whether a creature serves its pole, opposes it, or neither.</li><li><strong>Propagation:</strong> see its trigger below.</li><li><strong>Follow the Pole:</strong> within 100ft of a Herald of its Wonder or a creature that serves its pole, its Ward's attack rolls have Advantage.</li></ul>\n<h3>Nightmareborn (T3)</h3>\n<ul><li><strong>Dread:</strong> creatures that first see it resist Fear, needing 27.</li><li><strong>Nightmare Depth:</strong> no speed penalty from Alignment.</li><li><strong>Prey on Fear:</strong> Advantage on attacks and Manifests against afraid creatures.</li></ul>\n<h3>Dark (T3)</h3>\n<ul><li><strong>Black Jaws</strong> (2 AP, melee, natural): <strong>3d10 physical</strong>. Roll it by hand.</li><li><strong>Lightless Sight:</strong> sees normally in darkness, its own obscurement included.</li><li><strong>Light Eater:</strong> nonmagical light within 10ft goes out; magical light within 10ft reaches half as far.</li></ul>\n<h3>Propagation</h3>\n<p>A creature dies in darkness within 100ft of it. The Maw burns its dead in black flame so packs climb out of the pyres.</p>\n<h3>Tactics</h3>\n<ul><li>With handlers: Eclipse its handler, load them with Umbral Strike charges, Eclipse the party; the handlers strike from half stealth.</li><li>Alone: shadows and tracks. Its Smell cuts through the city smoke; it can't be surprised; it howls for the pack.</li><li>Cornered: relies on Riposte.</li></ul>\n<h3>In a perception contest</h3>\n<p>It rolls d9 with Advantage (Heightened Smell). In smoke it has no Advantage.</p>"
+        "biography": "<p><em>Dark Omen, rite-born: summoned by the Maw's rites and fed by the cult. Size 3. Calf-sized black dog; its eyes are its only light.</em></p>\n<h3>Omen</h3>\n<p>Band 2 (about 5:1). Pole-Bound: it Manifests only its own Wonder, its Tenet is always on, and it is its own Icon. Its Patron is its own Wonder, so Enhance and Burst on its Manifests are free. Attacks between it and its opposite pole are Strengthened both ways. When killed it leaves a fragment of its pole.</p>\n<h3>Wonderborn (T3)</h3>\n<ul><li><strong>Recognition:</strong> knows whether a creature serves its pole, opposes it, or neither.</li><li><strong>Propagation:</strong> see its trigger below.</li><li><strong>Follow the Pole:</strong> within 100ft of a Herald of its Wonder or a creature that serves its pole, its Ward's attack rolls have Advantage.</li></ul>\n<h3>Nightmareborn (T3)</h3>\n<ul><li><strong>Dread:</strong> creatures that first see it resist Fear, needing 27.</li><li><strong>Nightmare Depth:</strong> no speed penalty from Alignment.</li><li><strong>Prey on Fear:</strong> Advantage on attacks and Manifests against afraid creatures.</li></ul>\n<h3>Dark (T3)</h3>\n<ul><li><strong>Black Jaws</strong> (2 AP, melee, natural): <strong>3d10 physical</strong>. Roll it by hand.</li><li><strong>Lightless Sight:</strong> sees normally in darkness, its own obscurement included.</li><li><strong>Light Eater:</strong> nonmagical light within 10ft goes out; magical light within 10ft reaches half as far.</li></ul>\n<h3>Propagation</h3>\n<p>A creature dies in darkness within 100ft of it. The Maw burns its dead in black flame so packs climb out of the pyres.</p>\n<h3>Tactics</h3>\n<ul><li>With handlers: Eclipse its handler, load them with Umbral Strike charges, Eclipse the party; the handlers strike from half stealth.</li><li>Alone: shadows and tracks. Its Smell cuts through the city smoke; it can't be surprised; it howls for the pack.</li><li>Cornered: relies on Riposte.</li></ul>\n<h3>In a perception contest</h3>\n<p>It rolls d9 with Advantage (Heightened Smell). In smoke it has no Advantage.</p>",
+        "hp": {
+          "value": 162,
+          "lost": 0
+        },
+        "energy": {
+          "value": 45
+        }
       },
       "items": [
         {
@@ -3705,7 +3881,14 @@
         "supernatural": true,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Dark Omen, fully grown (wild). Size 3. Every bolded value doubles relative to the rite-born hound.</em></p>\n<h3>Omen</h3>\n<p>Band 2 (about 5:1). Pole-Bound: it Manifests only its own Wonder, its Tenet is always on, and it is its own Icon. Its Patron is its own Wonder, so Enhance and Burst on its Manifests are free. Attacks between it and its opposite pole are Strengthened both ways. When killed it leaves a fragment of its pole.</p>\n<h3>Wonderborn (T3)</h3>\n<ul><li><strong>Recognition:</strong> knows whether a creature serves its pole, opposes it, or neither.</li><li><strong>Propagation:</strong> see its trigger below.</li><li><strong>Follow the Pole:</strong> within 100ft of a Herald of its Wonder or a creature that serves its pole, its Ward's attack rolls have Advantage.</li></ul>\n<h3>Nightmareborn (T3)</h3>\n<ul><li><strong>Dread:</strong> resisting needs 54.</li><li><strong>Nightmare Depth</strong> and <strong>Prey on Fear</strong> as the rite-born hound.</li></ul>\n<h3>Dark (T3)</h3>\n<ul><li><strong>Black Jaws</strong> (2 AP, melee, natural): <strong>6d10 physical</strong>. Roll it by hand.</li><li><strong>Lightless Sight</strong> and <strong>Light Eater</strong> as the rite-born hound.</li></ul>\n<h3>Notes</h3>\n<p>In Phase 3 of the crawl, one hound in a Hound pack is fully grown.</p>"
+        "biography": "<p><em>Dark Omen, fully grown (wild). Size 3. Every bolded value doubles relative to the rite-born hound.</em></p>\n<h3>Omen</h3>\n<p>Band 2 (about 5:1). Pole-Bound: it Manifests only its own Wonder, its Tenet is always on, and it is its own Icon. Its Patron is its own Wonder, so Enhance and Burst on its Manifests are free. Attacks between it and its opposite pole are Strengthened both ways. When killed it leaves a fragment of its pole.</p>\n<h3>Wonderborn (T3)</h3>\n<ul><li><strong>Recognition:</strong> knows whether a creature serves its pole, opposes it, or neither.</li><li><strong>Propagation:</strong> see its trigger below.</li><li><strong>Follow the Pole:</strong> within 100ft of a Herald of its Wonder or a creature that serves its pole, its Ward's attack rolls have Advantage.</li></ul>\n<h3>Nightmareborn (T3)</h3>\n<ul><li><strong>Dread:</strong> resisting needs 54.</li><li><strong>Nightmare Depth</strong> and <strong>Prey on Fear</strong> as the rite-born hound.</li></ul>\n<h3>Dark (T3)</h3>\n<ul><li><strong>Black Jaws</strong> (2 AP, melee, natural): <strong>6d10 physical</strong>. Roll it by hand.</li><li><strong>Lightless Sight</strong> and <strong>Light Eater</strong> as the rite-born hound.</li></ul>\n<h3>Notes</h3>\n<p>In Phase 3 of the crawl, one hound in a Hound pack is fully grown.</p>",
+        "hp": {
+          "value": 351,
+          "lost": 0
+        },
+        "energy": {
+          "value": 90
+        }
       },
       "items": [
         {
@@ -3817,7 +4000,14 @@
         "supernatural": true,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Growth Omen: the Conservatory specimen (variant 1). Size 4. A bulb-bodied plant crowned with one enormous striped bloom. It has no Sight; it hears through its roots.</em></p>\n<h3>Omen</h3>\n<p>Band 2 (about 5:1). Pole-Bound: it Manifests only its own Wonder, its Tenet is always on, and it is its own Icon. Its Patron is its own Wonder, so Enhance and Burst on its Manifests are free. Attacks between it and its opposite pole are Strengthened both ways. When killed it leaves a fragment of its pole.</p>\n<h3>Wonderborn (T3)</h3>\n<ul><li><strong>Recognition:</strong> knows whether a creature serves its pole, opposes it, or neither.</li><li><strong>Propagation:</strong> see its trigger below.</li><li><strong>Follow the Pole:</strong> within 100ft of a Herald of its Wonder or a creature that serves its pole, its Ward's attack rolls have Advantage.</li></ul>\n<h3>Dreamborn (T3)</h3>\n<ul><li><strong>Allure:</strong> creatures that first see it resist as Fear, needing 60; on a failure their first attack against it each turn has Disadvantage until the end of their next turn. Starting characters can't reach 60.</li><li><strong>Lucid Depth:</strong> no speed penalty from Alignment.</li><li><strong>Bounty:</strong> once per round, a Manifest on a creature that serves its pole hits automatically.</li></ul>\n<h3>Growth (T3)</h3>\n<ul><li><strong>Root Lash</strong> (2 AP, 10ft, natural): <strong>5d8 physical</strong>, Strengthened at Size 4. Roll it by hand.</li><li><strong>Ripen:</strong> it blooms at the end of its 4th turn in combat.</li><li><strong>Seed:</strong> blooming scatters seed within 100ft; each seed that takes root grows a new Burgeon within a day. It then wilts back into its bulb.</li></ul>\n<h3>Turn</h3>\n<ul><li>Enhanced Cultivate on itself (1 AP): 3 stacks on a hit.</li><li>Recover Vigil twice (2 AP), spending a stack on Bark.</li><li>Cultivate on itself again (1 AP).</li><li>Heave the nearest attacker: a Melee Cultivate spending a stack on Uproot (about 270 Force).</li><li>Keep stacks and RP for reaction heaves on anyone working a moon-lamp.</li></ul>\n<h3>Its weakness</h3>\n<p>Every heave also gives the target a Growth stack, which they can spend on Thorn for +10d8. Let players find this out.</p>\n<h3>In the Conservatory</h3>\n<p>If it blooms, the organizers' wardens burn it out: nobody is hurt, the Night wing seals for 10 real minutes, and the Burgeon wilts back to its bulb. Simulated against 5 starting characters: about 71% defeat it before it blooms with everyone attacking, about 20% if three attacks a turn go to the lamps.</p>"
+        "biography": "<p><em>Growth Omen: the Conservatory specimen (variant 1). Size 4. A bulb-bodied plant crowned with one enormous striped bloom. It has no Sight; it hears through its roots.</em></p>\n<h3>Omen</h3>\n<p>Band 2 (about 5:1). Pole-Bound: it Manifests only its own Wonder, its Tenet is always on, and it is its own Icon. Its Patron is its own Wonder, so Enhance and Burst on its Manifests are free. Attacks between it and its opposite pole are Strengthened both ways. When killed it leaves a fragment of its pole.</p>\n<h3>Wonderborn (T3)</h3>\n<ul><li><strong>Recognition:</strong> knows whether a creature serves its pole, opposes it, or neither.</li><li><strong>Propagation:</strong> see its trigger below.</li><li><strong>Follow the Pole:</strong> within 100ft of a Herald of its Wonder or a creature that serves its pole, its Ward's attack rolls have Advantage.</li></ul>\n<h3>Dreamborn (T3)</h3>\n<ul><li><strong>Allure:</strong> creatures that first see it resist as Fear, needing 60; on a failure their first attack against it each turn has Disadvantage until the end of their next turn. Starting characters can't reach 60.</li><li><strong>Lucid Depth:</strong> no speed penalty from Alignment.</li><li><strong>Bounty:</strong> once per round, a Manifest on a creature that serves its pole hits automatically.</li></ul>\n<h3>Growth (T3)</h3>\n<ul><li><strong>Root Lash</strong> (2 AP, 10ft, natural): <strong>5d8 physical</strong>, Strengthened at Size 4. Roll it by hand.</li><li><strong>Ripen:</strong> it blooms at the end of its 4th turn in combat.</li><li><strong>Seed:</strong> blooming scatters seed within 100ft; each seed that takes root grows a new Burgeon within a day. It then wilts back into its bulb.</li></ul>\n<h3>Turn</h3>\n<ul><li>Enhanced Cultivate on itself (1 AP): 3 stacks on a hit.</li><li>Recover Vigil twice (2 AP), spending a stack on Bark.</li><li>Cultivate on itself again (1 AP).</li><li>Heave the nearest attacker: a Melee Cultivate spending a stack on Uproot (about 270 Force).</li><li>Keep stacks and RP for reaction heaves on anyone working a moon-lamp.</li></ul>\n<h3>Its weakness</h3>\n<p>Every heave also gives the target a Growth stack, which they can spend on Thorn for +10d8. Let players find this out.</p>\n<h3>In the Conservatory</h3>\n<p>If it blooms, the organizers' wardens burn it out: nobody is hurt, the Night wing seals for 10 real minutes, and the Burgeon wilts back to its bulb. Simulated against 5 starting characters: about 71% defeat it before it blooms with everyone attacking, about 20% if three attacks a turn go to the lamps.</p>",
+        "hp": {
+          "value": 408,
+          "lost": 0
+        },
+        "energy": {
+          "value": 75
+        }
       },
       "items": [
         {
@@ -3929,7 +4119,14 @@
         "supernatural": true,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Life Omen: the Conservatory specimen (variant 2). Size 3. An animal or corpse that won't die, swollen with fungus and buds.</em></p>\n<h3>Omen</h3>\n<p>Band 2 (about 5:1). Pole-Bound: it Manifests only its own Wonder, its Tenet is always on, and it is its own Icon. Its Patron is its own Wonder, so Enhance and Burst on its Manifests are free. Attacks between it and its opposite pole are Strengthened both ways. When killed it leaves a fragment of its pole.</p>\n<h3>Wonderborn (T3)</h3>\n<ul><li><strong>Recognition:</strong> knows whether a creature serves its pole, opposes it, or neither.</li><li><strong>Propagation:</strong> see its trigger below.</li><li><strong>Follow the Pole:</strong> within 100ft of a Herald of its Wonder or a creature that serves its pole, its Ward's attack rolls have Advantage.</li></ul>\n<h3>Dreamborn (T3)</h3>\n<ul><li><strong>Allure:</strong> resisting needs 45.</li><li><strong>Lucid Depth</strong> and <strong>Bounty</strong> as the Burgeon.</li></ul>\n<h3>Life (T3)</h3>\n<ul><li><strong>Budding Gore</strong> (2 AP, melee, natural): <strong>3d10 physical</strong>. Roll it by hand. On a hit the target is Infected for a day (the system's Infected status); any heat damage burns it out.</li><li><strong>Regrowth:</strong> at the start of each of its turns it regains all health lost since the start of its last turn, except health lost to heat damage or to critical hits.</li><li><strong>Sporing:</strong> at the end of its 4th turn in combat it releases its spores: every creature within 100ft that breathes becomes Infected. It then collapses, dormant, until it regrows over the next day.</li></ul>\n<h3>Propagation</h3>\n<p>A creature dies while Infected, and its body isn't burned within a day.</p>\n<h3>Tactics</h3>\n<ul><li>Turn 1: Flourish on itself, Bloom on itself, two Gores.</li><li>After that: Perennial keeps Flourish going; two Blooms on itself, two Gores. Cap it at two fresh Blooms a turn.</li></ul>\n<h3>How it plays</h3>\n<p>Whatever the party doesn't burn or crit grows back at the start of its turn: drop it below its Pain Threshold in one round, or stack heat and crits. Ignite deals heat at the end of its turn, after Regrowth.</p>\n<h3>In the Conservatory</h3>\n<p>Sporing works like the Burgeon's bloom: the wardens burn it out, the wing seals for 10 real minutes, nobody is hurt. Optional: a moon-lamp smashed on it deals 2d10 heat plus Ignite, but a smashed lamp can't be relit, so re-containment is lost. Simulated: 61% with everyone attacking, 69% with 3 heat attacks a turn, 32% with three attacks on the lamps.</p>"
+        "biography": "<p><em>Life Omen: the Conservatory specimen (variant 2). Size 3. An animal or corpse that won't die, swollen with fungus and buds.</em></p>\n<h3>Omen</h3>\n<p>Band 2 (about 5:1). Pole-Bound: it Manifests only its own Wonder, its Tenet is always on, and it is its own Icon. Its Patron is its own Wonder, so Enhance and Burst on its Manifests are free. Attacks between it and its opposite pole are Strengthened both ways. When killed it leaves a fragment of its pole.</p>\n<h3>Wonderborn (T3)</h3>\n<ul><li><strong>Recognition:</strong> knows whether a creature serves its pole, opposes it, or neither.</li><li><strong>Propagation:</strong> see its trigger below.</li><li><strong>Follow the Pole:</strong> within 100ft of a Herald of its Wonder or a creature that serves its pole, its Ward's attack rolls have Advantage.</li></ul>\n<h3>Dreamborn (T3)</h3>\n<ul><li><strong>Allure:</strong> resisting needs 45.</li><li><strong>Lucid Depth</strong> and <strong>Bounty</strong> as the Burgeon.</li></ul>\n<h3>Life (T3)</h3>\n<ul><li><strong>Budding Gore</strong> (2 AP, melee, natural): <strong>3d10 physical</strong>. Roll it by hand. On a hit the target is Infected for a day (the system's Infected status); any heat damage burns it out.</li><li><strong>Regrowth:</strong> at the start of each of its turns it regains all health lost since the start of its last turn, except health lost to heat damage or to critical hits.</li><li><strong>Sporing:</strong> at the end of its 4th turn in combat it releases its spores: every creature within 100ft that breathes becomes Infected. It then collapses, dormant, until it regrows over the next day.</li></ul>\n<h3>Propagation</h3>\n<p>A creature dies while Infected, and its body isn't burned within a day.</p>\n<h3>Tactics</h3>\n<ul><li>Turn 1: Flourish on itself, Bloom on itself, two Gores.</li><li>After that: Perennial keeps Flourish going; two Blooms on itself, two Gores. Cap it at two fresh Blooms a turn.</li></ul>\n<h3>How it plays</h3>\n<p>Whatever the party doesn't burn or crit grows back at the start of its turn: drop it below its Pain Threshold in one round, or stack heat and crits. Ignite deals heat at the end of its turn, after Regrowth.</p>\n<h3>In the Conservatory</h3>\n<p>Sporing works like the Burgeon's bloom: the wardens burn it out, the wing seals for 10 real minutes, nobody is hurt. Optional: a moon-lamp smashed on it deals 2d10 heat plus Ignite, but a smashed lamp can't be relit, so re-containment is lost. Simulated: 61% with everyone attacking, 69% with 3 heat attacks a turn, 32% with three attacks on the lamps.</p>",
+        "hp": {
+          "value": 324,
+          "lost": 0
+        },
+        "energy": {
+          "value": 75
+        }
       },
       "items": [
         {
