@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.6.3
+- Round 2 panel: the yards shown and recorded come from the token's saved position, not its on-screen one (which can lag while a move animates).
+
 ## 0.6.2
 - Round 2 journal: the simulation table now uses the final statblocks' numbers (Mental 62% / 76%, Brace tank 25% / 38%, Mage 6% / 19%).
 

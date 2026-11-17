@@ -21,7 +21,8 @@ const gmIds = () => game.users.filter(u => u.isGM).map(u => u.id);
 const note = content => ChatMessage.create({ content: `<p>${content}</p>`, whisper: gmIds(), speaker: { alias: "Round 2" } });
 const allyToken = s => s.ally ? scene()?.tokens.get(s.ally) : null;
 const yardsAt = x => Math.max(0, Math.round(((x - X0) * 5) / 3));            // squares past the start → yards
-const centerX = t => (t.x + (t.width * G) / 2) / G;
+// The saved position: in Foundry v14 a token's x can lag behind while its move animates (or stalls on a hidden canvas).
+const centerX = t => ((t._source?.x ?? t.x) + (t.width * G) / 2) / G;
 
 /** Put the ally on the conveyor at the right spot for this round (the conveyor is the only thing that moves them). */
 async function placeAlly(s, round) {
