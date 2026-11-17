@@ -36,10 +36,14 @@ Simulated with the calibrated rosters (positioning and party specials not modele
 1. **The waves can't all be cleared** in the 3 turns between arrivals; they're glass cannons, built to pressure the ally, not to be farmed.
 2. **Wave 3 can't be killed in its 4 turns.** It's a survival wall, which matches "the best teams reach 70–80 yards."
 3. **The Supernatural damage builds in steps:** the Wave 1 devotee, the Wave 3 Gravedeacon, then Blackwell.
-4. **The choice of protected ally dominates.** A Mental character stacking self Dream Wards (about 150 Shielding a turn, which blocks every damage category) is the strong pick; Brace is bypassed by Targeted and Supernatural attacks, and a mage's Shield doesn't stack.
+4. **The choice of protected ally dominates.** A Mental character stacking self Dream Wards (Shielding blocks every damage category) is the strong pick; Brace is bypassed by Targeted and Supernatural attacks, and a mage's Shield doesn't stack.
 
-| Protected ally | Reaches 80 yd, all attack | With one protector |
+Simulated with the final statblocks, as the chance of reaching 80 yards:
+
+| Protected ally | Three attackers | Two attackers and one protector |
 |---|---|---|
-| Mental (Dream Ward stacking) | 93% | 95% |
-| Medium-armor Brace tank | 11% | 33% |
-| Mage (Shroud + self-Shield) | 2% | 12% |
+| Mental | 62% | 76% |
+| Brace tank | 25% | 38% |
+| Mage | 6% | 19% |
+
+Teams average 65–78 yards.

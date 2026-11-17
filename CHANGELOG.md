@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.6.2
+- Round 2 journal: the simulation table now uses the final statblocks' numbers (Mental 62% / 76%, Brace tank 25% / 38%, Mage 6% / 19%).
+
 ## 0.6.1
 - Fixed: every NPC arrived at 0 HP (dead and prone). The actors now store their current HP and Energy at full; an Adventure import
   fills missing values with 0, so the system's own "start at full" never ran for them.
