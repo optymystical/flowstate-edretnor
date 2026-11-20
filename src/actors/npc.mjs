@@ -7,7 +7,7 @@ import { stableId, token } from "../common.mjs";
 import { catalog } from "./catalog.mjs";
 
 const STATS = ["str", "dex", "con", "pon", "snap", "will", "reach", "grasp", "build"];
-const SQUARES = { 1: 0.25, 2: 0.5, 3: 1, 4: 2, 5: 4 };
+const SQUARES = { 1: 0.25, 2: 0.5, 3: 1, 4: 2, 5: 4, 6: 8, 7: 16 };
 
 /** A weapon, armor, Foci, Shroud or Icon by identity. */
 // `extra` holds the item's own fields; `extra.name` renames the copy.
@@ -40,6 +40,9 @@ function itemDoc(actorKey, it, i) {
  * @param {object} o.stats      stats WITH the Stat Bonus, as the statblock gives them; unlisted stats default to the bonus
  * @param {object} o.trees      { treeId: tier }, including the Background's
  * @param {object} [o.free]     the Background's free trees { treeId: tier }
+ * @param {string} [o.ancestry] system.abc.ancestry (a Bestiary creature such as "wonderborn-dark", or a people such as "human")
+ * @param {string} [o.background] system.abc.background (a Bestiary creature's build: "omen" or "herald")
+ * @param {string} [o.patron]   a Mental user's Patron Wonder (a Wonderborn's is always its own Wonder)
  */
 export function npc(o) {
   const bonus = Math.floor(o.sp / 5);
@@ -52,7 +55,7 @@ export function npc(o) {
   const system = {
     stats, skillPoints: o.sp, unspentStats: 0, statCarry: 0, creation: false, size,
     trees: { ...(o.free ?? {}), ...o.trees }, freeTrees: o.free ?? {},
-    abc: o.ancestry ? { ancestry: o.ancestry } : {},
+    abc: o.ancestry ? { ancestry: o.ancestry, ...(o.background ? { background: o.background } : {}) } : {},
     details: { sapience: String(o.sapience ?? 3) },
     senses: { sight: "primary", hearing: "primary", smell: "secondary", ...(o.senses ?? {}) },
     supernatural: !!o.supernatural, magical: !!o.magical,
@@ -65,7 +68,7 @@ export function npc(o) {
   const eff = s => stats[s] + bonus;
   system.hp = { value: o.hp ?? (eff("con") + eff("will") + eff("build")) * size * 3, lost: 0 };
   system.energy = { value: 5 * o.sp };
-  const flags = { flowstate: { npcWizard: true, ...(o.alignment ? { alignment: o.alignment } : {}) }, [MODULE_ID]: { key: o.key } };
+  const flags = { flowstate: { npcWizard: true, ...(o.alignment ? { alignment: o.alignment } : {}), ...(o.patron ? { patron: o.patron } : {}) }, [MODULE_ID]: { key: o.key } };
   return {
     _id: stableId(`actor:${o.key}`), name: o.name, type: "npc", img, folder: o.folder, sort: o.sort ?? 0,
     ownership: { default: 0 }, effects: [], flags, system,

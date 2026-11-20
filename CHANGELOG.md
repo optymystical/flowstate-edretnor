@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.7.0
+- The four Omens (both Gloamhounds, the Burgeon, the Bloomrot) are now Bestiary creatures: each has its Wonderborn Ancestry with the
+  Omen Background, so Wonderborn, its lineage tree and its Wonder's tree come in free at Tier 3 beside its Domain, its Patron is its own
+  Wonder, and the system automates them (natural attacks on the Action List, Allure/Dread, Regrowth, Ripen, Light Eater...). Their
+  biographies keep only tactics and encounter notes. Needs Flow State 0.103.0. Re-import the Adventure to update a world.
+- The NPC builder stores an Ancestry's Background and a Patron, and knows the Size 6 and 7 token sizes.
+
 ## 0.6.3
 - Round 2 panel: the yards shown and recorded come from the token's saved position, not its on-screen one (which can lag while a move animates).
 

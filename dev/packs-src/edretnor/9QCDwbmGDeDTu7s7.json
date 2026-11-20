@@ -3719,7 +3719,8 @@
       "effects": [],
       "flags": {
         "flowstate": {
-          "npcWizard": true
+          "npcWizard": true,
+          "patron": "mental-dark-nightmare"
         },
         "flowstate-edretnor": {
           "key": "omen-gloamhound-riteborn"
@@ -3743,16 +3744,25 @@
         "creation": false,
         "size": 3,
         "trees": {
+          "ancestry-wonderborn": 3,
+          "ancestry-nightmareborn": 3,
+          "ancestry-wonderborn-dark": 3,
           "mental-theory": 5,
           "mental-dark-nightmare": 5,
           "generic-perception": 2,
           "generic-smell": 3
         },
         "freeTrees": {
+          "ancestry-wonderborn": 3,
+          "ancestry-nightmareborn": 3,
+          "ancestry-wonderborn-dark": 3,
           "mental-theory": 5,
           "mental-dark-nightmare": 5
         },
-        "abc": {},
+        "abc": {
+          "ancestry": "wonderborn-dark",
+          "background": "omen"
+        },
         "details": {
           "sapience": "2"
         },
@@ -3764,7 +3774,7 @@
         "supernatural": true,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Dark Omen, rite-born: summoned by the Maw's rites and fed by the cult. Size 3. Calf-sized black dog; its eyes are its only light.</em></p>\n<h3>Omen</h3>\n<p>Band 2 (about 5:1). Pole-Bound: it Manifests only its own Wonder, its Tenet is always on, and it is its own Icon. Its Patron is its own Wonder, so Enhance and Burst on its Manifests are free. Attacks between it and its opposite pole are Strengthened both ways. When killed it leaves a fragment of its pole.</p>\n<h3>Wonderborn (T3)</h3>\n<ul><li><strong>Recognition:</strong> knows whether a creature serves its pole, opposes it, or neither.</li><li><strong>Propagation:</strong> see its trigger below.</li><li><strong>Follow the Pole:</strong> within 100ft of a Herald of its Wonder or a creature that serves its pole, its Ward's attack rolls have Advantage.</li></ul>\n<h3>Nightmareborn (T3)</h3>\n<ul><li><strong>Dread:</strong> creatures that first see it resist Fear, needing 27.</li><li><strong>Nightmare Depth:</strong> no speed penalty from Alignment.</li><li><strong>Prey on Fear:</strong> Advantage on attacks and Manifests against afraid creatures.</li></ul>\n<h3>Dark (T3)</h3>\n<ul><li><strong>Black Jaws</strong> (2 AP, melee, natural): <strong>3d10 physical</strong>. Roll it by hand.</li><li><strong>Lightless Sight:</strong> sees normally in darkness, its own obscurement included.</li><li><strong>Light Eater:</strong> nonmagical light within 10ft goes out; magical light within 10ft reaches half as far.</li></ul>\n<h3>Propagation</h3>\n<p>A creature dies in darkness within 100ft of it. The Maw burns its dead in black flame so packs climb out of the pyres.</p>\n<h3>Tactics</h3>\n<ul><li>With handlers: Eclipse its handler, load them with Umbral Strike charges, Eclipse the party; the handlers strike from half stealth.</li><li>Alone: shadows and tracks. Its Smell cuts through the city smoke; it can't be surprised; it howls for the pack.</li><li>Cornered: relies on Riposte.</li></ul>\n<h3>In a perception contest</h3>\n<p>It rolls d9 with Advantage (Heightened Smell). In smoke it has no Advantage.</p>",
+        "biography": "<p><em>Dark Omen, rite-born: summoned by the Maw's rites and fed by the cult. Size 3. Calf-sized black dog; its eyes are its only light.</em></p>\n<h3>Ancestry</h3>\n<p>Its Wonderborn, lineage and Wonder trees are automated (Codex: Bestiary); its natural attack is on the Action List. Black Jaws 3d10; Dread 27.</p>\n<h3>Propagation</h3>\n<p>A creature dies in darkness within 100ft of it. The Maw burns its dead in black flame so packs climb out of the pyres.</p>\n<h3>Tactics</h3>\n<ul><li>With handlers: Eclipse its handler, load them with Umbral Strike charges, Eclipse the party; the handlers strike from half stealth.</li><li>Alone: shadows and tracks. Its Smell cuts through the city smoke; it can't be surprised; it howls for the pack.</li><li>Cornered: relies on Riposte.</li></ul>\n<h3>In a perception contest</h3>\n<p>It rolls d9 with Advantage (Heightened Smell). In smoke it has no Advantage.</p>",
         "hp": {
           "value": 162,
           "lost": 0
@@ -3836,7 +3846,8 @@
       "effects": [],
       "flags": {
         "flowstate": {
-          "npcWizard": true
+          "npcWizard": true,
+          "patron": "mental-dark-nightmare"
         },
         "flowstate-edretnor": {
           "key": "omen-gloamhound-grown"
@@ -3860,16 +3871,25 @@
         "creation": false,
         "size": 3,
         "trees": {
+          "ancestry-wonderborn": 3,
+          "ancestry-nightmareborn": 3,
+          "ancestry-wonderborn-dark": 3,
           "mental-theory": 5,
           "mental-dark-nightmare": 5,
           "generic-perception": 2,
           "generic-smell": 3
         },
         "freeTrees": {
+          "ancestry-wonderborn": 3,
+          "ancestry-nightmareborn": 3,
+          "ancestry-wonderborn-dark": 3,
           "mental-theory": 5,
           "mental-dark-nightmare": 5
         },
-        "abc": {},
+        "abc": {
+          "ancestry": "wonderborn-dark",
+          "background": "omen"
+        },
         "details": {
           "sapience": "2"
         },
@@ -3881,7 +3901,7 @@
         "supernatural": true,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Dark Omen, fully grown (wild). Size 3. Every bolded value doubles relative to the rite-born hound.</em></p>\n<h3>Omen</h3>\n<p>Band 2 (about 5:1). Pole-Bound: it Manifests only its own Wonder, its Tenet is always on, and it is its own Icon. Its Patron is its own Wonder, so Enhance and Burst on its Manifests are free. Attacks between it and its opposite pole are Strengthened both ways. When killed it leaves a fragment of its pole.</p>\n<h3>Wonderborn (T3)</h3>\n<ul><li><strong>Recognition:</strong> knows whether a creature serves its pole, opposes it, or neither.</li><li><strong>Propagation:</strong> see its trigger below.</li><li><strong>Follow the Pole:</strong> within 100ft of a Herald of its Wonder or a creature that serves its pole, its Ward's attack rolls have Advantage.</li></ul>\n<h3>Nightmareborn (T3)</h3>\n<ul><li><strong>Dread:</strong> resisting needs 54.</li><li><strong>Nightmare Depth</strong> and <strong>Prey on Fear</strong> as the rite-born hound.</li></ul>\n<h3>Dark (T3)</h3>\n<ul><li><strong>Black Jaws</strong> (2 AP, melee, natural): <strong>6d10 physical</strong>. Roll it by hand.</li><li><strong>Lightless Sight</strong> and <strong>Light Eater</strong> as the rite-born hound.</li></ul>\n<h3>Notes</h3>\n<p>In Phase 3 of the crawl, one hound in a Hound pack is fully grown.</p>",
+        "biography": "<p><em>Dark Omen, fully grown (wild). Size 3. Its Snappence doubles the rite-born hound's, so its Wonder Power and bolded values do too.</em></p>\n<h3>Ancestry</h3>\n<p>Its Wonderborn, lineage and Wonder trees are automated (Codex: Bestiary); its natural attack is on the Action List. Black Jaws 6d10; Dread 54.</p>\n<h3>Notes</h3>\n<p>In Phase 3 of the crawl, one hound in a Hound pack is fully grown. Tactics as the rite-born hound.</p>",
         "hp": {
           "value": 351,
           "lost": 0
@@ -3957,7 +3977,8 @@
           "alignment": {
             "kind": "dream",
             "level": 2
-          }
+          },
+          "patron": "mental-growth-dream"
         },
         "flowstate-edretnor": {
           "key": "omen-burgeon"
@@ -3981,14 +4002,23 @@
         "creation": false,
         "size": 4,
         "trees": {
+          "ancestry-wonderborn": 3,
+          "ancestry-dreamborn": 3,
+          "ancestry-wonderborn-growth": 3,
           "mental-theory": 5,
           "mental-growth-dream": 5
         },
         "freeTrees": {
+          "ancestry-wonderborn": 3,
+          "ancestry-dreamborn": 3,
+          "ancestry-wonderborn-growth": 3,
           "mental-theory": 5,
           "mental-growth-dream": 5
         },
-        "abc": {},
+        "abc": {
+          "ancestry": "wonderborn-growth",
+          "background": "omen"
+        },
         "details": {
           "sapience": "2"
         },
@@ -4000,7 +4030,7 @@
         "supernatural": true,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Growth Omen: the Conservatory specimen (variant 1). Size 4. A bulb-bodied plant crowned with one enormous striped bloom. It has no Sight; it hears through its roots.</em></p>\n<h3>Omen</h3>\n<p>Band 2 (about 5:1). Pole-Bound: it Manifests only its own Wonder, its Tenet is always on, and it is its own Icon. Its Patron is its own Wonder, so Enhance and Burst on its Manifests are free. Attacks between it and its opposite pole are Strengthened both ways. When killed it leaves a fragment of its pole.</p>\n<h3>Wonderborn (T3)</h3>\n<ul><li><strong>Recognition:</strong> knows whether a creature serves its pole, opposes it, or neither.</li><li><strong>Propagation:</strong> see its trigger below.</li><li><strong>Follow the Pole:</strong> within 100ft of a Herald of its Wonder or a creature that serves its pole, its Ward's attack rolls have Advantage.</li></ul>\n<h3>Dreamborn (T3)</h3>\n<ul><li><strong>Allure:</strong> creatures that first see it resist as Fear, needing 60; on a failure their first attack against it each turn has Disadvantage until the end of their next turn. Starting characters can't reach 60.</li><li><strong>Lucid Depth:</strong> no speed penalty from Alignment.</li><li><strong>Bounty:</strong> once per round, a Manifest on a creature that serves its pole hits automatically.</li></ul>\n<h3>Growth (T3)</h3>\n<ul><li><strong>Root Lash</strong> (2 AP, 10ft, natural): <strong>5d8 physical</strong>, Strengthened at Size 4. Roll it by hand.</li><li><strong>Ripen:</strong> it blooms at the end of its 4th turn in combat.</li><li><strong>Seed:</strong> blooming scatters seed within 100ft; each seed that takes root grows a new Burgeon within a day. It then wilts back into its bulb.</li></ul>\n<h3>Turn</h3>\n<ul><li>Enhanced Cultivate on itself (1 AP): 3 stacks on a hit.</li><li>Recover Vigil twice (2 AP), spending a stack on Bark.</li><li>Cultivate on itself again (1 AP).</li><li>Heave the nearest attacker: a Melee Cultivate spending a stack on Uproot (about 270 Force).</li><li>Keep stacks and RP for reaction heaves on anyone working a moon-lamp.</li></ul>\n<h3>Its weakness</h3>\n<p>Every heave also gives the target a Growth stack, which they can spend on Thorn for +10d8. Let players find this out.</p>\n<h3>In the Conservatory</h3>\n<p>If it blooms, the organizers' wardens burn it out: nobody is hurt, the Night wing seals for 10 real minutes, and the Burgeon wilts back to its bulb. Simulated against 5 starting characters: about 71% defeat it before it blooms with everyone attacking, about 20% if three attacks a turn go to the lamps.</p>",
+        "biography": "<p><em>Growth Omen: the Conservatory specimen (variant 1). Size 4. A bulb-bodied plant crowned with one enormous striped bloom. It has no Sight; it hears through its roots.</em></p>\n<h3>Ancestry</h3>\n<p>Its Wonderborn, lineage and Wonder trees are automated (Codex: Bestiary); its natural attack is on the Action List. Root Lash 5d8 at 10ft, Strengthened at Size 4; Allure 60 (starting characters can't reach it); Ripen blooms it at the end of its 4th combat turn.</p>\n<h3>Turn</h3>\n<ul><li>Enhanced Cultivate on itself (1 AP): 3 stacks on a hit.</li><li>Recover Vigil twice (2 AP), spending a stack on Bark.</li><li>Cultivate on itself again (1 AP).</li><li>Heave the nearest attacker: a Melee Cultivate spending a stack on Uproot (about 270 Force).</li><li>Keep stacks and RP for reaction heaves on anyone working a moon-lamp.</li></ul>\n<h3>Its weakness</h3>\n<p>Every heave also gives the target a Growth stack, which they can spend on Thorn for +10d8. Let players find this out.</p>\n<h3>In the Conservatory</h3>\n<p>If it blooms, the organizers' wardens burn it out: nobody is hurt, the Night wing seals for 10 real minutes, and the Burgeon wilts back to its bulb. Simulated against 5 starting characters: about 71% defeat it before it blooms with everyone attacking, about 20% if three attacks a turn go to the lamps (with Overgrowth at 20ft; it is now 10ft).</p>",
         "hp": {
           "value": 408,
           "lost": 0
@@ -4076,7 +4106,8 @@
           "alignment": {
             "kind": "dream",
             "level": 2
-          }
+          },
+          "patron": "mental-life-dream"
         },
         "flowstate-edretnor": {
           "key": "omen-bloomrot"
@@ -4100,14 +4131,23 @@
         "creation": false,
         "size": 3,
         "trees": {
+          "ancestry-wonderborn": 3,
+          "ancestry-dreamborn": 3,
+          "ancestry-wonderborn-life": 3,
           "mental-theory": 5,
           "mental-life-dream": 5
         },
         "freeTrees": {
+          "ancestry-wonderborn": 3,
+          "ancestry-dreamborn": 3,
+          "ancestry-wonderborn-life": 3,
           "mental-theory": 5,
           "mental-life-dream": 5
         },
-        "abc": {},
+        "abc": {
+          "ancestry": "wonderborn-life",
+          "background": "omen"
+        },
         "details": {
           "sapience": "2"
         },
@@ -4119,7 +4159,7 @@
         "supernatural": true,
         "magical": false,
         "currency": {},
-        "biography": "<p><em>Life Omen: the Conservatory specimen (variant 2). Size 3. An animal or corpse that won't die, swollen with fungus and buds.</em></p>\n<h3>Omen</h3>\n<p>Band 2 (about 5:1). Pole-Bound: it Manifests only its own Wonder, its Tenet is always on, and it is its own Icon. Its Patron is its own Wonder, so Enhance and Burst on its Manifests are free. Attacks between it and its opposite pole are Strengthened both ways. When killed it leaves a fragment of its pole.</p>\n<h3>Wonderborn (T3)</h3>\n<ul><li><strong>Recognition:</strong> knows whether a creature serves its pole, opposes it, or neither.</li><li><strong>Propagation:</strong> see its trigger below.</li><li><strong>Follow the Pole:</strong> within 100ft of a Herald of its Wonder or a creature that serves its pole, its Ward's attack rolls have Advantage.</li></ul>\n<h3>Dreamborn (T3)</h3>\n<ul><li><strong>Allure:</strong> resisting needs 45.</li><li><strong>Lucid Depth</strong> and <strong>Bounty</strong> as the Burgeon.</li></ul>\n<h3>Life (T3)</h3>\n<ul><li><strong>Budding Gore</strong> (2 AP, melee, natural): <strong>3d10 physical</strong>. Roll it by hand. On a hit the target is Infected for a day (the system's Infected status); any heat damage burns it out.</li><li><strong>Regrowth:</strong> at the start of each of its turns it regains all health lost since the start of its last turn, except health lost to heat damage or to critical hits.</li><li><strong>Sporing:</strong> at the end of its 4th turn in combat it releases its spores: every creature within 100ft that breathes becomes Infected. It then collapses, dormant, until it regrows over the next day.</li></ul>\n<h3>Propagation</h3>\n<p>A creature dies while Infected, and its body isn't burned within a day.</p>\n<h3>Tactics</h3>\n<ul><li>Turn 1: Flourish on itself, Bloom on itself, two Gores.</li><li>After that: Perennial keeps Flourish going; two Blooms on itself, two Gores. Cap it at two fresh Blooms a turn.</li></ul>\n<h3>How it plays</h3>\n<p>Whatever the party doesn't burn or crit grows back at the start of its turn: drop it below its Pain Threshold in one round, or stack heat and crits. Ignite deals heat at the end of its turn, after Regrowth.</p>\n<h3>In the Conservatory</h3>\n<p>Sporing works like the Burgeon's bloom: the wardens burn it out, the wing seals for 10 real minutes, nobody is hurt. Optional: a moon-lamp smashed on it deals 2d10 heat plus Ignite, but a smashed lamp can't be relit, so re-containment is lost. Simulated: 61% with everyone attacking, 69% with 3 heat attacks a turn, 32% with three attacks on the lamps.</p>",
+        "biography": "<p><em>Life Omen: the Conservatory specimen (variant 2). Size 3. An animal or corpse that won't die, swollen with fungus and buds.</em></p>\n<h3>Ancestry</h3>\n<p>Its Wonderborn, lineage and Wonder trees are automated (Codex: Bestiary); its natural attack is on the Action List. Budding Gore 3d10 (Infects); Allure 45; Regrowth at the start of its turns except heat and crits; Sporing at the end of its 4th combat turn.</p>\n<h3>Propagation</h3>\n<p>A creature dies while Infected, and its body isn't burned within a day.</p>\n<h3>Tactics</h3>\n<ul><li>Turn 1: Flourish on itself, Bloom on itself, two Gores.</li><li>After that: Perennial keeps Flourish going; two Blooms on itself, two Gores. Cap it at two fresh Blooms a turn.</li></ul>\n<h3>How it plays</h3>\n<p>Whatever the party doesn't burn or crit grows back at the start of its turn: drop it below its Pain Threshold in one round, or stack heat and crits. Ignite deals heat at the end of its turn, after Regrowth.</p>\n<h3>In the Conservatory</h3>\n<p>Sporing works like the Burgeon's bloom: the wardens burn it out, the wing seals for 10 real minutes, nobody is hurt. Optional: a moon-lamp smashed on it deals 2d10 heat plus Ignite, but a smashed lamp can't be relit, so re-containment is lost. Simulated: 61% with everyone attacking, 69% with 3 heat attacks a turn, 32% with three attacks on the lamps.</p>",
         "hp": {
           "value": 324,
           "lost": 0
